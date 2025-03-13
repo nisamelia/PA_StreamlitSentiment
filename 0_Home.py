@@ -1,8 +1,10 @@
 from email.mime import base
+from turtle import width
 import streamlit as st
 from streamlit_navigation_bar import st_navbar
 import pydeck as pdk
 import pandas as pd
+import plotly.express as px
 
 st.write("# SELAMAT DATANG!")
 st.markdown(
@@ -20,6 +22,13 @@ data = pd.DataFrame({
         "longitude": [110.3695, 110.3671, 110.3773],
         "name": ["Titik Nol Jogja", "Malioboro", "Keraton Yogyakarta"]
     })
+
+data_wisata = pd.DataFrame({
+    "tahun": [2020, 2021, 2022, 2023],
+    "jumlah" : [1848548, 4294725, 6474115, 7740689]
+})
+
+data_wisata_prov = pd.read_excel(r'C:\PA_Streamlit\data\wisatawan_prov_2023.xlsx', engine='openpyxl')
 
 # Basemap
 basemaps = {
@@ -67,3 +76,38 @@ def add_map(data, center_lat, center_lon, zoom, basemap):
     ))
 
 add_map(data, center_lat=-7.7956, center_lon=110.3695, zoom=9, basemap=basemaps[selected_basemap])
+
+graph1, graph2 = st.columns([1,1])
+
+col1, col2 = st.columns([1, 1])
+
+# Graphs
+
+def show_charts(data_wisata):
+    chart_type = st.selectbox("Pilih Jenis Grafik", ["Line Chart", "Bar Chart", "Scatter Plot"])
+    if chart_type == "Line Chart":
+        fig = px.line(data_wisata, x="tahun", y="jumlah", title="Line Chart", markers=True)
+    elif chart_type == "Bar Chart":
+        fig = px.bar(data_wisata, x="tahun", y="jumlah", title="Bar Chart")
+    elif chart_type == "Scatter Plot":
+        fig = px.scatter(data_wisata, x="tahun", y="jumlah", title="Scatter Plot")
+    fig.update_layout(
+        width=500
+    )
+    st.plotly_chart(fig)
+with graph1:
+    st.write("### Grafik Wisatawan DIY 2023")
+with col1:
+    show_charts(data_wisata)
+
+def show_graph_year(data_wisata_prov):
+    chart_type = st.selectbox("Pilih Jenis Grafik", ["Bar Chart", "Line Chart"])
+    if chart_type == "Bar Chart":
+        fig = px.bar(data_wisata_prov, x="prov", y="jumlah", title="Bar Chart")
+    elif chart_type == "Line Chart":
+        fig = px.line(data_wisata_prov, x="prov", y="jumlah", title="Line Chart", markers=True)
+    st.plotly_chart(fig)
+with graph2:
+    st.write("### Grafik 10 Provinsi dengan Jumlah Wisatawan Domestik Terbanyak")
+with col2:
+    show_graph_year(data_wisata_prov)
