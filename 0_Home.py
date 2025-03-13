@@ -17,11 +17,7 @@ Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banya
 # DEKLARASI VARIABEL
 
 # Data
-data = pd.DataFrame({
-        "latitude": [-7.7956, -7.7828, -7.7706],
-        "longitude": [110.3695, 110.3671, 110.3773],
-        "name": ["Titik Nol Jogja", "Malioboro", "Keraton Yogyakarta"]
-    })
+data = pd.read_csv(r'C:\PA_Streamlit\data\dtw_koordinat_all.csv', delimiter=',')
 
 data_wisata = pd.DataFrame({
     "tahun": [2020, 2021, 2022, 2023],
@@ -51,14 +47,21 @@ selected_basemap = st.sidebar.selectbox("Pilih Basemap:", list(basemaps.keys()),
 def add_map(data, center_lat, center_lon, zoom, basemap):
     st.write("## Peta Persebaran Wisata Daerah Istimewa Yogyakarta Tahun 2023 :")
     st.markdown("Sumber : Dinas Pariwisata DIY Tahun 2023")
-    # layer = pdk.Layer(
-    #     "ScatterplorLayer",
-    #     data,
-    #     get_position=["latitude", "longitude"],
-    #     get_color=[255, 0, 0,160],
-    #     get_radius=100,
-    #     pickable=True
-    # )
+    tooltip = {
+        "html": "{Name}",
+        "style": {
+            "backgroundColor": "steelblue",
+            "color": "white"
+            }
+    }
+    layer = pdk.Layer(
+        "ScatterplotLayer",
+        data,
+        get_position=["Longitude", "Latitude"],
+        get_color=[255, 0, 0,160],
+        get_radius=400,
+        pickable=True
+    )
 
     # Pengaturan Tampilan Peta
     view_state = pdk.ViewState(
@@ -72,7 +75,8 @@ def add_map(data, center_lat, center_lon, zoom, basemap):
     st.pydeck_chart(pdk.Deck(
         map_style=basemap,
         initial_view_state=view_state,
-        # layers=[layer]
+        layers=[layer],
+        tooltip=tooltip
     ))
 
 add_map(data, center_lat=-7.7956, center_lon=110.3695, zoom=9, basemap=basemaps[selected_basemap])
