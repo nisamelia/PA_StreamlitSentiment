@@ -1,6 +1,7 @@
 import streamlit as st
 import pydeck as pdk
 import pandas as pd
+from streamlit_folium import st_folium
 
 # Set konfigurasi halaman Streamlit
 st.set_page_config(layout="wide")
@@ -43,7 +44,7 @@ def show_map_sentimen(data):
             "HeatmapLayer",
             data=filtered_df,
             get_position=["longitude", "latitude"],
-            threshold=0.2,
+            # threshold=0.2,
             pickable=True,
             get_weight = "count"
         )
