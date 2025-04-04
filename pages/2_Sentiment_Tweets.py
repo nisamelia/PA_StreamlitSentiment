@@ -1,91 +1,69 @@
+import folium
 import streamlit as st
 import pydeck as pdk
 import pandas as pd
 from streamlit_folium import st_folium
+from folium.plugins import HeatMap, Fullscreen
+from streamlit_folium import folium_static
+from wordcloud import STOPWORDS, WordCloud
+import matplotlib.pyplot as plt
+import plotly.express as px
 
-# Set konfigurasi halaman Streamlit
 st.set_page_config(layout="wide")
-
-# Load data dari CSV
 sentiment_df = pd.read_csv(r"C:\PA_Streamlit\data\sa_vader.csv")
-
-# Pastikan nama kolom sesuai dengan data
 sentiment_df.rename(columns={"bujur": "longitude", "lintang": "latitude"}, inplace=True)
-
-# Menghitung jumlah tweet per koordinat dan sentimen
-grouped_df = sentiment_df.groupby(["latitude", "longitude", "klasifikasi_vader"]).size().reset_index(name="count")
-
-# Mapping warna berdasarkan sentimen
-COLOR_MAP = {
-    "netral": [253, 250, 246],   # Putih
-    "positif": [0, 255, 0],      # Hijau
-    "negatif": [0, 0, 255]       # Biru
-}
+grouped_df = sentiment_df.groupby(["latitude", "longitude", "klasifikasi_vader", "stopwords", "stemmed", "matched_keyword"]).size().reset_index(name="count")
 
 # Sidebar untuk memilih sentimen
 btn_sentiment = grouped_df["klasifikasi_vader"].unique()
 chosen_sentiment = st.sidebar.selectbox("Pilih Sentimen :", btn_sentiment)
-
-# Filter data berdasarkan sentimen yang dipilih
 filtered_df = grouped_df[grouped_df["klasifikasi_vader"] == chosen_sentiment].copy()
-filtered_df["color"] = filtered_df["klasifikasi_vader"].map(COLOR_MAP)
 
-# Hitung initial view state berdasarkan data yang ada
-view = pdk.data_utils.compute_view(filtered_df[["longitude", "latitude"]])
+def generateSentimentMap(default_location=[-7.949695, 110.492840], default_zoom_start=9.25):
+    base_map = folium.Map(location=default_location, zoom_start=default_zoom_start, control_scale=True)
+    return base_map
 
-# Fungsi untuk menampilkan peta
-def show_map_sentimen(data):
-    map_type = st.selectbox("Pilih Tipe Peta", ["Heat Map", "Hexagon", "Scatter Plot"], key="map_sentiment")
-    
-    sentiment_layer = None
-    
-    if map_type == "Heat Map":
-        sentiment_layer = pdk.Layer(
-            "HeatmapLayer",
-            data=filtered_df,
-            get_position=["longitude", "latitude"],
-            # threshold=0.2,
-            pickable=True,
-            get_weight = "count"
-        )
-    
-    elif map_type == "Hexagon":
-        sentiment_layer = pdk.Layer(
-            "HexagonLayer",
-            data=filtered_df,
-            get_position=["longitude", "latitude"],
-            auto_highlight=True,
-            extruded=True,
-            coverage=1,
-            elevation_range=[0, 1000],
-            elevation_scale=20,
-            pickable=True,
-        )
-    
-    elif map_type == "Scatter Plot":
-        sentiment_layer = pdk.Layer(
-            "ScatterplotLayer",
-            data=filtered_df,
-            pickable=True,
-            opacity=0.8,
-            stroked=True,
-            filled=True,
-            radius_scale=6,
-            radius_min_pixels=2,
-            radius_max_pixels=300,  # Diperbaiki dari radius_max_pixel
-            line_width_min_pixels=1,
-            get_position=["longitude", "latitude"],
-            get_radius="count",
-            get_fill_color="color",
-        )
-    
-    return pdk.Deck(
-        layers=[sentiment_layer],
-        map_style="mapbox://styles/mapbox/navigation-night-v1",
-        initial_view_state=view,
-        tooltip={"text": "Sentimen: {klasifikasi_vader}\nJumlah: {count}"},
-    )
+# Buat Peta Dasar
+basemapSentiment = generateSentimentMap()
+# FullScreen
+Fullscreen(
+    position="topright",
+    title="Expand me",
+    title_cancel="Exit me",
+    force_separate_button=True,
+).add_to(basemapSentiment)
 
-# Tampilkan peta di Streamlit
-st.title("Visualisasi Sentimen Tweet")
-st.pydeck_chart(show_map_sentimen(sentiment_df))
+HeatMap(filtered_df[['latitude','longitude']],zoom=100,radius=15).add_to(basemapSentiment)
+folium.LayerControl(position="topright").add_to(basemapSentiment)
+st.write("### Data Sentiment")
+folium_static(basemapSentiment)
+
+jumlah_counts = filtered_df['matched_keyword'].value_counts().reset_index()
+jumlah_counts.columns = ['matched_keyword', 'jumlah']
+
+crawled_count = filtered_df.drop_duplicates(subset=['matched_keyword'])
+crawled_count = crawled_count.merge(jumlah_counts, on='matched_keyword', how='left')
+
+crawled_cols = crawled_count[['matched_keyword', 'jumlah', 'klasifikasi_vader']].sort_values(by='jumlah', ascending=False).head(10)
+crawled_10_fig = px.bar(
+    crawled_cols,
+    x='matched_keyword',
+    y='jumlah',
+    labels={'matched_keyword': 'Lokasi Wisata', 'jumlah': 'Jumlah Tweets', 'klasifikasi_vader': 'Sentimen'},
+    # text=crawled_cols['sumber'],
+    title=f"Top 10 Wisata Sentimen {chosen_sentiment}",
+    text_auto=True
+)
+# Tampilkan grafik
+st.plotly_chart(crawled_10_fig)
+
+text_wordcloud = filtered_df["stemmed"].str.cat(sep=" ")
+custom_stopwords = set(STOPWORDS)
+custom_stopwords.update(["jogja"])
+if text_wordcloud:
+    w = WordCloud(background_color="white", colormap="OrRd", stopwords=custom_stopwords).generate(text_wordcloud)
+    fig, ax = plt.subplots(figsize=(10, 5))
+    plt.imshow(w, interpolation="bilinear")
+    plt.axis("off")
+    st.sidebar.write("### WORD CLOUD")
+    st.sidebar.pyplot(fig)
