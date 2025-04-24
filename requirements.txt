@@ -9,3 +9,4 @@ folium
 matplotlib
 streamlit-folium
 openpyxl
+wordcloud
