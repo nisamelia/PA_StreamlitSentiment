@@ -1,12 +1,7 @@
-
-from textwrap import fill
-from turtle import color
-import jenkspy
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import folium as folium
-from folium import IFrame
 from folium.plugins import HeatMap, Fullscreen
 from streamlit_folium import folium_static
 from wordcloud import STOPWORDS, WordCloud
