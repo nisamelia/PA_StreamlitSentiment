@@ -1,13 +1,7 @@
-from email.mime import base
-from turtle import width
 import streamlit as st
-from streamlit_navigation_bar import st_navbar
 import pydeck as pdk
 import pandas as pd
 import plotly.express as px
-import folium
-from streamlit_folium import st_folium
-from folium.plugins import HeatMap
 
 st.write("# SELAMAT DATANG!")
 st.markdown(
