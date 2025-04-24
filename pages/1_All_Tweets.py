@@ -19,8 +19,8 @@ import plotly.graph_objects as go
 
 
 ## DEFINE DATA
-dinpar_df = pd.read_csv(r"C:\PA_Streamlit\data\dtw_jumlah_dinpar.csv")
-crawled_df = pd.read_csv(r"C:\PA_Streamlit\data\sa_vader.csv")
+dinpar_df = pd.read_csv(r".\data\dtw_jumlah_dinpar.csv")
+crawled_df = pd.read_csv(r".\data\sa_vader.csv")
 
 # Convert Date Time
 def load_data():
@@ -29,30 +29,6 @@ def load_data():
     return crawled_df
 
 crawled_df = load_data()
-
-# Declare Date to Filtering
-dt_start = st.sidebar.date_input("Pilih Tanggal Awal", crawled_df["created_at"].min().date())
-dt_end = st.sidebar.date_input("Pilih Tanggal Akhir", crawled_df["created_at"].max().date())
-
-df_filtered = crawled_df[(crawled_df["created_at"].dt.date >= dt_start) & (crawled_df["created_at"].dt.date <= dt_end)]
-
-# Count Tweets Per Day
-df_grouped = df_filtered.groupby(df_filtered["created_at"].dt.date).size().reset_index(name="count")
-
-# Define legend HTML
-legend_html = '''
-<div style="
-    position: fixed; 
-    bottom: 50px; left: 50px; width: 180px; height: 100px; 
-    background-color: white; border-radius: 5px;
-    padding: 10px; border: 2px solid grey; z-index:9999; font-size:14px;
-    ">
-    <b>Heatmap Intensity</b><br>
-    <span style="background:#00FF00; width:20px; height:10px; display:inline-block;"></span> Low <br>
-    <span style="background:#FFFF00; width:20px; height:10px; display:inline-block;"></span> Medium <br>
-    <span style="background:#FF0000; width:20px; height:10px; display:inline-block;"></span> High <br>
-</div>
-'''
 
 basemapLayer = ["OpenStreetMap", "CartoDB positron", "CartoDB dark_matter"]
 
@@ -65,11 +41,8 @@ list_month = {
     9: "September", 10: "Oktober", 11: "November", 12: "Desember", 13: "Semua Bulan"
 }
 
+select1, select2 = st.columns(2)
 col1, col2 = st.columns(2)
-
-admin_diy = gdp.read_file(r"C:\PA_Streamlit\data\admin_diy\DIY_Prov.shp")
-if admin_diy.crs != "EPSG:4326":
-    admin_diy = admin_diy.to_crs("EPSG:4326")
 
 with col1:
     # Konversi nama kolom dalam dataset menjadi lowercase
@@ -117,7 +90,7 @@ with col1:
     folium.TileLayer('OpenStreetMap', name="OpenStreetMap").add_to(basemapWisata)
     folium.LayerControl(position="topright").add_to(basemapWisata)
 
-    st.subheader(f"Heatmap Wisata - {selected_month_name}")
+    st.subheader(f"Heatmap Wisata DIY 2023- {selected_month_name}")
     folium_static(basemapWisata)
 
 with col2:
@@ -128,9 +101,6 @@ with col2:
 
     selected_month_name = st.selectbox("Pilih Bulan", list(dict_month.keys()))
     selected_month = dict_month[selected_month_name]
-
-    # Menampilkan pilihan bulan yang dipilih
-    st.write(f"Anda memilih: {selected_month_name}")
 
     # Filter data tweets berdasarkan bulan
     if selected_month is None:
@@ -145,71 +115,12 @@ with col2:
     # Buat peta dasar
     basemapTweet = generateTweetMap()
 
-    def style_function(feature):
-        return {
-            "color": "black",          # Outline color (change to red, green, etc.)
-            "weight": 1,              # Border thickness
-            "fillColor": "black",      # Fill color (change as needed)
-            "fillOpacity": 0,       # Fill opacity (0 = transparent, 1 = solid)
-            "opacity": 0.5            # Border opacity
-            }
-    batas_admin_layer = folium.FeatureGroup(name="Batas Administrasi", control=True)
-    folium.GeoJson(admin_diy, name="Batas Administrasi", style_function=style_function).add_to(batas_admin_layer)
-    batas_admin_layer.add_to(basemapTweet)
-
-    # # Tambahkan Fullscreen Button
-    # Fullscreen(
-    #     position="topright",
-    #     title="Expand me",
-    #     title_cancel="Exit me",
-    #     force_separate_button=True,
-    # ).add_to(basemapTweet)
-
     if not monthly_tweets.empty:
         # Heatmap
         tweet_heatmap = folium.FeatureGroup(name="Heatmap Tweet")
         HeatMap(monthly_tweets[['lintang', 'bujur']].values, zoom=100, radius=15).add_to(tweet_heatmap)
         tweet_heatmap.add_to(basemapTweet)
 
-        # Circle Map
-        tweet_count = pd.read_csv(r".\data\tweet_count.csv")
-
-        # Natural Breaks
-        tweet_jenks = tweet_count["frekuensi"].values
-        tweet_breaks = jenkspy.jenks_breaks(tweet_jenks, n_classes=5)
-        colors = ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
-
-        if selected_month is None:
-            tweet_circlemap = folium.FeatureGroup(name="Circle Map")
-            # tweet_color = np.linspace(tweet_count["frekuensi"].min(), tweet_count["frekuensi"].max(), 6)
-            # colors = ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
-            # tweet_color = cm.linear.YlOrRd_09.scale(tweet_count["frekuensi"].min(), tweet_count["frekuensi"].max())
-            # tweet_color.caption = "Jumlah Tweet"
-
-            for _, row in tweet_count.iterrows():
-                for i in range(5):
-                    if tweet_breaks[i] <= row["frekuensi"] < tweet_breaks[i+1]:
-                        color = colors[i]
-                        break
-                    else:
-                        color = colors
-
-                folium.CircleMarker(
-                    location=[row["lintang"], row["bujur"]],
-                    radius=3,
-                    color = color,
-                    # color=tweet_color(row["frekuensi"]),
-                    fill=True,
-                    # fill_color=tweet_color(row["frekuensi"]),
-                    fill_color = color,
-                    fill_opacity=0.8,
-                    popup=folium.Popup(f"<b>{row['frasa']}</b><br>Jumlah: {row['frekuensi']}", max_width=200)
-                ).add_to(tweet_circlemap)
-            tweet_circlemap.add_to(basemapTweet)
-    else:
-        st.warning("Tidak ada data tweet untuk bulan yang dipilih.")
-
-        # Tambahkan Fullscreen Button
     Fullscreen(
         position="topright",
         title="Expand me",
@@ -224,58 +135,7 @@ with col2:
     folium.TileLayer('OpenStreetMap', name="OpenStreetMap").add_to(basemapTweet)
     folium.LayerControl(position="topright").add_to(basemapTweet)
 
-    st.write("### Data Tweets Wisata DIY 2023")
-
-    #     # **Legenda Manual**
-    # legend_html = f"""
-    # <!DOCTYPE html>
-    # <html>
-    # <head>
-    # <style>
-    #     table {{
-    #         border-collapse: collapse;
-    #         width: 100%;
-    #         font-size: 12px;
-    #     }}
-    #     th, td {{
-    #         border: 1px solid black;
-    #         padding: 5px;
-    #         text-align: left;
-    #     }}
-    #     .color-box {{
-    #         width: 15px;
-    #         height: 15px;
-    #         display: inline-block;
-    #         margin-right: 5px;
-    #     }}
-    # </style>
-    # </head>
-    # <body>
-    #     <b>Klasifikasi Pengunjung</b>
-    #     <table>
-    #         <tr><th>Warna</th><th>Frekuensi</th></tr>
-    #         <tr><td><span class="color-box" style="background:{colors[0]};"></span></td><td>{tweet_breaks[0]} - {tweet_breaks[1]}</td></tr>
-    #         <tr><td><span class="color-box" style="background:{colors[1]};"></span></td><td>{tweet_breaks[1]} - {tweet_breaks[2]}</td></tr>
-    #         <tr><td><span class="color-box" style="background:{colors[2]};"></span></td><td>{tweet_breaks[2]} - {tweet_breaks[3]}</td></tr>
-    #         <tr><td><span class="color-box" style="background:{colors[3]};"></span></td><td>{tweet_breaks[3]} - {tweet_breaks[4]}</td></tr>
-    #         <tr><td><span class="color-box" style="background:{colors[4]};"></span></td><td>{tweet_breaks[4]} - {tweet_breaks[5]}</td></tr>
-    #     </table>
-    # </body>
-    # </html>
-    # """
-    # # Konversi HTML ke IFrame untuk popup
-    # iframe = IFrame(legend_html, width=250, height=200)
-    # popup = folium.Popup(iframe, max_width=300)
-
-    # # Tambahkan Marker dengan popup legenda ke peta
-    # legend_marker = folium.Marker(
-    #     location=[-7.7956, 110.3695],  # Koordinat tengah Yogyakarta
-    #     popup=popup,
-    #     icon=folium.Icon(icon="info-sign", color="blue"),
-    # )
-
-    # # Tambahkan ke peta
-    # legend_marker.add_to(basemapTweet)
+    st.write(f"### Heatmap Tweets Wisata DIY 2023 - {selected_month_name}")
 
     folium_static(basemapTweet)
 
@@ -294,6 +154,16 @@ if text_wordcloud:
     st.sidebar.pyplot(fig)
 
 st.write("### TWEET")
+
+# Declare Date to Filtering
+dt_start = st.date_input("Pilih Tanggal Awal", crawled_df["created_at"].min().date())
+dt_end = st.date_input("Pilih Tanggal Akhir", crawled_df["created_at"].max().date())
+
+df_filtered = crawled_df[(crawled_df["created_at"].dt.date >= dt_start) & (crawled_df["created_at"].dt.date <= dt_end)]
+
+# Count Tweets Per Day
+df_grouped = df_filtered.groupby(df_filtered["created_at"].dt.date).size().reset_index(name="count")
+
 fig_daily = px.area(
     df_grouped,
     x = "created_at",
@@ -382,11 +252,11 @@ with col2:
     # Tampilkan grafik
     st.plotly_chart(crawled_10_fig)
 
-chart_data = pd.read_csv(r".\data\scatter.csv")
-scatter_chart = alt.Chart(chart_data).mark_circle(size=100).encode(
-    x=alt.X('frekuensi', title='Jumlah Tweet'),
-    y=alt.Y('total', title='Jumlah Pengunjung'),
-    color=alt.Color('dtw', scale=alt.Scale(range=['#FF0000', '#0000FF'])),
-    tooltip=['frekuensi', 'total', 'dtw']
-)
-st.altair_chart(scatter_chart, use_container_width=True)
+# chart_data = pd.read_csv(r".\data\scatter.csv")
+# scatter_chart = alt.Chart(chart_data).mark_circle(size=100).encode(
+#     x=alt.X('frekuensi', title='Jumlah Tweet'),
+#     y=alt.Y('total', title='Jumlah Pengunjung'),
+#     color=alt.Color('dtw', scale=alt.Scale(range=['#FF0000', '#0000FF'])),
+#     tooltip=['frekuensi', 'total', 'dtw']
+# )
+# st.altair_chart(scatter_chart, use_container_width=True)

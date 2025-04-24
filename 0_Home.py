@@ -44,26 +44,6 @@ basemaps = {
 # Pilih Basemap
 selected_basemap = st.sidebar.selectbox("Pilih Basemap:", list(basemaps.keys()), index=0)
 
-# FUNGSI 
-
-# Add Map Folium
-# # center on Liberty Bell, add marker
-# m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
-# folium.Marker(
-#     [39.949610, -75.150282], popup="Liberty Bell", tooltip="Liberty Bell"
-# ).add_to(m)
-
-# # call to render Folium map in Streamlit
-# st_data = st_folium(m, width=725)
-
-# def generateBaseMap(default_location=[-7.949695, 110.492840], default_zoom_start=12):
-#     base_map = folium.Map(location=default_location, zoom_start=default_zoom_start)
-#     return base_map
-# basemap=generateBaseMap()
-# HeatMap(data[['lintang','bujur']],zoom=100,radius=15).add_to(basemap)
-
-# st_data = st_folium(basemap, width=725)
-
 # Add Map PyDeck
 def add_map(data, center_lat, center_lon, zoom, basemap):
     st.write("## Peta Persebaran Wisata Daerah Istimewa Yogyakarta Tahun 2023 :")
