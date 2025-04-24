@@ -7,3 +7,5 @@ numpy
 leafmap
 folium
 matplotlib
+streamlit-folium
+openpyxl
