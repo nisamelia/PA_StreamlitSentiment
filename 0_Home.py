@@ -3,6 +3,7 @@ import pydeck as pdk
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(layout="wide")
 st.write("# SELAMAT DATANG!")
 st.markdown(
     """

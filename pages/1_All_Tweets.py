@@ -12,7 +12,7 @@ import numpy as np
 import geopandas as gdp
 import plotly.graph_objects as go
 
-
+st.set_page_config(layout="wide")
 ## DEFINE DATA
 dinpar_df = pd.read_csv(r"./data/dtw_jumlah_dinpar.csv")
 crawled_df = pd.read_csv(r"./data/sa_vader.csv")
