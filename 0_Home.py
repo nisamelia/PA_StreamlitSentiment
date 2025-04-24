@@ -14,14 +14,14 @@ Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banya
 # DEKLARASI VARIABEL
 
 # Data
-data = pd.read_csv(r'C:\PA_Streamlit\data\dtw_koordinat_all.csv', delimiter=',')
+data = pd.read_csv(r'./data/dtw_koordinat_all.csv', delimiter=',')
 
 data_wisata = pd.DataFrame({
     "tahun": [2020, 2021, 2022, 2023],
     "jumlah" : [1848548, 4294725, 6474115, 7740689]
 })
 
-data_wisata_prov = pd.read_excel(r'C:\PA_Streamlit\data\wisatawan_prov_2023.xlsx', engine='openpyxl')
+data_wisata_prov = pd.read_excel(r'./data/wisatawan_prov_2023.xlsx', engine='openpyxl')
 
 # Basemap
 basemaps = {

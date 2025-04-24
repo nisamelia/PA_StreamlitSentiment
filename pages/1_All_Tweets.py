@@ -14,8 +14,8 @@ import plotly.graph_objects as go
 
 
 ## DEFINE DATA
-dinpar_df = pd.read_csv(r".\data\dtw_jumlah_dinpar.csv")
-crawled_df = pd.read_csv(r".\data\sa_vader.csv")
+dinpar_df = pd.read_csv(r"./data/dtw_jumlah_dinpar.csv")
+crawled_df = pd.read_csv(r"./data/sa_vader.csv")
 
 # Convert Date Time
 def load_data():
@@ -172,7 +172,7 @@ fig_daily = px.area(
 st.plotly_chart(fig_daily, use_container_width=True)
 
 # Load data
-crawled_graph = pd.read_csv(r".\data\sa_vader_month.csv")
+crawled_graph = pd.read_csv(r"./data/sa_vader_month.csv")
 
 # Ubah 'created_at' menjadi format datetime
 crawled_graph["created_at"] = pd.to_datetime(crawled_graph["created_at"], format="%a %b %d %H:%M:%S %z %Y")

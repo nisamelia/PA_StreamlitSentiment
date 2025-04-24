@@ -11,7 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.set_page_config(layout="wide")
-sentiment_df = pd.read_csv(r"C:\PA_Streamlit\data\sa_vader.csv")
+sentiment_df = pd.read_csv(r"./data/sa_vader.csv")
 sentiment_df.rename(columns={"bujur": "longitude", "lintang": "latitude"}, inplace=True)
 grouped_df = sentiment_df.groupby(["latitude", "longitude", "klasifikasi_vader", "stopwords", "stemmed", "matched_keyword", "created_at"]).size().reset_index(name="count")
 
