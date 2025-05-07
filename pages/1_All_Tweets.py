@@ -35,11 +35,22 @@ list_month = {
     9: "September", 10: "Oktober", 11: "November", 12: "Desember", 13: "Semua Bulan"
 }
 
-title = st.columns((6,2), gap='medium')
+title = st.columns((16,1), gap='medium')
 # select1, select2 = st.columns(2)
 # title = st.columns((1.5, 3.5, 3.5), gap='medium')
 col = st.columns((3, 3, 2), gap='small')
 # col1, col2 = st.columns(2)
+
+st.write("### Trend Tweet per Hasi")
+with st.expander('**TENTANG**', expanded=True):
+    st.markdown(
+        '''
+        Grafik ini menampilkan jumlah tweet yang memiliki penyebutan destinasi wisata dalam satuan hari.<br>
+        <span style="color:orange">Anda dapat menampilkan tanggal di bagian kiri bawah.</span> 
+        ''',
+        unsafe_allow_html=True
+    )
+graph = st.columns((2,8), gap='small')
 
 def dinparMap():
     # Konversi nama kolom dalam dataset menjadi lowercase
@@ -211,6 +222,12 @@ def wordCloudTweet():
 
 with title[0]:
     st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
+    with st.expander(':orange[**TENTANG**]', expanded=True):
+        st.write(
+            '''
+    Halaman ini menampilkan perbandingan data jumlah pengunjung destinasi wisata di DIY selama 2023 dan data tweet yang mengandung penyebutan destinasi wisata DIY selama 2023.
+            '''
+        )
 
 with col[0]:
     dinparMap()
@@ -221,14 +238,19 @@ with col[1]:
 with col[2]:
     totalTweet()
     wordCloudTweet()
-
-
-
-st.write("### TWEET")
-
-# Declare Date to Filtering
-dt_start = st.date_input("Pilih Tanggal Awal", crawled_df["created_at"].min().date())
-dt_end = st.date_input("Pilih Tanggal Akhir", crawled_df["created_at"].max().date())
+    with st.expander('Tentang', expanded=True):
+        st.write(
+            '''
+            - Data: [U.S. Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html).
+            - :orange[**Gains/Losses**]: states with high inbound/ outbound migration for selected year
+            - :orange[**States Migration**]: percentage of states with annual inbound/ outbound migration > 50,000
+            '''
+        )
+    
+with graph[0]:
+    # Declare Date to Filtering
+    dt_start = st.date_input("Pilih Tanggal Awal", crawled_df["created_at"].min().date())
+    dt_end = st.date_input("Pilih Tanggal Akhir", crawled_df["created_at"].max().date())
 
 df_filtered = crawled_df[(crawled_df["created_at"].dt.date >= dt_start) & (crawled_df["created_at"].dt.date <= dt_end)]
 
@@ -244,8 +266,9 @@ fig_daily = px.area(
     labels={"created_at" : "Date", "count": "Number of Tweets"}
 )
 
-# Show the plot in Streamlit
-st.plotly_chart(fig_daily, use_container_width=True)
+with graph[1]:
+    # Show the plot in Streamlit
+    st.plotly_chart(fig_daily, use_container_width=True)
 
 # Load data
 crawled_graph = pd.read_csv(r"./data/sa_vader_month.csv")
@@ -267,39 +290,41 @@ crawled_month = crawled_graph.groupby("month").size().reset_index(name="count")
 crawled_month["month"] = pd.Categorical(crawled_month["month"], categories=month_order, ordered=True)
 crawled_month = crawled_month.sort_values("month")
 
-# Buat grafik batang dengan Plotly
+    # --- Grafik tweet per bulan ---
 fig_monthly = go.Figure(go.Bar(
-    x=crawled_month["month"],
-    y=crawled_month["count"],
-    marker=dict(color="royalblue"),
-    name="Jumlah Tweet Per Bulan",
-    text=crawled_month["count"]
-))
+        x=crawled_month["month"],
+        y=crawled_month["count"],
+        marker=dict(color="royalblue"),
+        text=crawled_month["count"],
+        textposition="outside"
+    ))
 
-# Atur layout grafik
 fig_monthly.update_layout(
-    title="Jumlah Tweet per Bulan",
-    xaxis_title="Bulan",
-    yaxis_title="Jumlah Tweet",
-    xaxis=dict(tickangle=-45),
-    template="plotly_dark",
-)
+        title="Jumlah Tweet per Bulan",
+        xaxis_title="Bulan",
+        yaxis_title="Jumlah Tweet",
+        xaxis=dict(tickangle=-45),
+        template="plotly_dark",
+        font=dict(size=12),
+        margin=dict(t=50, b=50)
+    )
 
 # Tampilkan grafik di Streamlit
-st.plotly_chart(fig_monthly, use_container_width=True)
+# st.plotly_chart(fig_monthly, use_container_width=True)
 
 col1, col2 = st.columns(2)
 
 with col1:
-    # Top 10 Data
-    dinpar_10 = dinpar_df[['dtw', '13']].sort_values(by='13', ascending=False).head(10)
-    dinpar_10.columns = ['dtw', '13']
-    dinpar_10_fig = px.bar(dinpar_10,
-                    x='dtw',
-                    y='13',
-                    labels={'dtw': 'Lokasi Wisata', '13': 'Jumlah Pengunjung'},
-                    text_auto=True)
-    st.plotly_chart(dinpar_10_fig)
+    st.plotly_chart(fig_monthly, use_container_width=True)
+    # # Top 10 Data
+    # dinpar_10 = dinpar_df[['dtw', '13']].sort_values(by='13', ascending=False).head(10)
+    # dinpar_10.columns = ['dtw', '13']
+    # dinpar_10_fig = px.bar(dinpar_10,
+    #                 x='dtw',
+    #                 y='13',
+    #                 labels={'dtw': 'Lokasi Wisata', '13': 'Jumlah Pengunjung'},
+    #                 text_auto=True)
+    # st.plotly_chart(dinpar_10_fig)
 
 with col2:
     # Hitung jumlah penyebutan keyword (matched_keyword)
@@ -320,5 +345,20 @@ with col2:
         text=crawled_cols['sumber'],
         text_auto=True
         )
+    crawled_10_fig.update_layout(
+        title="10 Destinasi Wisata Terpopuler",
+        template="plotly_dark",
+        xaxis_tickangle=-45,
+        font=dict(size=12),
+        margin=dict(t=50, b=50)
+    )
     # Tampilkan grafik
     st.plotly_chart(crawled_10_fig)
+
+# --- Insight tambahan ---
+max_month = crawled_month.loc[crawled_month['count'].idxmax()]
+top_dest = crawled_cols.iloc[0]
+
+st.markdown("### 📊 Insight Cepat")
+st.markdown(f"- 🗓️ **Bulan dengan tweet terbanyak:** `{max_month['month']}` sebanyak **{max_month['count']} tweet**")
+st.markdown(f"- 📍 **Destinasi terpopuler:** `{top_dest['matched_keyword']}` dengan **{top_dest['jumlah']} tweet**")
