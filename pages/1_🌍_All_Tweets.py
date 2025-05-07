@@ -219,7 +219,7 @@ with component[2]:
         )
 
 with title[0]:
-     st.subheader(f"Heatmap Wisata DIY 2023")
+     st.subheader(f"Heatmap Pengunjung Wisata DIY 2023")
 
 with title[1]:
     st.subheader(f"Heatmap Tweets Wisata DIY 2023")
