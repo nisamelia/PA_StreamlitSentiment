@@ -20,7 +20,7 @@ st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
 with st.expander(':orange[**TENTANG**]', expanded=True):
         st.write(
             '''
-    Halaman ini menampilkan perbandingan data jumlah pengunjung destinasi wisata di DIY selama 2023 dan data tweet yang mengandung penyebutan destinasi wisata DIY selama 2023.
+    Halaman ini menampilkan sebaran sentimen terhadap destinasi wisata di Daerah Istimewa Yogyakarta menggunakan data sosial media X atau Twitter selama 2023
             '''
         )
 
@@ -206,9 +206,10 @@ with col2[2]:
     with st.expander('Tentang', expanded=True):
         st.write(
             '''
-            - Data: [U.S. Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html).
-            - :orange[**Gains/Losses**]: states with high inbound/ outbound migration for selected year
-            - :orange[**States Migration**]: percentage of states with annual inbound/ outbound migration > 50,000
+            - Metode Analisis Sentimen: [VADER LEXICON-BASED](https://github.com/cjhutto/vaderSentiment).
+            - :orange[**Akurasi**]: 80%
+            - :orange[**Total Data Analisis**]: 2.685
+            - :orange[**Sumber Data**]: Crawling Data Sosial Media X menggunakan library [tweet-harvest](https://github.com/helmisatria/tweet-harvest) (1 Januari 2023 - 31 Desember 2023)
             '''
         )
 

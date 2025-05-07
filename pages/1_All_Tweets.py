@@ -211,7 +211,7 @@ with component[2]:
     with st.expander('Tentang', expanded=True):
         st.write(
             '''
-            - :orange[**Data Twitter**]: Tweets atau posts yang mengandung penyebutan destinasi wisata di DIY selama 2023
+            - :orange[**Data Twitter**]: Crawling Data Sosial Media X menggunakan library [tweet-harvest](https://github.com/helmisatria/tweet-harvest) (1 Januari 2023 - 31 Desember 2023)
             - :orange[**Data Pengunjung Wisata DIY 2023**]: Bappeda DIY 
             '''
         )
