@@ -20,7 +20,11 @@ st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
 with st.expander(':orange[**TENTANG**]', expanded=True):
         st.write(
             '''
-    Halaman ini menampilkan sebaran sentimen terhadap destinasi wisata di Daerah Istimewa Yogyakarta menggunakan data sosial media X atau Twitter selama 2023
+    Halaman ini menampilkan sebaran sentimen masyarakat terhadap destinasi wisata di Daerah Istimewa Yogyakarta berdasarkan data dari media sosial X (Twitter) selama tahun 2023.
+
+🔍 Analisis ini mengelompokkan tweet ke dalam tiga kategori sentimen: positif, netral, dan negatif, untuk memberikan gambaran umum tentang persepsi publik terhadap berbagai lokasi wisata di DIY.
+
+
             '''
         )
 

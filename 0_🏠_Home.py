@@ -6,16 +6,15 @@ import plotly.express as px
 st.set_page_config(
     layout="wide"
     )
+
 st.write("# SELAMAT DATANG!")
-# st.markdown(
-#     """
-# Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banyak dibicarakan di X (Twitter) selama 2023. Selain itu, dashboard ini juga menampilkan sentimen dari tweets dalam kategori positif, netral, dan negatif.
-# """
-# )
+
 with st.expander(':orange[**TENTANG**]', expanded=True):
     st.write(
         '''
-Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banyak dibicarakan di X (Twitter) selama 2023. Selain itu, dashboard ini juga menampilkan sentimen dari tweets dalam kategori positif, netral, dan negatif.
+Dashboard ini menyajikan destinasi wisata terpopuler di Daerah Istimewa Yogyakarta berdasarkan percakapan pengguna di platform X (Twitter) sepanjang tahun 2023.
+
+Selain popularitas destinasi, dashboard ini juga memberikan analisis sentimen terhadap tweet yang diklasifikasikan ke dalam tiga kategori utama: positif, netral, dan negatif, untuk memberikan gambaran umum tentang persepsi publik.
         '''
     )
 
@@ -125,9 +124,8 @@ with col[1]:
 with st.expander('Tentang', expanded=True):
     st.write(
             '''
-            - Data: [U.S. Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html).
-            - :orange[**Gains/Losses**]: states with high inbound/ outbound migration for selected year
-            - :orange[**States Migration**]: percentage of states with annual inbound/ outbound migration > 50,000
+            - Data: Data jumlah pengunjung destinasi wisata di DIY tahun 2023.
+            - :orange[**Sumber**]: Bappeda DIY
             '''
     )
 

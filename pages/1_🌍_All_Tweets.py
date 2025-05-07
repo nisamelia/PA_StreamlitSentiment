@@ -40,7 +40,9 @@ st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
 with st.expander(':orange[**TENTANG**]', expanded=True):
         st.write(
             '''
-    Halaman ini menampilkan perbandingan data jumlah pengunjung destinasi wisata di DIY selama 2023 dan data tweet yang mengandung penyebutan destinasi wisata DIY selama 2023.
+    Halaman ini menyajikan perbandingan antara jumlah kunjungan ke destinasi wisata di Daerah Istimewa Yogyakarta (DIY) dan jumlah tweet yang menyebutkan destinasi wisata tersebut sepanjang tahun 2023.
+
+🧭 Tujuan dari perbandingan ini adalah untuk melihat sejauh mana popularitas di media sosial mencerminkan tingkat kunjungan langsung ke lokasi wisata.
             '''
         )
 component = st.columns((4,4,4), gap='medium')
