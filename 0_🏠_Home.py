@@ -4,7 +4,8 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(
-    layout="wide"
+    layout="wide",
+    page_title="Sentimap Jogja"
     )
 
 st.markdown("""
