@@ -110,9 +110,9 @@ def show_graph_year(data_wisata_prov):
     st.write("### Grafik 10 Provinsi dengan Jumlah Wisatawan Domestik Terbanyak")
     chart_type = st.selectbox("Pilih Jenis Grafik", ["Bar Chart", "Line Chart"])
     if chart_type == "Bar Chart":
-        fig = px.bar(data_wisata_prov, x="prov", y="jumlah", title="Bar Chart", color_discrete_sequence=["#F4CE14"])
+        fig = px.bar(data_wisata_prov, x="prov", y="jumlah", title="Bar Chart", color_discrete_sequence=["#ffbd45"])
     elif chart_type == "Line Chart":
-        fig = px.line(data_wisata_prov, x="prov", y="jumlah", title="Line Chart", markers=True, color_discrete_sequence=["#F4CE14"])
+        fig = px.line(data_wisata_prov, x="prov", y="jumlah", title="Line Chart", markers=True, color_discrete_sequence=["#ffbd45"])
     st.plotly_chart(fig)
 
 with col[0]:

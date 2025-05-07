@@ -16,6 +16,14 @@ sentiment_df = pd.read_csv(r"./data/sa_vader.csv")
 sentiment_df.rename(columns={"bujur": "longitude", "lintang": "latitude"}, inplace=True)
 grouped_df = sentiment_df.groupby(["latitude", "longitude", "klasifikasi_vader", "stopwords", "stemmed", "matched_keyword", "created_at"]).size().reset_index(name="count")
 
+st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
+with st.expander(':orange[**TENTANG**]', expanded=True):
+        st.write(
+            '''
+    Halaman ini menampilkan perbandingan data jumlah pengunjung destinasi wisata di DIY selama 2023 dan data tweet yang mengandung penyebutan destinasi wisata DIY selama 2023.
+            '''
+        )
+
 def generateSentimentMap(default_location=[-7.949695, 110.492840], default_zoom_start=9.25):
     base_map = folium.Map(location=default_location, zoom_start=default_zoom_start, control_scale=True)
     return base_map

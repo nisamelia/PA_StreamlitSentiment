@@ -1,3 +1,4 @@
+from socket import gaierror
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -35,13 +36,23 @@ list_month = {
     9: "September", 10: "Oktober", 11: "November", 12: "Desember", 13: "Semua Bulan"
 }
 
-title = st.columns((16,1), gap='medium')
+st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
+with st.expander(':orange[**TENTANG**]', expanded=True):
+        st.write(
+            '''
+    Halaman ini menampilkan perbandingan data jumlah pengunjung destinasi wisata di DIY selama 2023 dan data tweet yang mengandung penyebutan destinasi wisata DIY selama 2023.
+            '''
+        )
+component = st.columns((4,4,4), gap='medium')
 # select1, select2 = st.columns(2)
 # title = st.columns((1.5, 3.5, 3.5), gap='medium')
-col = st.columns((3, 3, 2), gap='small')
-# col1, col2 = st.columns(2)
+title = st.columns((3,3), gap='small')
+col = st.columns((3, 3), gap='small')
+st.markdown("### 📊 Insight Cepat")
+st.markdown(f"- 🗓️ **Bulan dengan tweet terbanyak:** `January` sebanyak **299 tweet**")
+st.markdown(f"- 📍 **Destinasi terpopuler:** `Malioboro` dengan **380 tweet**")
 
-st.write("### Trend Tweet per Hasi")
+st.write("### Trend Tweet per Hari")
 with st.expander('**TENTANG**', expanded=True):
     st.markdown(
         '''
@@ -50,7 +61,8 @@ with st.expander('**TENTANG**', expanded=True):
         ''',
         unsafe_allow_html=True
     )
-graph = st.columns((2,8), gap='small')
+
+graph = st.columns((2,2,6), gap='small')
 
 def dinparMap():
     # Konversi nama kolom dalam dataset menjadi lowercase
@@ -98,7 +110,6 @@ def dinparMap():
     folium.TileLayer('OpenStreetMap', name="OpenStreetMap").add_to(basemapWisata)
     folium.LayerControl(position="topright").add_to(basemapWisata)
 
-    st.subheader(f"Heatmap Wisata DIY 2023- {selected_month_name}")
     folium_static(basemapWisata)
 
 def tweetMap():
@@ -143,39 +154,11 @@ def tweetMap():
     folium.TileLayer('OpenStreetMap', name="OpenStreetMap").add_to(basemapTweet)
     folium.LayerControl(position="topright").add_to(basemapTweet)
 
-    st.write(f"### Heatmap Tweets Wisata DIY 2023 - {selected_month_name}")
-
     folium_static(basemapTweet)
 
 def totalTweet():
     # Tambahkan FontAwesome
     st.markdown('<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">', unsafe_allow_html=True)
-    # st.markdown("""
-    #     <style>
-    #     .card {
-    #         width: 100%;
-    #         padding: 20px;
-    #         border-radius: 15px;
-    #         color: white;
-    #         font-size: 32px;
-    #         margin-top: 0px; 
-    #         display: flex;
-    #         justify-content: center;
-    #         align-items: center;
-    #         text-align: center;
-    #     }
-    #     .card-red { background-color: #e74c3c; }
-    #     </style>
-    #     """, unsafe_allow_html=True)
-
-    #     # Tampilkan kartu-kartu
-    # st.markdown("""
-    #     <div class="card card-red">
-    #         <i class="fas fa-building"></i> <b>TWEET</b><br>
-    #         <small>2.685</small>
-    #     </div>
-    #     """, unsafe_allow_html=True)
-            # st.metric(label='Total Tweet', value='2.685')
     st.markdown("""
         <style>
         .card {
@@ -210,24 +193,34 @@ def totalTweet():
             <div class="card-value">2.685</div>
         </div>
     """, unsafe_allow_html=True)
+
 def wordCloudTweet():
     text_wordcloud = crawled_df["stemmed"].str.cat(sep=" ")
     if text_wordcloud:
         w = WordCloud(background_color="#262730", colormap="OrRd").generate(text_wordcloud)
-        fig, ax = plt.subplots(figsize=(10, 6), facecolor='black')
+        fig, ax = plt.subplots(figsize=(6, 4), facecolor='black')
         plt.imshow(w, interpolation="bilinear")
         plt.axis("off")
-        st.write("<h4 style='text-align: center; color: white; margin-top: 16px;'>WORD CLOUD</h4>", unsafe_allow_html=True)
         st.pyplot(fig)
 
-with title[0]:
-    st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
-    with st.expander(':orange[**TENTANG**]', expanded=True):
+with component[0]:
+    totalTweet()
+with component[1]:
+    wordCloudTweet()
+with component[2]:
+    with st.expander('Tentang', expanded=True):
         st.write(
             '''
-    Halaman ini menampilkan perbandingan data jumlah pengunjung destinasi wisata di DIY selama 2023 dan data tweet yang mengandung penyebutan destinasi wisata DIY selama 2023.
+            - :orange[**Data Twitter**]: Tweets atau posts yang mengandung penyebutan destinasi wisata di DIY selama 2023
+            - :orange[**Data Pengunjung Wisata DIY 2023**]: Bappeda DIY 
             '''
         )
+
+with title[0]:
+     st.subheader(f"Heatmap Wisata DIY 2023")
+
+with title[1]:
+    st.subheader(f"Heatmap Tweets Wisata DIY 2023")
 
 with col[0]:
     dinparMap()
@@ -235,21 +228,11 @@ with col[0]:
 with col[1]:
     tweetMap()
 
-with col[2]:
-    totalTweet()
-    wordCloudTweet()
-    with st.expander('Tentang', expanded=True):
-        st.write(
-            '''
-            - Data: [U.S. Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html).
-            - :orange[**Gains/Losses**]: states with high inbound/ outbound migration for selected year
-            - :orange[**States Migration**]: percentage of states with annual inbound/ outbound migration > 50,000
-            '''
-        )
     
 with graph[0]:
     # Declare Date to Filtering
     dt_start = st.date_input("Pilih Tanggal Awal", crawled_df["created_at"].min().date())
+with graph[1]:
     dt_end = st.date_input("Pilih Tanggal Akhir", crawled_df["created_at"].max().date())
 
 df_filtered = crawled_df[(crawled_df["created_at"].dt.date >= dt_start) & (crawled_df["created_at"].dt.date <= dt_end)]
@@ -266,9 +249,11 @@ fig_daily = px.area(
     labels={"created_at" : "Date", "count": "Number of Tweets"}
 )
 
-with graph[1]:
-    # Show the plot in Streamlit
-    st.plotly_chart(fig_daily, use_container_width=True)
+# Ubah warna garis dan isi area menjadi oranye muda transparan
+fig_daily.update_traces(line_color="#ffbd45", fillcolor="rgba(255, 189, 69, 0.3)")
+
+# Show the plot in Streamlit
+st.plotly_chart(fig_daily, use_container_width=True)
 
 # Load data
 crawled_graph = pd.read_csv(r"./data/sa_vader_month.csv")
@@ -309,22 +294,11 @@ fig_monthly.update_layout(
         margin=dict(t=50, b=50)
     )
 
-# Tampilkan grafik di Streamlit
-# st.plotly_chart(fig_monthly, use_container_width=True)
 
 col1, col2 = st.columns(2)
 
 with col1:
     st.plotly_chart(fig_monthly, use_container_width=True)
-    # # Top 10 Data
-    # dinpar_10 = dinpar_df[['dtw', '13']].sort_values(by='13', ascending=False).head(10)
-    # dinpar_10.columns = ['dtw', '13']
-    # dinpar_10_fig = px.bar(dinpar_10,
-    #                 x='dtw',
-    #                 y='13',
-    #                 labels={'dtw': 'Lokasi Wisata', '13': 'Jumlah Pengunjung'},
-    #                 text_auto=True)
-    # st.plotly_chart(dinpar_10_fig)
 
 with col2:
     # Hitung jumlah penyebutan keyword (matched_keyword)
@@ -359,6 +333,3 @@ with col2:
 max_month = crawled_month.loc[crawled_month['count'].idxmax()]
 top_dest = crawled_cols.iloc[0]
 
-st.markdown("### 📊 Insight Cepat")
-st.markdown(f"- 🗓️ **Bulan dengan tweet terbanyak:** `{max_month['month']}` sebanyak **{max_month['count']} tweet**")
-st.markdown(f"- 📍 **Destinasi terpopuler:** `{top_dest['matched_keyword']}` dengan **{top_dest['jumlah']} tweet**")
