@@ -7,7 +7,9 @@ st.set_page_config(
     layout="wide"
     )
 
-st.write("# SELAMAT DATANG!")
+st.markdown("""
+# SELAMAT DATANG! di <span style='color:orange; font-weight:bold; font-size:48px;'>SENTIMAP JOGJA</span>
+""", unsafe_allow_html=True)
 
 with st.expander(':orange[**TENTANG**]', expanded=True):
     st.write(

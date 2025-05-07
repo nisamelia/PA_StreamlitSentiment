@@ -16,7 +16,7 @@ sentiment_df = pd.read_csv(r"./data/sa_vader.csv")
 sentiment_df.rename(columns={"bujur": "longitude", "lintang": "latitude"}, inplace=True)
 grouped_df = sentiment_df.groupby(["latitude", "longitude", "klasifikasi_vader", "stopwords", "stemmed", "matched_keyword", "created_at"]).size().reset_index(name="count")
 
-st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
+st.write("# ANALISIS SENTIMEN PENGGUNA SOSIAL MEDIA X TERHADAP WISATA DIY 2023")
 with st.expander(':orange[**TENTANG**]', expanded=True):
         st.write(
             '''
