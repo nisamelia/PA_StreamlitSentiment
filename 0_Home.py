@@ -18,14 +18,6 @@ with st.expander(':orange[**TENTANG**]', expanded=True):
 Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banyak dibicarakan di X (Twitter) selama 2023. Selain itu, dashboard ini juga menampilkan sentimen dari tweets dalam kategori positif, netral, dan negatif.
         '''
     )
-# st.markdown(
-#     """
-#     <div style="background-color: #262730; padding: 16px; border-radius: 12px; color: white;">
-#         Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banyak dibicarakan di X (Twitter) selama 2023. Selain itu, dashboard ini juga menampilkan sentimen dari tweets dalam kategori positif, netral, dan negatif.
-#     </div>
-#     """,
-#     unsafe_allow_html=True
-# )
 
 # DEKLARASI VARIABEL
 
@@ -125,14 +117,18 @@ def show_graph_year(data_wisata_prov):
 
 with col[0]:
     add_map(data, center_lat=-7.7956, center_lon=110.3695, zoom=9, basemap=basemaps[selected_basemap])
-    with st.expander('Tentang', expanded=True):
-        st.write(
+
+with col[1]:
+    show_charts(data_wisata)
+
+
+with st.expander('Tentang', expanded=True):
+    st.write(
             '''
             - Data: [U.S. Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html).
             - :orange[**Gains/Losses**]: states with high inbound/ outbound migration for selected year
             - :orange[**States Migration**]: percentage of states with annual inbound/ outbound migration > 50,000
             '''
-        )
-with col[1]:
-    show_charts(data_wisata)
-    show_graph_year(data_wisata_prov)
+    )
+
+show_graph_year(data_wisata_prov)
