@@ -1,3 +1,4 @@
+from tkinter import S
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -27,7 +28,6 @@ crawled_df = load_data()
 
 basemapLayer = ["OpenStreetMap", "CartoDB positron", "CartoDB dark_matter"]
 
-st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
 
 # Dictionary nama bulan
 list_month = {
@@ -36,10 +36,13 @@ list_month = {
     9: "September", 10: "Oktober", 11: "November", 12: "Desember", 13: "Semua Bulan"
 }
 
-select1, select2 = st.columns(2)
-col1, col2 = st.columns(2)
+title = st.columns((6,2), gap='medium')
+# select1, select2 = st.columns(2)
+# title = st.columns((1.5, 3.5, 3.5), gap='medium')
+col = st.columns((3, 3, 2), gap='small')
+# col1, col2 = st.columns(2)
 
-with col1:
+def dinparMap():
     # Konversi nama kolom dalam dataset menjadi lowercase
     dinpar_df.columns = dinpar_df.columns.str.lower()
 
@@ -88,7 +91,7 @@ with col1:
     st.subheader(f"Heatmap Wisata DIY 2023- {selected_month_name}")
     folium_static(basemapWisata)
 
-with col2:
+def tweetMap():
     num_month = sorted(crawled_df['month'].unique())
 
     dict_month = {"Semua Bulan": None}
@@ -134,19 +137,93 @@ with col2:
 
     folium_static(basemapTweet)
 
+def totalTweet():
+    # Tambahkan FontAwesome
+    st.markdown('<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">', unsafe_allow_html=True)
+    # st.markdown("""
+    #     <style>
+    #     .card {
+    #         width: 100%;
+    #         padding: 20px;
+    #         border-radius: 15px;
+    #         color: white;
+    #         font-size: 32px;
+    #         margin-top: 0px; 
+    #         display: flex;
+    #         justify-content: center;
+    #         align-items: center;
+    #         text-align: center;
+    #     }
+    #     .card-red { background-color: #e74c3c; }
+    #     </style>
+    #     """, unsafe_allow_html=True)
 
-text_wordcloud = crawled_df["stemmed"].str.cat(sep=" ")
-# custom_stopwords = set(STOPWORDS)
-# custom_stopwords.update([
-#     "jogja"
-# ])
-if text_wordcloud:
-    w = WordCloud(background_color="white", colormap="OrRd").generate(text_wordcloud)
-    fig, ax = plt.subplots(figsize=(10, 5))
-    plt.imshow(w, interpolation="bilinear")
-    plt.axis("off")
-    st.sidebar.write("### WORD CLOUD")
-    st.sidebar.pyplot(fig)
+    #     # Tampilkan kartu-kartu
+    # st.markdown("""
+    #     <div class="card card-red">
+    #         <i class="fas fa-building"></i> <b>TWEET</b><br>
+    #         <small>2.685</small>
+    #     </div>
+    #     """, unsafe_allow_html=True)
+            # st.metric(label='Total Tweet', value='2.685')
+    st.markdown("""
+        <style>
+        .card {
+            width: 100%;
+            padding: 20px;
+            color: white;
+            font-size: 32px;
+            margin-top: 0px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .card-red { background-color: #262730; }
+        .card-title {
+            font-size: 24px;
+            font-weight: normal;
+            margin: 0;
+        }
+        .card-value {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    # Isi kartu
+    st.markdown("""
+        <div class="card card-red">
+            <div class="card-title">Tweet</div>
+            <div class="card-value">2.685</div>
+        </div>
+    """, unsafe_allow_html=True)
+def wordCloudTweet():
+    text_wordcloud = crawled_df["stemmed"].str.cat(sep=" ")
+    if text_wordcloud:
+        w = WordCloud(background_color="#262730", colormap="OrRd").generate(text_wordcloud)
+        fig, ax = plt.subplots(figsize=(10, 6), facecolor='black')
+        plt.imshow(w, interpolation="bilinear")
+        plt.axis("off")
+        st.write("<h4 style='text-align: center; color: white; margin-top: 16px;'>WORD CLOUD</h4>", unsafe_allow_html=True)
+        st.pyplot(fig)
+
+with title[0]:
+    st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
+
+with col[0]:
+    dinparMap()
+
+with col[1]:
+    tweetMap()
+
+with col[2]:
+    totalTweet()
+    wordCloudTweet()
+
+
 
 st.write("### TWEET")
 
@@ -246,12 +323,3 @@ with col2:
         )
     # Tampilkan grafik
     st.plotly_chart(crawled_10_fig)
-
-# chart_data = pd.read_csv(r".\data\scatter.csv")
-# scatter_chart = alt.Chart(chart_data).mark_circle(size=100).encode(
-#     x=alt.X('frekuensi', title='Jumlah Tweet'),
-#     y=alt.Y('total', title='Jumlah Pengunjung'),
-#     color=alt.Color('dtw', scale=alt.Scale(range=['#FF0000', '#0000FF'])),
-#     tooltip=['frekuensi', 'total', 'dtw']
-# )
-# st.altair_chart(scatter_chart, use_container_width=True)

@@ -3,14 +3,29 @@ import pydeck as pdk
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    layout="wide"
+    )
 st.write("# SELAMAT DATANG!")
-st.markdown(
-    """
+# st.markdown(
+#     """
+# Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banyak dibicarakan di X (Twitter) selama 2023. Selain itu, dashboard ini juga menampilkan sentimen dari tweets dalam kategori positif, netral, dan negatif.
+# """
+# )
+with st.expander(':orange[**TENTANG**]', expanded=True):
+    st.write(
+        '''
 Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banyak dibicarakan di X (Twitter) selama 2023. Selain itu, dashboard ini juga menampilkan sentimen dari tweets dalam kategori positif, netral, dan negatif.
-"""
-)
-
+        '''
+    )
+# st.markdown(
+#     """
+#     <div style="background-color: #262730; padding: 16px; border-radius: 12px; color: white;">
+#         Dashboard ini menampilkan destinasi wisata Daerah Istimewa Yogyakarta yang banyak dibicarakan di X (Twitter) selama 2023. Selain itu, dashboard ini juga menampilkan sentimen dari tweets dalam kategori positif, netral, dan negatif.
+#     </div>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 # DEKLARASI VARIABEL
 
@@ -39,10 +54,15 @@ basemaps = {
 # Pilih Basemap
 selected_basemap = st.sidebar.selectbox("Pilih Basemap:", list(basemaps.keys()), index=0)
 
+
+# graph1, graph2 = st.columns([1,1])
+
+col = st.columns((4.5, 3.5), gap='medium')
+
 # Add Map PyDeck
 def add_map(data, center_lat, center_lon, zoom, basemap):
     st.write("## Peta Persebaran Wisata Daerah Istimewa Yogyakarta Tahun 2023 :")
-    st.markdown("Sumber : Dinas Pariwisata DIY Tahun 2023")
+    # st.markdown("Sumber : Dinas Pariwisata DIY Tahun 2023")
     tooltip = {
         "html": "{Name}",
         "style": {
@@ -75,39 +95,44 @@ def add_map(data, center_lat, center_lon, zoom, basemap):
         tooltip=tooltip
     ))
 
-add_map(data, center_lat=-7.7956, center_lon=110.3695, zoom=9, basemap=basemaps[selected_basemap])
-
-graph1, graph2 = st.columns([1,1])
-
-col1, col2 = st.columns([1, 1])
 
 # Graphs
 
 def show_charts(data_wisata):
+    st.write("### Grafik Wisatawan DIY 2023")
     chart_type = st.selectbox("Pilih Jenis Grafik", ["Line Chart", "Bar Chart", "Scatter Plot"])
     if chart_type == "Line Chart":
-        fig = px.line(data_wisata, x="tahun", y="jumlah", title="Line Chart", markers=True)
+        fig = px.line(data_wisata, x="tahun", y="jumlah", title="Line Chart", markers=True, color_discrete_sequence=["#F4CE14"])
     elif chart_type == "Bar Chart":
-        fig = px.bar(data_wisata, x="tahun", y="jumlah", title="Bar Chart")
+        fig = px.bar(data_wisata, x="tahun", y="jumlah", title="Bar Chart", color_discrete_sequence=["#F4CE14"])
     elif chart_type == "Scatter Plot":
-        fig = px.scatter(data_wisata, x="tahun", y="jumlah", title="Scatter Plot")
+        fig = px.scatter(data_wisata, x="tahun", y="jumlah", title="Scatter Plot", color_discrete_sequence=["#F4CE14"])
     fig.update_layout(
         width=500
     )
     st.plotly_chart(fig)
-with graph1:
-    st.write("### Grafik Wisatawan DIY 2023")
-with col1:
-    show_charts(data_wisata)
+
+
 
 def show_graph_year(data_wisata_prov):
+    st.write("### Grafik 10 Provinsi dengan Jumlah Wisatawan Domestik Terbanyak")
     chart_type = st.selectbox("Pilih Jenis Grafik", ["Bar Chart", "Line Chart"])
     if chart_type == "Bar Chart":
-        fig = px.bar(data_wisata_prov, x="prov", y="jumlah", title="Bar Chart")
+        fig = px.bar(data_wisata_prov, x="prov", y="jumlah", title="Bar Chart", color_discrete_sequence=["#F4CE14"])
     elif chart_type == "Line Chart":
-        fig = px.line(data_wisata_prov, x="prov", y="jumlah", title="Line Chart", markers=True)
+        fig = px.line(data_wisata_prov, x="prov", y="jumlah", title="Line Chart", markers=True, color_discrete_sequence=["#F4CE14"])
     st.plotly_chart(fig)
-with graph2:
-    st.write("### Grafik 10 Provinsi dengan Jumlah Wisatawan Domestik Terbanyak")
-with col2:
+
+with col[0]:
+    add_map(data, center_lat=-7.7956, center_lon=110.3695, zoom=9, basemap=basemaps[selected_basemap])
+    with st.expander('Tentang', expanded=True):
+        st.write(
+            '''
+            - Data: [U.S. Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html).
+            - :orange[**Gains/Losses**]: states with high inbound/ outbound migration for selected year
+            - :orange[**States Migration**]: percentage of states with annual inbound/ outbound migration > 50,000
+            '''
+        )
+with col[1]:
+    show_charts(data_wisata)
     show_graph_year(data_wisata_prov)
