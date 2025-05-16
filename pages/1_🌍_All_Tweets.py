@@ -76,7 +76,7 @@ with st.expander('**TENTANG**', expanded=True):
 graph = st.columns((2,2,6), gap='small')
 
 
-legend_path = 'C:\PA_Streamlit\data\legend.png'  # Ganti sesuai lokasi gambar
+legend_path = r".\data\legend.png"  # Ganti sesuai lokasi gambar
 with open(legend_path, "rb") as image_file:
     encoded_image = base64.b64encode(image_file.read()).decode()
 
