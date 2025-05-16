@@ -1,4 +1,5 @@
 from socket import gaierror
+from tempfile import template
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -12,6 +13,11 @@ import branca.colormap as cm
 import numpy as np
 import geopandas as gdp
 import plotly.graph_objects as go
+from folium.plugins import HeatMap
+from branca.element import Template, MacroElement, Html
+
+import base64
+from streamlit.components.v1 import html
 
 st.set_page_config(layout="wide")
 ## DEFINE DATA
@@ -36,7 +42,10 @@ list_month = {
     9: "September", 10: "Oktober", 11: "November", 12: "Desember", 13: "Semua Bulan"
 }
 
-st.write("# PERBANDINGAN DATA DINAS PARIWISATA DAN DATA TWEETS WISATA")
+st.markdown("""
+# <span style='color:orange; font-weight:bold; font-size:48px;'>PERBANDINGAN</span> DATA DINAS PARIWISATA DAN DATA TWEETS WISATA
+""", unsafe_allow_html=True)
+
 with st.expander(':orange[**TENTANG**]', expanded=True):
         st.write(
             '''
@@ -48,8 +57,8 @@ with st.expander(':orange[**TENTANG**]', expanded=True):
 component = st.columns((4,4,4), gap='medium')
 # select1, select2 = st.columns(2)
 # title = st.columns((1.5, 3.5, 3.5), gap='medium')
-title = st.columns((3,3), gap='small')
-col = st.columns((3, 3), gap='small')
+title = st.columns((4,4, 1), gap='small')
+col = st.columns((4, 4, 1), gap='small')
 st.markdown("### 📊 Insight Cepat")
 st.markdown(f"- 🗓️ **Bulan dengan tweet terbanyak:** `January` sebanyak **299 tweet**")
 st.markdown(f"- 📍 **Destinasi terpopuler:** `Malioboro` dengan **380 tweet**")
@@ -66,17 +75,20 @@ with st.expander('**TENTANG**', expanded=True):
 
 graph = st.columns((2,2,6), gap='small')
 
+
+legend_path = 'C:\PA_Streamlit\data\legend.png'  # Ganti sesuai lokasi gambar
+with open(legend_path, "rb") as image_file:
+    encoded_image = base64.b64encode(image_file.read()).decode()
+
 def dinparMap():
-    # Konversi nama kolom dalam dataset menjadi lowercase
+    # Konversi nama kolom menjadi lowercase
     dinpar_df.columns = dinpar_df.columns.str.lower()
 
-    # **Menampilkan Select Box dengan Nama Bulan**
+    # Select box bulan
     selected_month_name = st.selectbox("Pilih Bulan", list(list_month.values()))
-
-    # **Mendapatkan angka bulan dari nama bulan yang dipilih**
     selected_month = {v: k for k, v in list_month.items()}[selected_month_name]
 
-    # **Filtering Data**
+    # Filter data sesuai bulan
     if selected_month == 13:
         month_columns = [str(i) for i in range(1, 13)]
         dinpar_df["count"] = dinpar_df[month_columns].sum(axis=1)
@@ -105,7 +117,7 @@ def dinparMap():
     else:
         st.warning("Tidak ada data lokasi untuk bulan yang dipilih.")
 
-    # Tambahkan Layer Control
+    # Tambahkan Tile Layers dan Layer Control SEBELUM ambil HTML
     folium.TileLayer('CartoDB Positron', name="CartoDB Positron").add_to(basemapWisata)
     folium.TileLayer('CartoDB Voyager', name="CartoDB Voyager").add_to(basemapWisata)
     folium.TileLayer('CartoDB DarkMatter', name="CartoDB DarkMatter").add_to(basemapWisata)
@@ -230,6 +242,13 @@ with col[0]:
 with col[1]:
     tweetMap()
 
+with col[2]:
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("") 
+    st.image("C:\PA_Streamlit\data\legenda_2.png", caption="Legenda")
     
 with graph[0]:
     # Declare Date to Filtering
@@ -281,7 +300,7 @@ crawled_month = crawled_month.sort_values("month")
 fig_monthly = go.Figure(go.Bar(
         x=crawled_month["month"],
         y=crawled_month["count"],
-        marker=dict(color="royalblue"),
+        # marker=dict(color="royalblue"),
         text=crawled_month["count"],
         textposition="outside"
     ))
@@ -296,13 +315,62 @@ fig_monthly.update_layout(
         margin=dict(t=50, b=50)
     )
 
+# --- Grafik dinpar per bulan ---
+month_columns = [str(i) for i in range(1, 13)]
+dinpar_month_sum = dinpar_df[month_columns].sum()
+monthly_dinpar = pd.DataFrame({
+    "Bulan": month_order,
+    "Jumlah Kunjungan": dinpar_month_sum.values
+})
 
-col1, col2 = st.columns(2)
+dinpar_fig = go.Figure(go.Bar(
+        x=monthly_dinpar["Bulan"],
+        y=monthly_dinpar["Jumlah Kunjungan"],
+        text=monthly_dinpar["Jumlah Kunjungan"],
+        textposition='outside'
+))
 
-with col1:
+dinpar_fig.update_layout(
+        title="Jumlah Kunjungan Wisata per Bulan (Dinas Pariwisata)",
+        xaxis_title="Bulan",
+        yaxis_title="Jumlah Kunjungan",
+        xaxis=dict(tickangle=-45),
+        template="plotly_dark",
+        font=dict(size=12),
+        margin=dict(t=50, b=50)
+    )
+
+col11, col12 = st.columns(2)
+
+col21, col22 = st.columns(2)
+
+with col11:
+    st.plotly_chart(dinpar_fig, use_container_width=True)
+
+with col12:
     st.plotly_chart(fig_monthly, use_container_width=True)
 
-with col2:
+with col21:
+    dinpar_cols = dinpar_df[['dtw', '13']].sort_values(by='13', ascending=False).head(10)
+    # Buat grafik batang
+    dinpar_10_fig = px.bar(
+        dinpar_cols,
+        x='dtw',
+        y='13',
+        labels={'dtw': "Lokasi Wisata", "13":"Jumlah Pengunjung"},
+        text_auto=True
+    )
+    dinpar_10_fig.update_layout(
+        title="10 Destinasi Wisata Terpopuler (Data Dinas Pariwisata)",
+        template="plotly_dark",
+        xaxis_tickangle=-45,
+        font=dict(size=12),
+        margin=dict(t=50, b=50)
+    )
+    # Tampilkan grafik
+    st.plotly_chart(dinpar_10_fig)
+
+with col22:
     # Hitung jumlah penyebutan keyword (matched_keyword)
     jumlah_counts = crawled_df['matched_keyword'].value_counts().reset_index()
     jumlah_counts.columns = ['matched_keyword', 'jumlah']
@@ -322,7 +390,7 @@ with col2:
         text_auto=True
         )
     crawled_10_fig.update_layout(
-        title="10 Destinasi Wisata Terpopuler",
+        title="10 Destinasi Wisata Terpopuler (Data Sosial Media X)",
         template="plotly_dark",
         xaxis_tickangle=-45,
         font=dict(size=12),

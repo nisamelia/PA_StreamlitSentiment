@@ -10,13 +10,17 @@ from wordcloud import STOPWORDS, WordCloud
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
+from folium import IFrame, Popup
+import base64
 
 st.set_page_config(layout="wide")
 sentiment_df = pd.read_csv(r"./data/sa_vader.csv")
 sentiment_df.rename(columns={"bujur": "longitude", "lintang": "latitude"}, inplace=True)
 grouped_df = sentiment_df.groupby(["latitude", "longitude", "klasifikasi_vader", "stopwords", "stemmed", "matched_keyword", "created_at"]).size().reset_index(name="count")
 
-st.write("# ANALISIS SENTIMEN PENGGUNA SOSIAL MEDIA X TERHADAP WISATA DIY 2023")
+st.markdown("""
+# <span style='color:orange; font-weight:bold; font-size:48px;'>ANALISIS SENTIMEN</span> PENGGUNA SOSIAL MEDIA X TERHADAP WISATA DIY 2023
+""", unsafe_allow_html=True)
 with st.expander(':orange[**TENTANG**]', expanded=True):
         st.write(
             '''
@@ -40,7 +44,6 @@ filtered_df = grouped_df[grouped_df["klasifikasi_vader"] == chosen_sentiment].co
 
 def heatmapSentiment():
     map_type = st.selectbox("Pilih Jenis Peta:", ["Heatmap", "Dotmap"])
-
     jumlah_counts = filtered_df['matched_keyword'].value_counts().reset_index()
     jumlah_counts.columns = ['matched_keyword', 'jumlah']
     crawled_count = filtered_df.drop_duplicates(subset=['matched_keyword'])
@@ -77,6 +80,26 @@ def heatmapSentiment():
     else:
         st.write("### Heatmap Sentiment Tweets")
         HeatMap(filtered_df[['latitude', 'longitude']], zoom=100, radius=15).add_to(m)
+        # Ambil titik koordinat
+        lat = -7.601157772174116
+        lon = 110.96561597343998
+
+        # Encode gambar ke base64
+        image_path = 'C:\PA_Streamlit\data\legenda_2.png'
+        encoded = base64.b64encode(open(image_path, 'rb').read()).decode()
+
+        # Buat elemen HTML langsung untuk ditampilkan di peta
+        html = f'''
+        <div style="border:2px solid #666; background:white; padding:5px;">
+            <img src="data:image/png;base64,{encoded}" width="200" height="175">
+        </div>
+        '''
+
+        # Tambahkan sebagai Marker dengan DivIcon
+        folium.Marker(
+            location=[lat, lon],
+            icon=folium.DivIcon(html=html)
+        ).add_to(m)
 
     folium.LayerControl(position="topright").add_to(m)
     folium_static(m)
@@ -191,9 +214,10 @@ def diagramSentiment(sentiment_df):
             with col:
                 st.markdown(f"{icon} **{percent}%**<br><span style='color:gray'>{label}</span>", unsafe_allow_html=True)
 
-col = st.columns((6, 3), gap='medium')
+col = st.columns((7,  4), gap='medium')
 
 with col[0]:
+
     heatmapSentiment()
 
 with col[1]:
