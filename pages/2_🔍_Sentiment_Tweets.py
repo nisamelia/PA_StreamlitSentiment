@@ -1,16 +1,12 @@
 import folium
-from numpy import mean
 import streamlit as st
-import pydeck as pdk
 import pandas as pd
-from streamlit_folium import st_folium
 from folium.plugins import HeatMap, Fullscreen, MarkerCluster
 from streamlit_folium import folium_static
 from wordcloud import STOPWORDS, WordCloud
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-from folium import IFrame, Popup
 import base64
 
 st.set_page_config(layout="wide")
