@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import base64
+import os
 
 st.set_page_config(layout="wide")
 sentiment_df = pd.read_csv(r"./data/sa_vader.csv")
@@ -81,7 +82,8 @@ def heatmapSentiment():
         lon = 110.96561597343998
 
         # Encode gambar ke base64
-        image_path = r".\data\legenda_2.png"
+        base_path = os.path.dirname(os.path.abspath(__file__))
+        image_path = os.path.join(base_path, "..", "data", "legenda_2.png")
         encoded = base64.b64encode(open(image_path, 'rb').read()).decode()
 
         # Buat elemen HTML langsung untuk ditampilkan di peta
