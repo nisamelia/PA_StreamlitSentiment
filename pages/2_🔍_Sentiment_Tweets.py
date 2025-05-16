@@ -81,7 +81,7 @@ def heatmapSentiment():
         lon = 110.96561597343998
 
         # Encode gambar ke base64
-        image_path = r'.\data\legenda_2.png'
+        image_path = r".\data\legenda_2.png"
         encoded = base64.b64encode(open(image_path, 'rb').read()).decode()
 
         # Buat elemen HTML langsung untuk ditampilkan di peta
