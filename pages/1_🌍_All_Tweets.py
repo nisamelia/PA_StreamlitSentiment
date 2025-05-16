@@ -248,7 +248,7 @@ with col[2]:
     st.write("")
     st.write("")
     st.write("") 
-    st.image("C:\PA_Streamlit\data\legenda_2.png", caption="Legenda")
+    st.image(r".\data\legenda_2.png", caption="Legenda")
     
 with graph[0]:
     # Declare Date to Filtering
