@@ -15,7 +15,7 @@ import geopandas as gdp
 import plotly.graph_objects as go
 from folium.plugins import HeatMap
 from branca.element import Template, MacroElement, Html
-
+import os
 import base64
 from streamlit.components.v1 import html
 
@@ -23,6 +23,12 @@ st.set_page_config(layout="wide")
 ## DEFINE DATA
 dinpar_df = pd.read_csv(r"./data/dtw_jumlah_dinpar.csv")
 crawled_df = pd.read_csv(r"./data/sa_vader.csv")
+
+base_path = os.path.dirname(os.path.abspath(__file__))
+legend_path = os.path.join(base_path, "..", "data", "legenda_2.png")
+# legend_path = r"./data/legend.png"  # Ganti sesuai lokasi gambar
+# with open(legend_path, "rb") as image_file:
+#     encoded_image = base64.b64encode(image_file.read()).decode()
 
 # Convert Date Time
 def load_data():
@@ -74,11 +80,6 @@ with st.expander('**TENTANG**', expanded=True):
     )
 
 graph = st.columns((2,2,6), gap='small')
-
-
-legend_path = r"./data/legend.png"  # Ganti sesuai lokasi gambar
-with open(legend_path, "rb") as image_file:
-    encoded_image = base64.b64encode(image_file.read()).decode()
 
 def dinparMap():
     # Konversi nama kolom menjadi lowercase
@@ -248,7 +249,7 @@ with col[2]:
     st.write("")
     st.write("")
     st.write("") 
-    st.image(r".\data\legenda_2.png", caption="Legenda")
+    st.image(legend_path, caption="Legenda")
     
 with graph[0]:
     # Declare Date to Filtering
