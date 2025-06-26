@@ -189,11 +189,12 @@ def dinparMap():
             z="normalized",
             radius=30,
             center={"lat": -7.949695, "lon": 110.492840},
-            zoom=8.5,
+            zoom=8.25,
             mapbox_style="carto-positron",
             hover_name="dtw",
             hover_data={"count": True, "normalized": False},
-            color_continuous_scale="Plasma"
+            color_continuous_scale="RdYlGn_r",
+            opacity=0.8
         )
 
         fig.update_layout(
@@ -223,10 +224,10 @@ def dinparMap():
             size="count",
             color="count",
             size_max=40,
-            zoom=8.5,
+            zoom=8.25,
             center={"lat": -7.949695, "lon": 110.492840},
             mapbox_style="carto-positron",
-            color_continuous_scale="Viridis",
+            color_continuous_scale="Spectral_r",
             hover_name="dtw",
             hover_data={"count": True}
         )
@@ -264,7 +265,7 @@ def dinparMap():
             data=df,
             get_position='[bujur, lintang]',
             get_elevation="count",
-            elevation_scale=0.1,
+            elevation_scale=0.05,
             radius=400,
             get_fill_color="color",
             pickable=True,
@@ -275,7 +276,7 @@ def dinparMap():
         view_state = pdk.ViewState(
             latitude=-7.949695,
             longitude=110.492840,
-            zoom=8.5,
+            zoom=8.25,
             pitch=60,
             bearing=0
         )
@@ -323,13 +324,14 @@ def tweetMap():
             lat="lintang",
             lon="bujur",
             z="normalized",
-            radius=45,
+            radius=40,
             center={"lat": -7.949695, "lon": 110.492840},
-            zoom=8.5,
+            zoom=8.25,
             mapbox_style="carto-positron",
             hover_name="matched_keyword",
             hover_data={"count": True, "normalized": False},
-            color_continuous_scale="Plasma"
+            color_continuous_scale="RdYlGn_r",
+            opacity=0.7
         )
 
         fig.update_layout(
@@ -359,10 +361,10 @@ def tweetMap():
             size="count",
             color="count",
             size_max=40,
-            zoom=8.5,
+            zoom=8.25,
             center={"lat": -7.949695, "lon": 110.492840},
             mapbox_style="carto-positron",
-            color_continuous_scale="Viridis",
+            color_continuous_scale="Spectral_r",
             hover_name="matched_keyword",
             hover_data={"count": True}
         )
@@ -495,10 +497,10 @@ with component[2]:
         )
 
 with title[0]:
-     st.subheader(f"Heatmap Pengunjung Wisata DIY 2023")
+     st.subheader(f"Peta Pengunjung Wisata DIY 2023")
 
 with title[1]:
-    st.subheader(f"Heatmap Tweets Wisata DIY 2023")
+    st.subheader(f"Peta Tweets Wisata DIY 2023")
 
 with col[0]:
     dinparMap()

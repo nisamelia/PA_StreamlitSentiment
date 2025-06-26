@@ -32,6 +32,8 @@ with st.expander(':orange[**TENTANG**]', expanded=True):
             '''
         )
 
+st.subheader(f"Peta Sentimen Wisata DIY 2023")
+
 # def generateSentimentMap(default_location=[-7.949695, 110.492840], default_zoom_start=9.25):
 #     base_map = folium.Map(location=default_location, zoom_start=default_zoom_start, control_scale=True)
 #     return base_map
@@ -124,11 +126,12 @@ def heatmapSentiment():
             z="normalized",
             radius=40,
             center={"lat": -7.949695, "lon": 110.492840},
-            zoom=8.5,
+            zoom=8.25,
             mapbox_style="carto-positron",
             hover_name="matched_keyword",
             hover_data={"count": True, "normalized": False},
-            color_continuous_scale="Plasma"
+            color_continuous_scale="RdYlGn_r",
+            opacity=0.7
         )
 
         fig.update_layout(
@@ -338,7 +341,6 @@ def diagramSentiment(sentiment_df):
 col = st.columns((7,  4), gap='medium')
 
 with col[0]:
-
     heatmapSentiment()
 
 with col[1]:
