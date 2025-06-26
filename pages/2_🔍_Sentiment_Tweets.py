@@ -7,8 +7,11 @@ from wordcloud import STOPWORDS, WordCloud
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-import base64
-import os
+import pydeck as pdk
+import matplotlib.cm as cm
+import matplotlib.colors as mcolors
+import plotly.express as px
+import numpy as np
 
 st.set_page_config(layout="wide")
 sentiment_df = pd.read_csv(r"./data/sa_vader.csv")
@@ -29,9 +32,9 @@ with st.expander(':orange[**TENTANG**]', expanded=True):
             '''
         )
 
-def generateSentimentMap(default_location=[-7.949695, 110.492840], default_zoom_start=9.25):
-    base_map = folium.Map(location=default_location, zoom_start=default_zoom_start, control_scale=True)
-    return base_map
+# def generateSentimentMap(default_location=[-7.949695, 110.492840], default_zoom_start=9.25):
+#     base_map = folium.Map(location=default_location, zoom_start=default_zoom_start, control_scale=True)
+#     return base_map
 
 # Sidebar untuk memilih sentimen
 btn_sentiment = grouped_df["klasifikasi_vader"].unique()
@@ -39,68 +42,188 @@ chosen_sentiment = st.selectbox("Pilih Sentimen :", btn_sentiment)
 filtered_df = grouped_df[grouped_df["klasifikasi_vader"] == chosen_sentiment].copy()
 
 
+# def heatmapSentiment():
+#     map_type = st.selectbox("Pilih Jenis Peta:", ["Heatmap", "Dotmap"])
+#     jumlah_counts = filtered_df['matched_keyword'].value_counts().reset_index()
+#     jumlah_counts.columns = ['matched_keyword', 'jumlah']
+#     crawled_count = filtered_df.drop_duplicates(subset=['matched_keyword'])
+#     crawled_count = crawled_count.merge(jumlah_counts, on='matched_keyword', how='left')
+
+#     m = generateSentimentMap()
+
+#     Fullscreen(
+#         position="topright",
+#         title="Expand me",
+#         title_cancel="Exit me",
+#         force_separate_button=True,
+#     ).add_to(m)
+
+#     if map_type == "Dotmap":
+#         st.write("### Dotmap Sentiment Tweets")
+
+#         marker_cluster = MarkerCluster().add_to(m)
+
+#         for idx, row in crawled_count.iterrows():
+#             popup_text = f"""
+#             <b>Lokasi Wisata:</b> {row['matched_keyword']}<br>
+#             <b>Jumlah Tweet:</b> {row['jumlah']}
+#             """
+#             folium.CircleMarker(
+#                 location=[row['latitude'], row['longitude']],
+#                 radius=5 + row['jumlah'] * 0.5,
+#                 color='blue',
+#                 fill=True,
+#                 fill_opacity=0.7,
+#                 popup=folium.Popup(popup_text, max_width=250)
+#             ).add_to(marker_cluster)
+
+#     else:
+#         st.write("### Heatmap Sentiment Tweets")
+#         HeatMap(filtered_df[['latitude', 'longitude']], zoom=100, radius=15).add_to(m)
+#         # Ambil titik koordinat
+#         lat = -7.601157772174116
+#         lon = 110.96561597343998
+
+#         # Encode gambar ke base64
+#         base_path = os.path.dirname(os.path.abspath(__file__))
+#         image_path = os.path.join(base_path, "..", "data", "legenda_2.png")
+#         encoded = base64.b64encode(open(image_path, 'rb').read()).decode()
+
+#         # Buat elemen HTML langsung untuk ditampilkan di peta
+#         html = f'''
+#         <div style="border:2px solid #666; background:white; padding:5px;">
+#             <img src="data:image/png;base64,{encoded}" width="200" height="175">
+#         </div>
+#         '''
+
+#         # Tambahkan sebagai Marker dengan DivIcon
+#         folium.Marker(
+#             location=[lat, lon],
+#             icon=folium.DivIcon(html=html)
+#         ).add_to(m)
+
+#     folium.LayerControl(position="topright").add_to(m)
+#     folium_static(m)
+
 def heatmapSentiment():
-    map_type = st.selectbox("Pilih Jenis Peta:", ["Heatmap", "Dotmap"])
-    jumlah_counts = filtered_df['matched_keyword'].value_counts().reset_index()
-    jumlah_counts.columns = ['matched_keyword', 'jumlah']
-    crawled_count = filtered_df.drop_duplicates(subset=['matched_keyword'])
-    crawled_count = crawled_count.merge(jumlah_counts, on='matched_keyword', how='left')
+    map_type = st.selectbox(
+        "Pilih Jenis Peta (Tweet)",
+        ["Heatmap", "Proportional Symbol Map", "3D Column Map"],
+        key="sentiment_map_type"
+    )
 
-    m = generateSentimentMap()
+    # Hitung jumlah tweet per lokasi
+    agg = filtered_df.groupby(["matched_keyword", "latitude", "longitude"]).size().reset_index(name="count")
+    agg["normalized"] = np.log1p(agg["count"]) / np.log1p(agg["count"].max())
 
-    Fullscreen(
-        position="topright",
-        title="Expand me",
-        title_cancel="Exit me",
-        force_separate_button=True,
-    ).add_to(m)
+    if map_type == "Heatmap":
+        fig = px.density_mapbox(
+            agg,
+            lat="latitude",
+            lon="longitude",
+            z="normalized",
+            radius=40,
+            center={"lat": -7.949695, "lon": 110.492840},
+            zoom=8.5,
+            mapbox_style="carto-positron",
+            hover_name="matched_keyword",
+            hover_data={"count": True, "normalized": False},
+            color_continuous_scale="Plasma"
+        )
 
-    if map_type == "Dotmap":
-        st.write("### Dotmap Sentiment Tweets")
+        fig.update_layout(
+            margin={"r": 0, "t": 0, "l": 0, "b": 0},
+            coloraxis_colorbar=dict(
+                title=dict(text="Jumlah Tweet", font=dict(color="black", size=12)),
+                orientation="h",
+                yanchor="bottom",
+                y=0,
+                xanchor="center",
+                x=0.5,
+                thickness=15,
+                len=0.7,
+                tickvals=[0.0, 0.5, 1.0],
+                ticktext=["Rendah", "Sedang", "Tinggi"],
+                tickfont=dict(color="black")
+            )
+        )
 
-        marker_cluster = MarkerCluster().add_to(m)
+        st.plotly_chart(fig, use_container_width=True)
 
-        for idx, row in crawled_count.iterrows():
-            popup_text = f"""
-            <b>Lokasi Wisata:</b> {row['matched_keyword']}<br>
-            <b>Jumlah Tweet:</b> {row['jumlah']}
-            """
-            folium.CircleMarker(
-                location=[row['latitude'], row['longitude']],
-                radius=5 + row['jumlah'] * 0.5,
-                color='blue',
-                fill=True,
-                fill_opacity=0.7,
-                popup=folium.Popup(popup_text, max_width=250)
-            ).add_to(marker_cluster)
+    elif map_type == "Proportional Symbol Map":
+        fig = px.scatter_mapbox(
+            agg,
+            lat="latitude",
+            lon="longitude",
+            size="count",
+            color="count",
+            size_max=35,
+            zoom=8.5,
+            center={"lat": -7.949695, "lon": 110.492840},
+            mapbox_style="carto-positron",
+            color_continuous_scale="Viridis",
+            hover_name="matched_keyword",
+            hover_data={"count": True}
+        )
 
-    else:
-        st.write("### Heatmap Sentiment Tweets")
-        HeatMap(filtered_df[['latitude', 'longitude']], zoom=100, radius=15).add_to(m)
-        # Ambil titik koordinat
-        lat = -7.601157772174116
-        lon = 110.96561597343998
+        min_val = agg["count"].min()
+        max_val = agg["count"].max()
+        mid_val = (min_val + max_val) / 2
 
-        # Encode gambar ke base64
-        base_path = os.path.dirname(os.path.abspath(__file__))
-        image_path = os.path.join(base_path, "..", "data", "legenda_2.png")
-        encoded = base64.b64encode(open(image_path, 'rb').read()).decode()
+        fig.update_layout(
+            margin={"r": 0, "t": 0, "l": 0, "b": 0},
+            coloraxis_colorbar=dict(
+                title=dict(text="Jumlah Tweet", font=dict(color="black", size=12)),
+                orientation="h",
+                yanchor="bottom",
+                y=0,
+                xanchor="center",
+                x=0.5,
+                thickness=15,
+                len=0.7,
+                tickvals=[min_val, mid_val, max_val],
+                ticktext=["Rendah", "Sedang", "Tinggi"],
+                tickfont=dict(color="black")
+            )
+        )
 
-        # Buat elemen HTML langsung untuk ditampilkan di peta
-        html = f'''
-        <div style="border:2px solid #666; background:white; padding:5px;">
-            <img src="data:image/png;base64,{encoded}" width="200" height="175">
-        </div>
-        '''
+        st.plotly_chart(fig, use_container_width=True)
 
-        # Tambahkan sebagai Marker dengan DivIcon
-        folium.Marker(
-            location=[lat, lon],
-            icon=folium.DivIcon(html=html)
-        ).add_to(m)
+    else:  # 3D COLUMN MAP
+        norm = mcolors.Normalize(vmin=agg["count"].min(), vmax=agg["count"].max())
+        colormap = cm.get_cmap("OrRd")
 
-    folium.LayerControl(position="topright").add_to(m)
-    folium_static(m)
+        agg["color"] = agg["count"].apply(lambda x: [int(c * 255) for c in colormap(norm(x))[:3]] + [200])
+
+        layer = pdk.Layer(
+            "ColumnLayer",
+            data=agg,
+            get_position='[longitude, latitude]',
+            get_elevation="count",
+            elevation_scale=150,
+            radius=400,
+            get_fill_color="color",
+            pickable=True,
+            auto_highlight=True,
+            extruded=True
+        )
+
+        view_state = pdk.ViewState(
+            latitude=-7.949695,
+            longitude=110.492840,
+            zoom=8.5,
+            pitch=60,
+            bearing=0
+        )
+
+        deck = pdk.Deck(
+            layers=[layer],
+            initial_view_state=view_state,
+            tooltip={"text": "{matched_keyword}\nJumlah Tweet: {count}"},
+            map_style=None  # atau "mapbox://styles/mapbox/light-v10"
+        )
+
+        st.pydeck_chart(deck)
 
 
 def topSentiment():

@@ -1,436 +1,436 @@
-﻿FID,Shape *,OID_,Name,FolderPath,SymbolID,AltMode,Base,Snippet,PopupInfo,HasLabel,LabelID,Latitude,Longitude,lower
-0,Point ZM,0,pantai sinden,Geocode_DTW_2_GMaps,0,-1,0, ,pantai sinden    <br>       <br>   FID   0    <br>   keyword_1   pantai sinden    <br>   wisata   pantai sinden    <br>   wisata_2   pantai sinden daerah istimewa yogyakarta    <br>   Latitude   -8.198854    <br>   Longitude   110.719674,-1,0,-8.198854,110.719674,pantai sinden
-1,Point ZM,0,pantai sedahan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai sedahan    <br>       <br>   FID   1    <br>   keyword_1   pantai sedahan    <br>   wisata   pantai sedahan    <br>   wisata_2   pantai sedahan daerah istimewa yogyakarta    <br>   Latitude   -8.197894    <br>   Longitude   110.720854,-1,0,-8.197894,110.720854,pantai sedahan
-2,Point ZM,0,pantai greweng,Geocode_DTW_2_GMaps,0,-1,0, ,pantai greweng    <br>       <br>   FID   2    <br>   keyword_1   pantai greweng    <br>   wisata   pantai greweng    <br>   wisata_2   pantai greweng daerah istimewa yogyakarta    <br>   Latitude   -8.197864    <br>   Longitude   110.718622,-1,0,-8.197864,110.718622,pantai greweng
-3,Point ZM,0,pantai jungwok,Geocode_DTW_2_GMaps,0,-1,0, ,pantai jungwok    <br>       <br>   FID   3    <br>   keyword_1   pantai jungwok    <br>   wisata   pantai jungwok    <br>   wisata_2   pantai jungwok daerah istimewa yogyakarta    <br>   Latitude   -8.197822    <br>   Longitude   110.71234,-1,0,-8.197822,110.71234,pantai jungwok
-4,Point ZM,0,pantai ngungap,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngungap    <br>       <br>   FID   4    <br>   keyword_1   pantai ngungap    <br>   wisata   pantai ngungap    <br>   wisata_2   pantai ngungap daerah istimewa yogyakarta    <br>   Latitude   -8.196232    <br>   Longitude   110.768497,-1,0,-8.196232,110.768497,pantai ngungap
-5,Point ZM,0,pantai sadeng,Geocode_DTW_2_GMaps,0,-1,0, ,pantai sadeng    <br>       <br>   FID   5    <br>   keyword_1   pantai sadeng    <br>   wisata   pantai sadeng    <br>   wisata_2   pantai sadeng daerah istimewa yogyakarta    <br>   Latitude   -8.190427    <br>   Longitude   110.798856,-1,0,-8.190427,110.798856,pantai sadeng
-6,Point ZM,0,pantai wedi ombo,Geocode_DTW_2_GMaps,0,-1,0, ,pantai wedi ombo    <br>       <br>   FID   6    <br>   keyword_1   pantai wedi ombo    <br>   wisata   pantai wedi ombo    <br>   wisata_2   pantai wedi ombo daerah istimewa yogyakarta    <br>   Latitude   -8.186246    <br>   Longitude   110.709901,-1,0,-8.186246,110.709901,pantai wedi ombo
-7,Point ZM,0,pantai watu lumbung,Geocode_DTW_2_GMaps,0,-1,0, ,pantai watu lumbung    <br>       <br>   FID   7    <br>   keyword_1   pantai watu lumbung    <br>   wisata   pantai watu lumbung    <br>   wisata_2   pantai watu lumbung daerah istimewa yogyakarta    <br>   Latitude   -8.186021    <br>   Longitude   110,-1,0,-8.186021,110.700279,pantai watu lumbung
-8,Point ZM,0,pantai nglambor,Geocode_DTW_2_GMaps,0,-1,0, ,pantai nglambor    <br>       <br>   FID   8    <br>   keyword_1   pantai nglambor    <br>   wisata   pantai nglambor    <br>   wisata_2   pantai nglambor daerah istimewa yogyakarta    <br>   Latitude   -8.182703    <br>   Longitude   110.67924,-1,0,-8.182703,110.67924,pantai nglambor
-9,Point ZM,0,pantai siung,Geocode_DTW_2_GMaps,0,-1,0, ,pantai siung    <br>       <br>   FID   9    <br>   keyword_1   pantai siung    <br>   wisata   pantai siung    <br>   wisata_2   pantai siung daerah istimewa yogyakarta    <br>   Latitude   -8.181823    <br>   Longitude   110.683239,-1,0,-8.181823,110.683239,pantai siung
-10,Point ZM,0,pantai ngondo,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngondo    <br>       <br>   FID   10    <br>   keyword_1   pantai ngondo    <br>   wisata   pantai ngondo    <br>   wisata_2   pantai ngondo daerah istimewa yogyakarta    <br>   Latitude   -8.180287    <br>   Longitude   110.675974,-1,0,-8.180287,110.675974,pantai ngondo
-11,Point ZM,0,pantai jogan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai jogan    <br>       <br>   FID   11    <br>   keyword_1   pantai jogan    <br>   wisata   pantai jogan    <br>   wisata_2   pantai jogan daerah istimewa yogyakarta    <br>   Latitude   -8.180135    <br>   Longitude   110.676372,-1,0,-8.180135,110.676372,pantai jogan
-12,Point ZM,0,pantai timang,Geocode_DTW_2_GMaps,0,-1,0, ,pantai timang    <br>       <br>   FID   12    <br>   keyword_1   pantai timang    <br>   wisata   pantai timang    <br>   wisata_2   pantai timang daerah istimewa yogyakarta    <br>   Latitude   -8.175927    <br>   Longitude   110.66242,-1,0,-8.175927,110.66242,pantai timang
-13,Point ZM,0,pantai ngetun,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngetun    <br>       <br>   FID   13    <br>   keyword_1   pantai ngetun    <br>   wisata   pantai ngetun    <br>   wisata_2   pantai ngetun daerah istimewa yogyakarta    <br>   Latitude   -8.170364    <br>   Longitude   110.652645,-1,0,-8.170364,110.652645,pantai ngetun
-14,Point ZM,0,pantai seruni,Geocode_DTW_2_GMaps,0,-1,0, ,pantai seruni    <br>       <br>   FID   14    <br>   keyword_1   pantai seruni    <br>   wisata   pantai seruni    <br>   wisata_2   pantai seruni daerah istimewa yogyakarta    <br>   Latitude   -8.159907    <br>   Longitude   110.631575,-1,0,-8.159907,110.631575,pantai seruni
-15,Point ZM,0,pantai pok tunggal,Geocode_DTW_2_GMaps,0,-1,0, ,pantai pok tunggal    <br>       <br>   FID   15    <br>   keyword_1   pantai pok tunggal    <br>   wisata   pantai pok tunggal    <br>   wisata_2   pantai pok tunggal daerah istimewa yogyakarta    <br>   Latitude   -8.155447    <br>   Longitude   110.62,-1,0,-8.155447,110.621758,pantai pok tunggal
-16,Point ZM,0,pantai indrayanti,Geocode_DTW_2_GMaps,0,-1,0, ,pantai indrayanti    <br>       <br>   FID   16    <br>   keyword_1   pantai indrayanti    <br>   wisata   pantai indrayanti    <br>   wisata_2   pantai indrayanti daerah istimewa yogyakarta    <br>   Latitude   -8.150736    <br>   Longitude   110.612346,-1,0,-8.150736,110.612346,pantai indrayanti
-17,Point ZM,0,pantai somadeng,Geocode_DTW_2_GMaps,0,-1,0, ,pantai somadeng    <br>       <br>   FID   17    <br>   keyword_1   pantai somadeng    <br>   wisata   pantai somadeng    <br>   wisata_2   pantai somadeng daerah istimewa yogyakarta    <br>   Latitude   -8.149095    <br>   Longitude   110.610116,-1,0,-8.149095,110.610116,pantai somadeng
-18,Point ZM,0,pantai sarangan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai sarangan    <br>       <br>   FID   18    <br>   keyword_1   pantai sarangan    <br>   wisata   pantai sarangan    <br>   wisata_2   pantai sarangan daerah istimewa yogyakarta    <br>   Latitude   -8.147566    <br>   Longitude   110.596249,-1,0,-8.147566,110.59625,pantai sarangan
-19,Point ZM,0,pantai sundak,Geocode_DTW_2_GMaps,0,-1,0, ,pantai sundak    <br>       <br>   FID   19    <br>   keyword_1   pantai sundak    <br>   wisata   pantai sundak    <br>   wisata_2   pantai sundak daerah istimewa yogyakarta    <br>   Latitude   -8.147072    <br>   Longitude   110.607904,-1,0,-8.147072,110.607904,pantai sundak
-20,Point ZM,0,pantai ngandong,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngandong    <br>       <br>   FID   20    <br>   keyword_1   pantai ngandong    <br>   wisata   pantai ngandong    <br>   wisata_2   pantai ngandong daerah istimewa yogyakarta    <br>   Latitude   -8.146423    <br>   Longitude   110.606141,-1,0,-8.146423,110.606141,pantai ngandong
-21,Point ZM,0,pantai sadranan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai sadranan    <br>       <br>   FID   21    <br>   keyword_1   pantai sadranan    <br>   wisata   pantai sadranan    <br>   wisata_2   pantai sadranan daerah istimewa yogyakarta    <br>   Latitude   -8.145668    <br>   Longitude   110.604391,-1,0,-8.145668,110.604391,pantai sadranan
-22,Point ZM,0,pantai krakal,Geocode_DTW_2_GMaps,0,-1,0, ,pantai krakal    <br>       <br>   FID   22    <br>   keyword_1   pantai krakal    <br>   wisata   pantai krakal    <br>   wisata_2   pantai krakal daerah istimewa yogyakarta    <br>   Latitude   -8.145102    <br>   Longitude   110.598801,-1,0,-8.145102,110.598801,pantai krakal
-23,Point ZM,0,pantai slili,Geocode_DTW_2_GMaps,0,-1,0, ,pantai slili    <br>       <br>   FID   23    <br>   keyword_1   pantai slili    <br>   wisata   pantai slili    <br>   wisata_2   pantai slili daerah istimewa yogyakarta    <br>   Latitude   -8.144966    <br>   Longitude   110.602877,-1,0,-8.144966,110.602877,pantai slili
-24,Point ZM,0,puncak kosakora,Geocode_DTW_2_GMaps,0,-1,0, ,puncak kosakora    <br>       <br>   FID   24    <br>   keyword_1   puncak kosakora    <br>   wisata   puncak kosakora    <br>   wisata_2   puncak kosakora daerah istimewa yogyakarta    <br>   Latitude   -8.141116    <br>   Longitude   110.584068,-1,0,-8.141116,110.584068,puncak kosakora
-25,Point ZM,0,pantai watu bolong,Geocode_DTW_2_GMaps,0,-1,0, ,pantai watu bolong    <br>       <br>   FID   25    <br>   keyword_1   pantai watu bolong    <br>   wisata   pantai watu bolong    <br>   wisata_2   pantai watu bolong daerah istimewa yogyakarta    <br>   Latitude   -8.139479    <br>   Longitude   110.58,-1,0,-8.139479,110.581013,pantai watu bolong
-26,Point ZM,0,pantai drini,Geocode_DTW_2_GMaps,0,-1,0, ,pantai drini    <br>       <br>   FID   26    <br>   keyword_1   pantai drini    <br>   wisata   pantai drini    <br>   wisata_2   pantai drini daerah istimewa yogyakarta    <br>   Latitude   -8.138451    <br>   Longitude   110.577522,-1,0,-8.138451,110.577522,pantai drini
-27,Point ZM,0,pantai watu kodok,Geocode_DTW_2_GMaps,0,-1,0, ,pantai watu kodok    <br>       <br>   FID   27    <br>   keyword_1   pantai watu kodok    <br>   wisata   pantai watu kodok    <br>   wisata_2   pantai watu kodok daerah istimewa yogyakarta    <br>   Latitude   -8.136983    <br>   Longitude   110.574151,-1,0,-8.136983,110.574152,pantai watu kodok
-28,Point ZM,0,pantai sepanjang,Geocode_DTW_2_GMaps,0,-1,0, ,pantai sepanjang    <br>       <br>   FID   28    <br>   keyword_1   pantai sepanjang    <br>   wisata   pantai sepanjang    <br>   wisata_2   pantai sepanjang daerah istimewa yogyakarta    <br>   Latitude   -8.136666    <br>   Longitude   110.565996,-1,0,-8.136666,110.565996,pantai sepanjang
-29,Point ZM,0,pantai kukup,Geocode_DTW_2_GMaps,0,-1,0, ,pantai kukup    <br>       <br>   FID   29    <br>   keyword_1   pantai kukup    <br>   wisata   pantai kukup    <br>   wisata_2   pantai kukup daerah istimewa yogyakarta    <br>   Latitude   -8.133712    <br>   Longitude   110.554743,-1,0,-8.133712,110.554743,pantai kukup
-30,Point ZM,0,pantai mbuluk,Geocode_DTW_2_GMaps,0,-1,0, ,pantai mbuluk    <br>       <br>   FID   30    <br>   keyword_1   pantai mbuluk    <br>   wisata   pantai mbuluk    <br>   wisata_2   pantai mbuluk daerah istimewa yogyakarta    <br>   Latitude   -8.133432    <br>   Longitude   110.552138,-1,0,-8.133432,110.552138,pantai mbuluk
-31,Point ZM,0,pantai ngrawe,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngrawe    <br>       <br>   FID   31    <br>   keyword_1   pantai ngrawe    <br>   wisata   pantai ngrawe    <br>   wisata_2   pantai ngrawe daerah istimewa yogyakarta    <br>   Latitude   -8.133339    <br>   Longitude   110.553741,-1,0,-8.133339,110.55374,pantai ngrawe
-32,Point ZM,0,pantai mesra,Geocode_DTW_2_GMaps,0,-1,0, ,pantai mesra    <br>       <br>   FID   32    <br>   keyword_1   pantai mesra    <br>   wisata   pantai mesra    <br>   wisata_2   pantai mesra daerah istimewa yogyakarta    <br>   Latitude   -8.132765    <br>   Longitude   110.553513,-1,0,-8.132765,110.553513,pantai mesra
-33,Point ZM,0,baron technopark,Geocode_DTW_2_GMaps,0,-1,0, ,baron technopark    <br>       <br>   FID   33    <br>   keyword_1   baron technopark    <br>   wisata   baron technopark    <br>   wisata_2   baron technopark daerah istimewa yogyakarta    <br>   Latitude   -8.132434    <br>   Longitude   110.543692,-1,0,-8.132434,110.543692,baron technopark
-34,Point ZM,0,pantai baron,Geocode_DTW_2_GMaps,0,-1,0, ,pantai baron    <br>       <br>   FID   34    <br>   keyword_1   pantai baron    <br>   wisata   pantai baron    <br>   wisata_2   pantai baron daerah istimewa yogyakarta    <br>   Latitude   -8.128825    <br>   Longitude   110.548776,-1,0,-8.128825,110.548776,pantai baron
-35,Point ZM,0,pantai midodaren,Geocode_DTW_2_GMaps,0,-1,0, ,pantai midodaren    <br>       <br>   FID   35    <br>   keyword_1   pantai midodaren    <br>   wisata   pantai midodaren    <br>   wisata_2   pantai midodaren daerah istimewa yogyakarta    <br>   Latitude   -8.125599    <br>   Longitude   110.521558,-1,0,-8.125599,110.521558,pantai midodaren
-36,Point ZM,0,pantai ngrawah,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngrawah    <br>       <br>   FID   36    <br>   keyword_1   pantai ngrawah    <br>   wisata   pantai ngrawah    <br>   wisata_2   pantai ngrawah daerah istimewa yogyakarta    <br>   Latitude   -8.125082    <br>   Longitude   110.520203,-1,0,-8.125082,110.520203,pantai ngrawah
-37,Point ZM,0,pantai torohudan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai torohudan    <br>       <br>   FID   37    <br>   keyword_1   pantai torohudan    <br>   wisata   pantai torohudan    <br>   wisata_2   pantai torohudan daerah istimewa yogyakarta    <br>   Latitude   -8.122563    <br>   Longitude   110.516296,-1,0,-8.122563,110.516296,pantai torohudan
-38,Point ZM,0,pantai ngrenehan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngrenehan    <br>       <br>   FID   38    <br>   keyword_1   pantai ngrenehan    <br>   wisata   pantai ngrenehan    <br>   wisata_2   pantai ngrenehan daerah istimewa yogyakarta    <br>   Latitude   -8.121147    <br>   Longitude   110.514234,-1,0,-8.121147,110.514234,pantai ngrenehan
-39,Point ZM,0,pantai dadap ayam,Geocode_DTW_2_GMaps,0,-1,0, ,pantai dadap ayam    <br>       <br>   FID   39    <br>   keyword_1   pantai dadap ayam    <br>   wisata   pantai dadap ayam    <br>   wisata_2   pantai dadap ayam daerah istimewa yogyakarta    <br>   Latitude   -8.120484    <br>   Longitude   110.507448,-1,0,-8.120484,110.507448,pantai dadap ayam
-40,Point ZM,0,pantai ngobaran,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngobaran    <br>       <br>   FID   40    <br>   keyword_1   pantai ngobaran    <br>   wisata   pantai ngobaran    <br>   wisata_2   pantai ngobaran daerah istimewa yogyakarta    <br>   Latitude   -8.118484    <br>   Longitude   110.502878,-1,0,-8.118484,110.502878,pantai ngobaran
-41,Point ZM,0,pantai nguyahan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai nguyahan    <br>       <br>   FID   41    <br>   keyword_1   pantai nguyahan    <br>   wisata   pantai nguyahan    <br>   wisata_2   pantai nguyahan daerah istimewa yogyakarta    <br>   Latitude   -8.118471    <br>   Longitude   110.50307,-1,0,-8.118471,110.50307,pantai nguyahan
-42,Point ZM,0,pantai ngedan,Geocode_DTW_2_GMaps,0,-1,0, ,pantai ngedan    <br>       <br>   FID   42    <br>   keyword_1   pantai ngedan    <br>   wisata   pantai ngedan    <br>   wisata_2   pantai ngedan daerah istimewa yogyakarta    <br>   Latitude   -8.116342    <br>   Longitude   110.496336,-1,0,-8.116342,110.496336,pantai ngedan
-43,Point ZM,0,pantai mbirit,Geocode_DTW_2_GMaps,0,-1,0, ,pantai mbirit    <br>       <br>   FID   43    <br>   keyword_1   pantai mbirit    <br>   wisata   pantai mbirit    <br>   wisata_2   pantai mbirit daerah istimewa yogyakarta    <br>   Latitude   -8.112917    <br>   Longitude   110.488306,-1,0,-8.112917,110.488306,pantai mbirit
-44,Point ZM,0,desa kemadang,Geocode_DTW_2_GMaps,0,-1,0, ,desa kemadang    <br>       <br>   FID   44    <br>   keyword_1   desa kemadang    <br>   wisata   desa kemadang    <br>   wisata_2   desa kemadang daerah istimewa yogyakarta    <br>   Latitude   -8.110714    <br>   Longitude   110.563259,-1,0,-8.110714,110.563259,desa kemadang
-45,Point ZM,0,Pantai Buron,Geocode_DTW_2_GMaps,0,-1,0, ,Pantai Buron    <br>       <br>   FID   45    <br>   keyword_1   Pantai Buron    <br>   wisata   Pantai Buron    <br>   wisata_2   Pantai Buron daerah istimewa yogyakarta    <br>   Latitude   -8.109705    <br>   Longitude   110.468732,-1,0,-8.109705,110.468732,pantai buron
-46,Point ZM,0,pantai gesing,Geocode_DTW_2_GMaps,0,-1,0, ,pantai gesing    <br>       <br>   FID   46    <br>   keyword_1   pantai gesing    <br>   wisata   pantai gesing    <br>   wisata_2   pantai gesing daerah istimewa yogyakarta    <br>   Latitude   -8.108578    <br>   Longitude   110.467937,-1,0,-8.108456,110.468763,pantai gesing
-47,Point ZM,0,desa wisata sidoharjo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata sidoharjo    <br>       <br>   FID   47    <br>   keyword_1   desa wisata sidoharjo    <br>   wisata   desa wisata sidoharjo    <br>   wisata_2   desa wisata sidoharjo daerah istimewa yogyakarta    <br>   Latitude   -8.108201    <br>   Longit,-1,0,-8.108201,110.630743,desa wisata sidoharjo
-48,Point ZM,0,heha ocean,Geocode_DTW_2_GMaps,0,-1,0, ,heha ocean    <br>       <br>   FID   48    <br>   keyword_1   heha ocean    <br>   wisata   heha ocean    <br>   wisata_2   heha ocean daerah istimewa yogyakarta    <br>   Latitude   -8.106066    <br>   Longitude   110.46151,-1,0,-8.106066,110.46151,heha ocean
-49,Point ZM,0,desa ngestirejo,Geocode_DTW_2_GMaps,0,-1,0, ,desa ngestirejo    <br>       <br>   FID   49    <br>   keyword_1   desa ngestirejo    <br>   wisata   desa ngestirejo    <br>   wisata_2   desa ngestirejo daerah istimewa yogyakarta    <br>   Latitude   -8.105788    <br>   Longitude   110.607953,-1,0,-8.105788,110.607953,desa ngestirejo
-50,Point ZM,0,puncak segoro,Geocode_DTW_2_GMaps,0,-1,0, ,puncak segoro    <br>       <br>   FID   50    <br>   keyword_1   puncak segoro    <br>   wisata   puncak segoro    <br>   wisata_2   puncak segoro daerah istimewa yogyakarta    <br>   Latitude   -8.101746    <br>   Longitude   110.455602,-1,0,-8.101746,110.455602,puncak segoro
-51,Point ZM,0,pantai wohkudu,Geocode_DTW_2_GMaps,0,-1,0, ,pantai wohkudu    <br>       <br>   FID   51    <br>   keyword_1   pantai wohkudu    <br>   wisata   pantai wohkudu    <br>   wisata_2   pantai wohkudu daerah istimewa yogyakarta    <br>   Latitude   -8.098882    <br>   Longitude   110.440563,-1,0,-8.098882,110.440563,pantai wohkudu
-52,Point ZM,0,pantai kesirat,Geocode_DTW_2_GMaps,0,-1,0, ,pantai kesirat    <br>       <br>   FID   52    <br>   keyword_1   pantai kesirat    <br>   wisata   pantai kesirat    <br>   wisata_2   pantai kesirat daerah istimewa yogyakarta    <br>   Latitude   -8.096153    <br>   Longitude   110.435048,-1,0,-8.096154,110.435048,pantai kesirat
-53,Point ZM,0,pantai grigak,Geocode_DTW_2_GMaps,0,-1,0, ,pantai grigak    <br>       <br>   FID   53    <br>   keyword_1   pantai grigak    <br>   wisata   pantai grigak    <br>   wisata_2   pantai grigak daerah istimewa yogyakarta    <br>   Latitude   -8.092101    <br>   Longitude   110.433973,-1,0,-8.092101,110.433973,pantai grigak
-54,Point ZM,0,Goa bentar the swargoloka adventure,Geocode_DTW_2_GMaps,0,-1,0, ,Goa bentar the swargoloka adventure    <br>       <br>   FID   54    <br>   keyword_1   Goa bentar the swargoloka adventure    <br>   wisata   Goa bentar the swargoloka adventure    <br>   wisata_2   Goa bentar the swargoloka adventure daerah istimewa yo,-1,0,-8.070566,110.637434,goa bentar the swargoloka adventure
-55,Point ZM,0,goa braholo,Geocode_DTW_2_GMaps,0,-1,0, ,goa braholo    <br>       <br>   FID   55    <br>   keyword_1   goa braholo    <br>   wisata   goa braholo    <br>   wisata_2   goa braholo daerah istimewa yogyakarta    <br>   Latitude   -8.069657    <br>   Longitude   110.748696,-1,0,-8.069657,110.748696,goa braholo
-56,Point ZM,0,candi sari,Geocode_DTW_2_GMaps,0,-1,0, ,candi sari    <br>       <br>   FID   56    <br>   keyword_1   candi sari    <br>   wisata   candi sari    <br>   wisata_2   candi sari daerah istimewa yogyakarta    <br>   Latitude   -8.047503    <br>   Longitude   110.612423,-1,0,-8.047503,110.612423,candi sari
-57,Point ZM,0,goa langse,Geocode_DTW_2_GMaps,0,-1,0, ,goa langse    <br>       <br>   FID   57    <br>   keyword_1   goa langse    <br>   wisata   goa langse    <br>   wisata_2   goa langse daerah istimewa yogyakarta    <br>   Latitude   -8.04034    <br>   Longitude   110.348655,-1,0,-8.04034,110.348655,goa langse
-58,Point ZM,0,gunung bagus,Geocode_DTW_2_GMaps,0,-1,0, ,gunung bagus    <br>       <br>   FID   58    <br>   keyword_1   gunung bagus    <br>   wisata   gunung bagus    <br>   wisata_2   gunung bagus daerah istimewa yogyakarta    <br>   Latitude   -8.033375    <br>   Longitude   110.55894,-1,0,-8.033375,110.55894,gunung bagus
-59,Point ZM,0,pantai parang endog,Geocode_DTW_2_GMaps,0,-1,0, ,pantai parang endog    <br>       <br>   FID   59    <br>   keyword_1   pantai parang endog    <br>   wisata   pantai parang endog    <br>   wisata_2   pantai parang endog daerah istimewa yogyakarta    <br>   Latitude   -8.029949    <br>   Longitude   11,-1,0,-8.029949,110.344312,pantai parang endog
-60,Point ZM,0,goa jomblang,Geocode_DTW_2_GMaps,0,-1,0, ,goa jomblang    <br>       <br>   FID   60    <br>   keyword_1   goa jomblang    <br>   wisata   goa jomblang    <br>   wisata_2   goa jomblang daerah istimewa yogyakarta    <br>   Latitude   -8.028156    <br>   Longitude   110.638331,-1,0,-8.028156,110.638331,goa jomblang
-61,Point ZM,0,watu gupit,Geocode_DTW_2_GMaps,0,-1,0, ,watu gupit    <br>       <br>   FID   61    <br>   keyword_1   watu gupit    <br>   wisata   bukit paralayang watu gupit    <br>   wisata_2   bukit paralayang watu gupit daerah istimewa yogyakarta    <br>   Latitude   -8.026855    <br>   Longitude   110.,-1,0,-8.026855,110.345912,watu gupit
-62,Point ZM,0,pantai parangtritis,Geocode_DTW_2_GMaps,0,-1,0, ,pantai parangtritis    <br>       <br>   FID   62    <br>   keyword_1   pantai parangtritis    <br>   wisata   pantai parangtritis    <br>   wisata_2   pantai parangtritis daerah istimewa yogyakarta    <br>   Latitude   -8.024608    <br>   Longitude   11,-1,0,-8.024608,110.329804,pantai parangtritis
-63,Point ZM,0,pantai parangkusumo,Geocode_DTW_2_GMaps,0,-1,0, ,pantai parangkusumo    <br>       <br>   FID   63    <br>   keyword_1   pantai parangkusumo    <br>   wisata   pantai parangkusumo    <br>   wisata_2   pantai parangkusumo daerah istimewa yogyakarta    <br>   Latitude   -8.022769    <br>   Longitude   11,-1,0,-8.022769,110.324995,pantai parangkusumo
-64,Point ZM,0,desa wisata pacarejo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata pacarejo    <br>       <br>   FID   64    <br>   keyword_1   desa wisata pacarejo    <br>   wisata   desa wisata pacarejo    <br>   wisata_2   desa wisata pacarejo daerah istimewa yogyakarta    <br>   Latitude   -8.020816    <br>   Longitude,-1,0,-8.020816,110.604973,desa wisata pacarejo
-65,Point ZM,0,pantai cemoro sewu,Geocode_DTW_2_GMaps,0,-1,0, ,pantai cemoro sewu    <br>       <br>   FID   65    <br>   keyword_1   pantai cemoro sewu    <br>   wisata   pantai cemoro sewu    <br>   wisata_2   pantai cemoro sewu daerah istimewa yogyakarta    <br>   Latitude   -8.019114    <br>   Longitude   110.31,-1,0,-8.019114,110.314562,pantai cemoro sewu
-66,Point ZM,0,gumuk pasir parangkusumo,Geocode_DTW_2_GMaps,0,-1,0, ,gumuk pasir parangkusumo    <br>       <br>   FID   66    <br>   keyword_1   gumuk pasir parangkusumo    <br>   wisata   gumuk pasir parangkusumo    <br>   wisata_2   gumuk pasir parangkusumo daerah istimewa yogyakarta    <br>   Latitude   -8.01845    <b,-1,0,-8.01845,110.319551,gumuk pasir parangkusumo
-67,Point ZM,0,gumuk barchan,Geocode_DTW_2_GMaps,0,-1,0, ,gumuk barchan    <br>       <br>   FID   67    <br>   keyword_1   gumuk barchan    <br>   wisata   gumuk barchan    <br>   wisata_2   gumuk barchan daerah istimewa yogyakarta    <br>   Latitude   -8.017274    <br>   Longitude   110.317036,-1,0,-8.017274,110.317036,gumuk barchan
-68,Point ZM,0,gumuk pasir parangtritis,Geocode_DTW_2_GMaps,0,-1,0, ,gumuk pasir parangtritis    <br>       <br>   FID   68    <br>   keyword_1   gumuk pasir parangtritis    <br>   wisata   gumuk pasir parangtritis    <br>   wisata_2   gumuk pasir parangtritis daerah istimewa yogyakarta    <br>   Latitude   -8.01697    <b,-1,0,-8.01697,110.320583,gumuk pasir parangtritis
-69,Point ZM,0,Kali Gowang,Geocode_DTW_2_GMaps,0,-1,0, ,Kali Gowang    <br>       <br>   FID   69    <br>   keyword_1   Kali Gowang    <br>   wisata   Kali Gowang    <br>   wisata_2   Kali Gowang daerah istimewa yogyakarta    <br>   Latitude   -8.014296    <br>   Longitude   110.564479,-1,0,-8.014296,110.564479,kali gowang
-70,Point ZM,0,pantai depok,Geocode_DTW_2_GMaps,0,-1,0, ,pantai depok    <br>       <br>   FID   70    <br>   keyword_1   pantai depok    <br>   wisata   pantai depok    <br>   wisata_2   pantai depok daerah istimewa yogyakarta    <br>   Latitude   -8.013709    <br>   Longitude   110.291478,-1,0,-8.013709,110.291478,pantai depok
-71,Point ZM,0,goa kalisuci,Geocode_DTW_2_GMaps,0,-1,0, ,goa kalisuci    <br>       <br>   FID   71    <br>   keyword_1   goa kalisuci    <br>   wisata   goa kalisuci    <br>   wisata_2   goa kalisuci daerah istimewa yogyakarta    <br>   Latitude   -8.010933    <br>   Longitude   110.637405,-1,0,-8.010933,110.637405,goa kalisuci
-72,Point ZM,0,telaga jonge,Geocode_DTW_2_GMaps,0,-1,0, ,telaga jonge    <br>       <br>   FID   72    <br>   keyword_1   telaga jonge    <br>   wisata   telaga jonge    <br>   wisata_2   telaga jonge daerah istimewa yogyakarta    <br>   Latitude   -8.010833    <br>   Longitude   110.625556,-1,0,-8.010833,110.625556,telaga jonge
-73,Point ZM,0,desa wisata mojo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata mojo    <br>       <br>   FID   73    <br>   keyword_1   desa wisata mojo    <br>   wisata   desa wisata mojo    <br>   wisata_2   desa wisata mojo daerah istimewa yogyakarta    <br>   Latitude   -8.005965    <br>   Longitude   110.674372,-1,0,-8.005965,110.674372,desa wisata mojo
-74,Point ZM,0,pantai samas,Geocode_DTW_2_GMaps,0,-1,0, ,pantai samas    <br>       <br>   FID   74    <br>   keyword_1   pantai samas    <br>   wisata   pantai samas    <br>   wisata_2   pantai samas daerah istimewa yogyakarta    <br>   Latitude   -8.005454    <br>   Longitude   110.26516,-1,0,-8.005454,110.26516,pantai samas
-75,Point ZM,0,Pengklik,Geocode_DTW_2_GMaps,0,-1,0, ,Pengklik    <br>       <br>   FID   75    <br>   keyword_1   Pengklik    <br>   wisata   Pengklik    <br>   wisata_2   Pengklik daerah istimewa yogyakarta    <br>   Latitude   -8.004554    <br>   Longitude   110.270376,-1,0,-8.004554,110.270376,pengklik
-76,Point ZM,0,pantai pandansari,Geocode_DTW_2_GMaps,0,-1,0, ,pantai pandansari    <br>       <br>   FID   76    <br>   keyword_1   pantai pandansari    <br>   wisata   pantai pandansari    <br>   wisata_2   pantai pandansari daerah istimewa yogyakarta    <br>   Latitude   -8.00069    <br>   Longitude   110.253336,-1,0,-8.00069,110.253336,pantai pandansari
-77,Point ZM,0,goa cemara,Geocode_DTW_2_GMaps,0,-1,0, ,goa cemara    <br>       <br>   FID   77    <br>   keyword_1   goa cemara    <br>   wisata   goa cemara    <br>   wisata_2   goa cemara daerah istimewa yogyakarta    <br>   Latitude   -7.999423    <br>   Longitude   110.248963,-1,0,-7.999423,110.248963,goa cemara
-78,Point ZM,0,watu giring,Geocode_DTW_2_GMaps,0,-1,0, ,watu giring    <br>       <br>   FID   78    <br>   keyword_1   watu giring    <br>   wisata   watu giring    <br>   wisata_2   watu giring daerah istimewa yogyakarta    <br>   Latitude   -7.997056    <br>   Longitude   110.628646,-1,0,-7.997056,110.628646,watu giring
-79,Point ZM,0,desa girisuko,Geocode_DTW_2_GMaps,0,-1,0, ,desa girisuko    <br>       <br>   FID   79    <br>   keyword_1   desa girisuko    <br>   wisata   desa girisuko    <br>   wisata_2   desa girisuko daerah istimewa yogyakarta    <br>   Latitude   -7.993023    <br>   Longitude   110.444084,-1,0,-7.993023,110.444084,desa girisuko
-80,Point ZM,0,grojokan pucung,Geocode_DTW_2_GMaps,0,-1,0, ,grojokan pucung    <br>       <br>   FID   80    <br>   keyword_1   grojokan pucung    <br>   wisata   grojokan pucung    <br>   wisata_2   grojokan pucung daerah istimewa yogyakarta    <br>   Latitude   -7.99026    <br>   Longitude   110.342052,-1,0,-7.99026,110.342052,grojokan pucung
-81,Point ZM,0,Agro Milenial,Geocode_DTW_2_GMaps,0,-1,0, ,Agro Milenial    <br>       <br>   FID   81    <br>   keyword_1   Agro Milenial    <br>   wisata   Agro Milenial    <br>   wisata_2   Agro Milenial daerah istimewa yogyakarta    <br>   Latitude   -7.989887    <br>   Longitude   110.551856,-1,0,-7.989887,110.551856,agro milenial
-82,Point ZM,0,Taman Bendowo,Geocode_DTW_2_GMaps,0,-1,0, ,Taman Bendowo    <br>       <br>   FID   82    <br>   keyword_1   Taman Bendowo    <br>   wisata   Taman Bendowo    <br>   wisata_2   Taman Bendowo daerah istimewa yogyakarta    <br>   Latitude   -7.985756    <br>   Longitude   110.542141,-1,0,-7.985756,110.542141,taman bendowo
-83,Point ZM,0,Kebun Pisang Mbah Lasio,Geocode_DTW_2_GMaps,0,-1,0, ,Kebun Pisang Mbah Lasio    <br>       <br>   FID   83    <br>   keyword_1   Kebun Pisang Mbah Lasio    <br>   wisata   Kebun Pisang Mbah Lasio    <br>   wisata_2   Kebun Pisang Mbah Lasio daerah istimewa yogyakarta    <br>   Latitude   -7.983708    <br>,-1,0,-7.983708,110.463635,kebun pisang mbah lasio
-84,Point ZM,0,water byur ponjong,Geocode_DTW_2_GMaps,0,-1,0, ,water byur ponjong    <br>       <br>   FID   84    <br>   keyword_1   water byur ponjong    <br>   wisata   water byur ponjong    <br>   wisata_2   water byur ponjong daerah istimewa yogyakarta    <br>   Latitude   -7.981975    <br>   Longitude   110.71,-1,0,-7.981975,110.714613,water byur ponjong
-85,Point ZM,0,goa cerme,Geocode_DTW_2_GMaps,0,-1,0, ,goa cerme    <br>       <br>   FID   85    <br>   keyword_1   goa cerme    <br>   wisata   goa cerme    <br>   wisata_2   goa cerme daerah istimewa yogyakarta    <br>   Latitude   -7.979441    <br>   Longitude   110.380311,-1,0,-7.979441,110.380311,goa cerme
-86,Point ZM,0,pantai trisik,Geocode_DTW_2_GMaps,0,-1,0, ,pantai trisik    <br>       <br>   FID   86    <br>   keyword_1   pantai trisik    <br>   wisata   pantai trisik    <br>   wisata_2   pantai trisik daerah istimewa yogyakarta    <br>   Latitude   -7.967335    <br>   Longitude   110.182607,-1,0,-7.967335,110.182607,pantai trisik
-87,Point ZM,0,desa wisata panjangrejo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata panjangrejo    <br>       <br>   FID   87    <br>   keyword_1   desa wisata panjangrejo    <br>   wisata   desa wisata panjangrejo    <br>   wisata_2   desa wisata panjangrejo daerah istimewa yogyakarta    <br>   Latitude   -7.965121    <br>,-1,0,-7.965121,110.33386,desa wisata panjangrejo
-88,Point ZM,0,Goa Song Gilap,Geocode_DTW_2_GMaps,0,-1,0, ,Goa Song Gilap    <br>       <br>   FID   88    <br>   keyword_1   Goa Song Gilap    <br>   wisata   Goa Song Gilap    <br>   wisata_2   Goa Song Gilap daerah istimewa yogyakarta    <br>   Latitude   -7.96509    <br>   Longitude   110.753797,-1,0,-7.96509,110.753797,goa song gilap
-89,Point ZM,0,pasar empring,Geocode_DTW_2_GMaps,0,-1,0, ,pasar empring    <br>       <br>   FID   89    <br>   keyword_1   pasar empring    <br>   wisata   pasar empring    <br>   wisata_2   pasar empring daerah istimewa yogyakarta    <br>   Latitude   -7.959645    <br>   Longitude   110.597368,-1,0,-7.959645,110.597368,pasar empring
-90,Point ZM,0,desa wisata bleberan,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata bleberan    <br>       <br>   FID   90    <br>   keyword_1   desa wisata bleberan    <br>   wisata   desa wisata bleberan    <br>   wisata_2   desa wisata bleberan daerah istimewa yogyakarta    <br>   Latitude   -7.959028    <br>   Longitude,-1,0,-7.959028,110.50367,desa wisata bleberan
-91,Point ZM,0,lembah kedung jati,Geocode_DTW_2_GMaps,0,-1,0, ,lembah kedung jati    <br>       <br>   FID   91    <br>   keyword_1   lembah kedung jati    <br>   wisata   lembah kedung jati    <br>   wisata_2   lembah kedung jati daerah istimewa yogyakarta    <br>   Latitude   -7.958624    <br>   Longitude   110.42,-1,0,-7.958624,110.428943,lembah kedung jati
-92,Point ZM,0,bukit panguk,Geocode_DTW_2_GMaps,0,-1,0, ,bukit panguk    <br>       <br>   FID   92    <br>   keyword_1   bukit panguk    <br>   wisata   bukit panguk    <br>   wisata_2   bukit panguk daerah istimewa yogyakarta    <br>   Latitude   -7.958369    <br>   Longitude   110.440762,-1,0,-7.95837,110.440762,bukit panguk
-93,Point ZM,0,bukit mojo,Geocode_DTW_2_GMaps,0,-1,0, ,bukit mojo    <br>       <br>   FID   93    <br>   keyword_1   bukit mojo    <br>   wisata   bukit mojo    <br>   wisata_2   bukit mojo daerah istimewa yogyakarta    <br>   Latitude   -7.957364    <br>   Longitude   110.433435,-1,0,-7.957364,110.433435,bukit mojo
-94,Point ZM,0,pantai bugel,Geocode_DTW_2_GMaps,0,-1,0, ,pantai bugel    <br>       <br>   FID   94    <br>   keyword_1   pantai bugel    <br>   wisata   pantai bugel    <br>   wisata_2   pantai bugel daerah istimewa yogyakarta    <br>   Latitude   -7.951309    <br>   Longitude   110.152789,-1,0,-7.951309,110.152789,pantai bugel
-95,Point ZM,0,Waduk Beton Pojong,Geocode_DTW_2_GMaps,0,-1,0, ,Waduk Beton Pojong    <br>       <br>   FID   95    <br>   keyword_1   Waduk Beton Pojong    <br>   wisata   Waduk Beton Pojong    <br>   wisata_2   Waduk Beton Pojong daerah istimewa yogyakarta    <br>   Latitude   -7.950982    <br>   Longitude   110.72,-1,0,-7.950982,110.726363,waduk beton pojong
-96,Point ZM,0,goa rancang kencono,Geocode_DTW_2_GMaps,0,-1,0, ,goa rancang kencono    <br>       <br>   FID   96    <br>   keyword_1   goa rancang kencono    <br>   wisata   goa rancang kencono    <br>   wisata_2   goa rancang kencono daerah istimewa yogyakarta    <br>   Latitude   -7.94946    <br>   Longitude   110,-1,0,-7.94946,110.492726,goa rancang kencono
-97,Point ZM,0,air terjun lepo,Geocode_DTW_2_GMaps,0,-1,0, ,air terjun lepo    <br>       <br>   FID   97    <br>   keyword_1   air terjun lepo    <br>   wisata   air terjun lepo    <br>   wisata_2   air terjun lepo daerah istimewa yogyakarta    <br>   Latitude   -7.94913    <br>   Longitude   110.471994,-1,0,-7.94913,110.471994,air terjun lepo
-98,Point ZM,0,desa wisata kalibuntung,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kalibuntung    <br>       <br>   FID   98    <br>   keyword_1   desa wisata kalibuntung    <br>   wisata   desa wisata kalibuntung    <br>   wisata_2   desa wisata kalibuntung daerah istimewa yogyakarta    <br>   Latitude   -7.948887    <br>,-1,0,-7.948887,110.350332,desa wisata kalibuntung
-99,Point ZM,0,selopamioro adventure park,Geocode_DTW_2_GMaps,0,-1,0, ,selopamioro adventure park    <br>       <br>   FID   99    <br>   keyword_1   selopamioro adventure park    <br>   wisata   selopamioro adventure park    <br>   wisata_2   selopamioro adventure park daerah istimewa yogyakarta    <br>   Latitude   -7.946,-1,0,-7.946248,110.426586,selopamioro adventure park
-100,Point ZM,0,Lembah Sorory,Geocode_DTW_2_GMaps,0,-1,0, ,Lembah Sorory    <br>       <br>   FID   100    <br>   keyword_1   Lembah Sorory    <br>   wisata   Lembah Sorory    <br>   wisata_2   Lembah Sorory daerah istimewa yogyakarta    <br>   Latitude   -7.945747    <br>   Longitude   110.365786,-1,0,-7.945747,110.365786,lembah sorory
-101,Point ZM,0,mlarangan asri,Geocode_DTW_2_GMaps,0,-1,0, ,mlarangan asri    <br>       <br>   FID   101    <br>   keyword_1   mlarangan asri    <br>   wisata   mlarangan asri    <br>   wisata_2   mlarangan asri daerah istimewa yogyakarta    <br>   Latitude   -7.945711    <br>   Longitude   110.142259,-1,0,-7.945711,110.142259,mlarangan asri
-102,Point ZM,0,tebing watu mabur,Geocode_DTW_2_GMaps,0,-1,0, ,tebing watu mabur    <br>       <br>   FID   102    <br>   keyword_1   tebing watu mabur    <br>   wisata   tebing watu mabur    <br>   wisata_2   tebing watu mabur daerah istimewa yogyakarta    <br>   Latitude   -7.945608    <br>   Longitude   110.44069,-1,0,-7.947138,110.44101,tebing watu mabur
-103,Point ZM,0,goa gajah,Geocode_DTW_2_GMaps,0,-1,0, ,goa gajah    <br>       <br>   FID   103    <br>   keyword_1   goa gajah    <br>   wisata   goa gajah    <br>   wisata_2   goa gajah daerah istimewa yogyakarta    <br>   Latitude   -7.944538    <br>   Longitude   110.440323,-1,0,-7.944538,110.440323,goa gajah
-104,Point ZM,0,bukit pangul,Geocode_DTW_2_GMaps,0,-1,0, ,bukit pangul    <br>       <br>   FID   104    <br>   keyword_1   bukit pangul    <br>   wisata   bukit pangul    <br>   wisata_2   bukit pangul daerah istimewa yogyakarta    <br>   Latitude   -7.944142    <br>   Longitude   110.293456,-1,0,-7.944142,110.293456,bukit pangul
-105,Point ZM,0,air terjun sri gethuk,Geocode_DTW_2_GMaps,0,-1,0, ,air terjun sri gethuk    <br>       <br>   FID   105    <br>   keyword_1   air terjun sri gethuk    <br>   wisata   air terjun sri gethuk    <br>   wisata_2   air terjun sri gethuk daerah istimewa yogyakarta    <br>   Latitude   -7.943178    <br>   Longi,-1,0,-7.943178,110.48924,air terjun sri gethuk
-106,Point ZM,0,buah mangunan,Geocode_DTW_2_GMaps,0,-1,0, ,buah mangunan    <br>       <br>   FID   106    <br>   keyword_1   buah mangunan    <br>   wisata   buah mangunan    <br>   wisata_2   buah mangunan daerah istimewa yogyakarta    <br>   Latitude   -7.941372    <br>   Longitude   110.424734,-1,0,-7.941372,110.424734,buah mangunan
-107,Point ZM,0,jurang tembelan,Geocode_DTW_2_GMaps,0,-1,0, ,jurang tembelan    <br>       <br>   FID   107    <br>   keyword_1   jurang tembelan    <br>   wisata   jurang tembelan    <br>   wisata_2   jurang tembelan daerah istimewa yogyakarta    <br>   Latitude   -7.939994    <br>   Longitude   110.429838,-1,0,-7.939994,110.429838,jurang tembelan
-108,Point ZM,0,watu lawang mangunan,Geocode_DTW_2_GMaps,0,-1,0, ,watu lawang mangunan    <br>       <br>   FID   108    <br>   keyword_1   watu lawang mangunan    <br>   wisata   watu lawang mangunan    <br>   wisata_2   watu lawang mangunan daerah istimewa yogyakarta    <br>   Latitude   -7.937856    <br>   Longitude,-1,0,-7.937856,110.418198,watu lawang mangunan
-109,Point ZM,0,desa wisata karang tengah,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata karang tengah    <br>       <br>   FID   109    <br>   keyword_1   desa wisata karang tengah    <br>   wisata   desa wisata karang tengah    <br>   wisata_2   desa wisata karang tengah daerah istimewa yogyakarta    <br>   Latitude   -7.937673,-1,0,-7.937673,110.381942,desa wisata karang tengah
-110,Point ZM,0,Desa Wisata Sawah Surjan,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Sawah Surjan    <br>       <br>   FID   110    <br>   keyword_1   Desa Wisata Sawah Surjan    <br>   wisata   Desa Wisata Sawah Surjan    <br>   wisata_2   Desa Wisata Sawah Surjan daerah istimewa yogyakarta    <br>   Latitude   -7.933659,-1,0,-7.933659,110.149166,desa wisata sawah surjan
-111,Point ZM,0,bendung tegal,Geocode_DTW_2_GMaps,0,-1,0, ,bendung tegal    <br>       <br>   FID   111    <br>   keyword_1   bendung tegal    <br>   wisata   bendung tegal    <br>   wisata_2   bendung tegal daerah istimewa yogyakarta    <br>   Latitude   -7.933426    <br>   Longitude   110.365925,-1,0,-7.933426,110.365925,bendung tegal
-112,Point ZM,0,desa wisata kebonagung,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kebonagung    <br>       <br>   FID   112    <br>   keyword_1   desa wisata kebonagung    <br>   wisata   desa wisata kebonagung    <br>   wisata_2   desa wisata kebonagung daerah istimewa yogyakarta    <br>   Latitude   -7.932493    <br>   L,-1,0,-7.932494,110.368461,desa wisata kebonagung
-113,Point ZM,0,desa wisata kaki langit,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kaki langit    <br>       <br>   FID   113    <br>   keyword_1   desa wisata kaki langit    <br>   wisata   desa wisata kaki langit    <br>   wisata_2   desa wisata kaki langit daerah istimewa yogyakarta    <br>   Latitude   -7.931898    <br>,-1,0,-7.931898,110.421945,desa wisata kaki langit
-114,Point ZM,0,rumah hobbit,Geocode_DTW_2_GMaps,0,-1,0, ,rumah hobbit    <br>       <br>   FID   116    <br>   keyword_1   rumah hobbit    <br>   wisata   rumah hobbit    <br>   wisata_2   rumah hobbit daerah istimewa yogyakarta    <br>   Latitude   -7.603919    <br>   Longitude   110.451593,-1,0,-7.603919,110.451593,rumah hobbit
-115,Point ZM,0,seribu batu songgo langit,Geocode_DTW_2_GMaps,0,-1,0, ,seribu batu songgo langit    <br>       <br>   FID   117    <br>   keyword_1   seribu batu songgo langit    <br>   wisata   seribu batu songgo langit    <br>   wisata_2   seribu batu songgo langit daerah istimewa yogyakarta    <br>   Latitude   -7.930867,-1,0,-7.930867,110.430856,seribu batu songgo langit
-116,Point ZM,0,goa pindul,Geocode_DTW_2_GMaps,0,-1,0, ,goa pindul    <br>       <br>   FID   118    <br>   keyword_1   goa pindul    <br>   wisata   goa pindul    <br>   wisata_2   goa pindul daerah istimewa yogyakarta    <br>   Latitude   -7.929386    <br>   Longitude   110.648988,-1,0,-7.929386,110.648988,goa pindul
-117,Point ZM,0,puncak songgo langit,Geocode_DTW_2_GMaps,0,-1,0, ,puncak songgo langit    <br>       <br>   FID   119    <br>   keyword_1   puncak songgo langit    <br>   wisata   puncak songgo langit    <br>   wisata_2   puncak songgo langit daerah istimewa yogyakarta    <br>   Latitude   -7.928401    <br>   Longitude,-1,0,-7.928401,110.436405,puncak songgo langit
-118,Point ZM,0,watu goyang,Geocode_DTW_2_GMaps,0,-1,0, ,watu goyang    <br>       <br>   FID   120    <br>   keyword_1   watu goyang    <br>   wisata   watu goyang    <br>   wisata_2   watu goyang daerah istimewa yogyakarta    <br>   Latitude   -7.927409    <br>   Longitude   110.412059,-1,0,-7.927409,110.412059,watu goyang
-119,Point ZM,0,gua gelatik,Geocode_DTW_2_GMaps,0,-1,0, ,gua gelatik    <br>       <br>   FID   121    <br>   keyword_1   gua gelatik    <br>   wisata   gua gelatik    <br>   wisata_2   gua gelatik daerah istimewa yogyakarta    <br>   Latitude   -7.926935    <br>   Longitude   110.648075,-1,0,-7.926935,110.648075,gua gelatik
-120,Point ZM,0,gereja ganjuran,Geocode_DTW_2_GMaps,0,-1,0, ,gereja ganjuran    <br>       <br>   FID   123    <br>   keyword_1   gereja ganjuran    <br>   wisata   gereja ganjuran    <br>   wisata_2   gereja ganjuran daerah istimewa yogyakarta    <br>   Latitude   -7.926598    <br>   Longitude   110.318892,-1,0,-7.926598,110.318892,gereja ganjuran
-121,Point ZM,0,pinus mangunan,Geocode_DTW_2_GMaps,0,-1,0, ,pinus mangunan    <br>       <br>   FID   124    <br>   keyword_1   pinus mangunan    <br>   wisata   pinus mangunan    <br>   wisata_2   pinus mangunan daerah istimewa yogyakarta    <br>   Latitude   -7.926107    <br>   Longitude   110.430465,-1,0,-7.926107,110.430465,pinus mangunan
-122,Point ZM,0,pinus sari,Geocode_DTW_2_GMaps,0,-1,0, ,pinus sari <br> <br> FID 125 <br> keyword_1 pinus sari <br> wisata pinus sari <br> wisata_2 pinus sari daerah istimewa yogyakarta <br> Latitude -7.920906<br>Longitude 110.435601,-1,0,-7.925673,110.431089,pinus sari
-123,Point ZM,0,museum wayang beber sekartaji,Geocode_DTW_2_GMaps,0,-1,0, ,museum wayang beber sekartaji    <br>       <br>   FID   126    <br>   keyword_1   museum wayang beber sekartaji    <br>   wisata   museum wayang beber sekartaji    <br>   wisata_2   museum wayang beber sekartaji daerah istimewa yogyakarta    <br>   Lati,-1,0,-7.924742,110.308232,museum wayang beber sekartaji
-124,Point ZM,0,desa wisata candran,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata candran    <br>       <br>   FID   127    <br>   keyword_1   desa wisata candran    <br>   wisata   desa wisata candran    <br>   wisata_2   desa wisata candran daerah istimewa yogyakarta    <br>   Latitude   -7.924586    <br>   Longitude   1,-1,0,-7.924586,110.372492,desa wisata candran
-125,Point ZM,0,air terjun pengantin,Geocode_DTW_2_GMaps,0,-1,0, ,air terjun pengantin    <br>       <br>   FID   128    <br>   keyword_1   air terjun pengantin    <br>   wisata   air terjun pengantin    <br>   wisata_2   air terjun pengantin daerah istimewa yogyakarta    <br>   Latitude   -7.923528    <br>   Longitude,-1,0,-7.923528,110.646971,air terjun pengantin
-126,Point ZM,0,Goa Plalar,Geocode_DTW_2_GMaps,0,-1,0, ,Goa Plalar    <br>       <br>   FID   129    <br>   keyword_1   Goa Plalar    <br>   wisata   Goa Plalar    <br>   wisata_2   Goa Plalar daerah istimewa yogyakarta    <br>   Latitude   -7.923141    <br>   Longitude   110.725656,-1,0,-7.923141,110.725656,goa plalar
-127,Point ZM,0,pinus asri,Geocode_DTW_2_GMaps,0,-1,0, ,pinus asri    <br>       <br>   FID   130    <br>   keyword_1   pinus asri    <br>   wisata   pinus asri    <br>   wisata_2   pinus asri daerah istimewa yogyakarta    <br>   Latitude   -7.920921    <br>   Longitude   110.435565,-1,0,-7.920921,110.435565,pinus asri
-128,Point ZM,0,desa wisata sidorejo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata sidorejo    <br>       <br>   FID   131    <br>   keyword_1   desa wisata sidorejo    <br>   wisata   desa wisata sidorejo    <br>   wisata_2   desa wisata sidorejo daerah istimewa yogyakarta    <br>   Latitude   -7.920781    <br>   Longitude,-1,0,-7.920781,110.241522,desa wisata sidorejo
-129,Point ZM,0,makam raja imogiri,Geocode_DTW_2_GMaps,0,-1,0, ,makam raja imogiri    <br>       <br>   FID   132    <br>   keyword_1   makam raja imogiri    <br>   wisata   makam raja imogiri    <br>   wisata_2   makam raja imogiri daerah istimewa yogyakarta    <br>   Latitude   -7.920497    <br>   Longitude   110.3,-1,0,-7.920497,110.3958,makam raja imogiri
-130,Point ZM,0,Tegal Arum,Geocode_DTW_2_GMaps,0,-1,0, ,Tegal Arum    <br>       <br>   FID   133    <br>   keyword_1   Tegal Arum    <br>   wisata   Tegal Arum    <br>   wisata_2   Tegal Arum daerah istimewa yogyakarta    <br>   Latitude   -7.919056    <br>   Longitude   110.617716,-1,0,-7.919056,110.617716,tegal arum
-131,Point ZM,0,Museum Bantul Masa Belanda,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Bantul Masa Belanda    <br>       <br>   FID   134    <br>   keyword_1   Museum Bantul Masa Belanda    <br>   wisata   Museum Bantul Masa Belanda    <br>   wisata_2   Museum Bantul Masa Belanda daerah istimewa yogyakarta    <br>   Latitude   -7.91,-1,0,-7.918922,110.319588,museum bantul masa belanda
-132,Point ZM,0,Makam Sunan Cirebon,Geocode_DTW_2_GMaps,0,-1,0, ,Makam Sunan Cirebon    <br>       <br>   FID   135    <br>   keyword_1   Makam Sunan Cirebon    <br>   wisata   Makam Sunan Cirebon    <br>   wisata_2   Makam Sunan Cirebon daerah istimewa yogyakarta    <br>   Latitude   -7.916808    <br>   Longitude   1,-1,0,-7.916808,110.407467,makam sunan cirebon
-133,Point ZM,0,desa wisata batik tulis giriloyo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata batik tulis giriloyo    <br>       <br>   FID   136    <br>   keyword_1   desa wisata batik tulis giriloyo    <br>   wisata   desa wisata batik tulis giriloyo    <br>   wisata_2   desa wisata batik tulis giriloyo daerah istimewa yogyakarta,-1,0,-7.915893,110.398302,desa wisata batik tulis giriloyo
-134,Point ZM,0,lintang sewu,Geocode_DTW_2_GMaps,0,-1,0, ,lintang sewu    <br>       <br>   FID   137    <br>   keyword_1   lintang sewu    <br>   wisata   lintang sewu    <br>   wisata_2   lintang sewu daerah istimewa yogyakarta    <br>   Latitude   -7.9158    <br>   Longitude   110.436644,-1,0,-7.9158,110.436644,lintang sewu
-135,Point ZM,0,pintu langit dahromo,Geocode_DTW_2_GMaps,0,-1,0, ,pintu langit dahromo    <br>       <br>   FID   138    <br>   keyword_1   pintu langit dahromo    <br>   wisata   pintu langit dahromo    <br>   wisata_2   pintu langit dahromo daerah istimewa yogyakarta    <br>   Latitude   -7.914297    <br>   Longitude,-1,0,-7.913612,110.437789,pintu langit dahromo
-136,Point ZM,0,wanagama,Geocode_DTW_2_GMaps,0,-1,0, ,wanagama    <br>       <br>   FID   139    <br>   keyword_1   wanagama    <br>   wisata   wanagama    <br>   wisata_2   wanagama daerah istimewa yogyakarta    <br>   Latitude   -7.912767    <br>   Longitude   110.523126,-1,0,-7.912767,110.523126,wanagama
-137,Point ZM,0,pantai glagah,Geocode_DTW_2_GMaps,0,-1,0, ,pantai glagah    <br>       <br>   FID   140    <br>   keyword_1   pantai glagah    <br>   wisata   pantai glagah    <br>   wisata_2   pantai glagah daerah istimewa yogyakarta    <br>   Latitude   -7.911943    <br>   Longitude   110.064734,-1,0,-7.911943,110.064734,pantai glagah
-138,Point ZM,0,Museum Rumah Garuda,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Rumah Garuda    <br>       <br>   FID   141    <br>   keyword_1   Museum Rumah Garuda    <br>   wisata   Museum Rumah Garuda    <br>   wisata_2   Museum Rumah Garuda daerah istimewa yogyakarta    <br>   Latitude   -7.909064    <br>   Longitude   1,-1,0,-7.909064,110.341792,museum rumah garuda
-139,Point ZM,0,pantai congot,Geocode_DTW_2_GMaps,0,-1,0, ,pantai congot    <br>       <br>   FID   142    <br>   keyword_1   pantai congot    <br>   wisata   pantai congot    <br>   wisata_2   pantai congot daerah istimewa yogyakarta    <br>   Latitude   -7.907542    <br>   Longitude   110.053566,-1,0,-7.907542,110.053566,pantai congot
-140,Point ZM,0,desa wisata wukirsari,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata wukirsari    <br>       <br>   FID   143    <br>   keyword_1   desa wisata wukirsari    <br>   wisata   desa wisata wukirsari    <br>   wisata_2   desa wisata wukirsari daerah istimewa yogyakarta    <br>   Latitude   -7.906897    <br>   Longi,-1,0,-7.906897,110.414292,desa wisata wukirsari
-141,Point ZM,0,alas literasi banjarharjo,Geocode_DTW_2_GMaps,0,-1,0, ,alas literasi banjarharjo    <br>       <br>   FID   144    <br>   keyword_1   alas literasi banjarharjo    <br>   wisata   alas literasi banjarharjo    <br>   wisata_2   alas literasi banjarharjo daerah istimewa yogyakarta    <br>   Latitude   -7.906781,-1,0,-7.906781,110.439667,alas literasi banjarharjo
-142,Point ZM,0,desa wisata puton,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata puton    <br>       <br>   FID   145    <br>   keyword_1   desa wisata puton    <br>   wisata   desa wisata puton    <br>   wisata_2   desa wisata puton daerah istimewa yogyakarta    <br>   Latitude   -7.90396    <br>   Longitude   110.380413,-1,0,-7.90396,110.380413,desa wisata puton
-143,Point ZM,0,Desa Wisata Glagah,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Glagah    <br>       <br>   FID   146    <br>   keyword_1   Desa Wisata Glagah    <br>   wisata   Desa Wisata Glagah    <br>   wisata_2   Desa Wisata Glagah daerah istimewa yogyakarta    <br>   Latitude   -7.903177    <br>   Longitude   110.0,-1,0,-7.903177,110.072831,desa wisata glagah
-144,Point ZM,0,Puncak Becici,Geocode_DTW_2_GMaps,0,-1,0, ,Puncak Becici    <br>       <br>   FID   147    <br>   keyword_1   Puncak Becici    <br>   wisata   Puncak Becici    <br>   wisata_2   Puncak Becici daerah istimewa yogyakarta    <br>   Latitude   -7.902036    <br>   Longitude   110.437463,-1,0,-7.902036,110.437463,puncak becici
-145,Point ZM,0,desa wisata manding,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata manding    <br>       <br>   FID   149    <br>   keyword_1   desa wisata manding    <br>   wisata   desa wisata manding    <br>   wisata_2   desa wisata manding daerah istimewa yogyakarta    <br>   Latitude   -7.89528    <br>   Longitude   11,-1,0,-7.89528,110.350733,desa wisata manding
-146,Point ZM,0,mangrove kadilangu,Geocode_DTW_2_GMaps,0,-1,0, ,mangrove kadilangu    <br>       <br>   FID   150    <br>   keyword_1   mangrove kadilangu    <br>   wisata   mangrove kadilangu    <br>   wisata_2   mangrove kadilangu daerah istimewa yogyakarta    <br>   Latitude   -7.894571    <br>   Longitude   110.0,-1,0,-7.894571,110.028769,mangrove kadilangu
-147,Point ZM,0,Mangrove Jembatan Api-api,Geocode_DTW_2_GMaps,0,-1,0, ,Mangrove Jembatan Api-api    <br>       <br>   FID   151    <br>   keyword_1   Mangrove Jembatan Api-api    <br>   wisata   Mangrove Jembatan Api-api    <br>   wisata_2   Mangrove Jembatan Api-api daerah istimewa yogyakarta    <br>   Latitude   -7.893727,-1,0,-7.893727,110.02594,mangrove jembatan api-api
-148,Point ZM,0,desa wisata klayar,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata klayar    <br>       <br>   FID   152    <br>   keyword_1   desa wisata klayar    <br>   wisata   desa wisata klayar    <br>   wisata_2   desa wisata klayar daerah istimewa yogyakarta    <br>   Latitude   -7.893576    <br>   Longitude   110.6,-1,0,-7.893576,110.657391,desa wisata klayar
-149,Point ZM,0,Mangrove Wanatirta,Geocode_DTW_2_GMaps,0,-1,0, ,Mangrove Wanatirta    <br>       <br>   FID   153    <br>   keyword_1   Mangrove Wanatirta    <br>   wisata   Mangrove Wanatirta    <br>   wisata_2   Mangrove Wanatirta daerah istimewa yogyakarta    <br>   Latitude   -7.893346    <br>   Longitude   110.0,-1,0,-7.893346,110.019826,mangrove wanatirta
-150,Point ZM,0,"Pereng ""Abyudaya Dahayu""",Geocode_DTW_2_GMaps,0,-1,0, ,"Pereng ""Abyudaya Dahayu""    <br>       <br>   FID   154    <br>   keyword_1   Pereng ""Abyudaya Dahayu""    <br>   wisata   Pereng ""Abyudaya Dahayu""    <br>   wisata_2   Pereng ""Abyudaya Dahayu"" daerah istimewa yogyakarta    <br>   Latitude   -7.892199",-1,0,-7.892199,110.258648,"pereng ""abyudaya dahayu"""
-151,Point ZM,0,Rest Area Bunder,Geocode_DTW_2_GMaps,0,-1,0, ,Rest Area Bunder    <br>       <br>   FID   155    <br>   keyword_1   Rest Area Bunder    <br>   wisata   Rest Area Bunder    <br>   wisata_2   Rest Area Bunder daerah istimewa yogyakarta    <br>   Latitude   -7.89192    <br>   Longitude   110.547944,-1,0,-7.89192,110.547944,rest area bunder
-152,Point ZM,0,desa wisata kalakijo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kalakijo    <br>       <br>   FID   156    <br>   keyword_1   desa wisata kalakijo    <br>   wisata   desa wisata kalakijo    <br>   wisata_2   desa wisata kalakijo daerah istimewa yogyakarta    <br>   Latitude   -7.887292    <br>   Longitude,-1,0,-7.887292,110.301794,desa wisata kalakijo
-153,Point ZM,0,goa kebon,Geocode_DTW_2_GMaps,0,-1,0, ,goa kebon    <br>       <br>   FID   158    <br>   keyword_1   goa kebon    <br>   wisata   goa kebon    <br>   wisata_2   goa kebon daerah istimewa yogyakarta    <br>   Latitude   -7.887083    <br>   Longitude   110.18667,-1,0,-7.887083,110.18667,goa kebon
-154,Point ZM,0,geosite kali ngalang,Geocode_DTW_2_GMaps,0,-1,0, ,geosite kali ngalang    <br>       <br>   FID   159    <br>   keyword_1   geosite kali ngalang    <br>   wisata   geosite kali ngalang    <br>   wisata_2   geosite kali ngalang daerah istimewa yogyakarta    <br>   Latitude   -7.885592    <br>   Longitude,-1,0,-7.885592,110.57464,geosite kali ngalang
-155,Point ZM,0,hutan bunder,Geocode_DTW_2_GMaps,0,-1,0, ,hutan bunder    <br>       <br>   FID   160    <br>   keyword_1   hutan bunder    <br>   wisata   hutan bunder    <br>   wisata_2   hutan bunder daerah istimewa yogyakarta    <br>   Latitude   -7.885088    <br>   Longitude   110.539423,-1,0,-7.903274,110.555318,hutan bunder
-156,Point ZM,0,desa wisata jelok,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata jelok    <br>       <br>   FID   161    <br>   keyword_1   desa wisata jelok    <br>   wisata   desa wisata jelok    <br>   wisata_2   desa wisata jelok daerah istimewa yogyakarta    <br>   Latitude   -7.884072    <br>   Longitude   110.50908,-1,0,-7.884072,110.509084,desa wisata jelok
-157,Point ZM,0,Taman Rekreasi Tirto Tamansari,Geocode_DTW_2_GMaps,0,-1,0, ,Taman Rekreasi Tirto Tamansari    <br>       <br>   FID   163    <br>   keyword_1   Taman Rekreasi Tirto Tamansari    <br>   wisata   Taman Rekreasi Tirto Tamansari    <br>   wisata_2   Taman Rekreasi Tirto Tamansari daerah istimewa yogyakarta    <br>,-1,0,-7.881468,110.339615,taman rekreasi tirto tamansari
-158,Point ZM,0,gunung lanang,Geocode_DTW_2_GMaps,0,-1,0, ,gunung lanang    <br>       <br>   FID   164    <br>   keyword_1   gunung lanang    <br>   wisata   gunung lanang    <br>   wisata_2   gunung lanang daerah istimewa yogyakarta    <br>   Latitude   -7.88143    <br>   Longitude   110.047944,-1,0,-7.88143,110.047944,gunung lanang
-159,Point ZM,0,gunung ireng,Geocode_DTW_2_GMaps,0,-1,0, ,gunung ireng    <br>       <br>   FID   165    <br>   keyword_1   gunung ireng    <br>   wisata   gunung ireng    <br>   wisata_2   gunung ireng daerah istimewa yogyakarta    <br>   Latitude   -7.881011    <br>   Longitude   110.488578,-1,0,-7.881011,110.488578,gunung ireng
-160,Point ZM,0,grand puri waterpark,Geocode_DTW_2_GMaps,0,-1,0, ,grand puri waterpark    <br>       <br>   FID   166    <br>   keyword_1   grand puri waterpark    <br>   wisata   grand puri waterpark    <br>   wisata_2   grand puri waterpark daerah istimewa yogyakarta    <br>   Latitude   -7.877788    <br>   Longitude,-1,0,-7.877788,110.352737,grand puri waterpark
-161,Point ZM,0,curug luweng,Geocode_DTW_2_GMaps,0,-1,0, ,curug luweng    <br>       <br>   FID   167    <br>   keyword_1   curug luweng    <br>   wisata   curug luweng    <br>   wisata_2   curug luweng daerah istimewa yogyakarta    <br>   Latitude   -7.808998    <br>   Longitude   110.572736,-1,0,-7.808998,110.572736,curug luweng
-162,Point ZM,0,desa wisata mulo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata mulo    <br>       <br>   FID   168    <br>   keyword_1   desa wisata mulo    <br>   wisata   desa wisata mulo    <br>   wisata_2   desa wisata mulo daerah istimewa yogyakarta    <br>   Latitude   -8.027825    <br>   Longitude   110.590542,-1,0,-8.027825,110.590542,desa wisata mulo
-163,Point ZM,0,Desa Wisata Pinang,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Pinang    <br>       <br>   FID   169    <br>   keyword_1   Desa Wisata Pinang    <br>   wisata   Desa Wisata Pinang    <br>   wisata_2   Desa Wisata Pinang daerah istimewa yogyakarta    <br>   Latitude   -7.648972    <br>   Longitude   110.3,-1,0,-7.648972,110.384249,desa wisata pinang
-164,Point ZM,0,Huntap Pagerjurang,Geocode_DTW_2_GMaps,0,-1,0, ,Huntap Pagerjurang    <br>       <br>   FID   170    <br>   keyword_1   Huntap Pagerjurang    <br>   wisata   Huntap Pagerjurang    <br>   wisata_2   Huntap Pagerjurang daerah istimewa yogyakarta    <br>   Latitude   -7.62909    <br>   Longitude   110.44,-1,0,-7.629176,110.446677,huntap pagerjurang
-165,Point ZM,0,museum tani jawa,Geocode_DTW_2_GMaps,0,-1,0, ,museum tani jawa    <br>       <br>   FID   171    <br>   keyword_1   museum tani jawa    <br>   wisata   museum tani jawa    <br>   wisata_2   museum tani jawa daerah istimewa yogyakarta    <br>   Latitude   -7.924505    <br>   Longitude   110.371466,-1,0,-7.924505,110.371466,museum tani jawa
-166,Point ZM,0,Rumah Sandi Negara,Geocode_DTW_2_GMaps,0,-1,0, ,Rumah Sandi Negara    <br>       <br>   FID   172    <br>   keyword_1   Rumah Sandi Negara    <br>   wisata   Rumah Sandi Negara    <br>   wisata_2   Rumah Sandi Negara daerah istimewa yogyakarta    <br>   Latitude   -7.708125    <br>   Longitude   110.2,-1,0,-7.708033,110.203474,rumah sandi negara
-167,Point ZM,0,embung kleco,Geocode_DTW_2_GMaps,0,-1,0, ,embung kleco    <br>       <br>   FID   173    <br>   keyword_1   embung kleco    <br>   wisata   waduk mini kleco    <br>   wisata_2   waduk mini kleco daerah istimewa yogyakarta    <br>   Latitude   -7.777802    <br>   Longitude   110.163457,-1,0,-7.777802,110.163457,embung kleco
-168,Point ZM,0,desa wisata tembi,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata tembi    <br>       <br>   FID   174    <br>   keyword_1   desa wisata tembi    <br>   wisata   desa wisata tembi    <br>   wisata_2   desa wisata tembi daerah istimewa yogyakarta    <br>   Latitude   -7.872525    <br>   Longitude   110.35321,-1,0,-7.872525,110.353219,desa wisata tembi
-169,Point ZM,0,puncak sosok,Geocode_DTW_2_GMaps,0,-1,0, ,puncak sosok    <br>       <br>   FID   175    <br>   keyword_1   puncak sosok    <br>   wisata   puncak sosok    <br>   wisata_2   puncak sosok daerah istimewa yogyakarta    <br>   Latitude   -7.871692    <br>   Longitude   110.42619,-1,0,-7.871692,110.42619,puncak sosok
-170,Point ZM,0,pinus pengger,Geocode_DTW_2_GMaps,0,-1,0, ,pinus pengger    <br>       <br>   FID   176    <br>   keyword_1   pinus pengger    <br>   wisata   pinus pengger    <br>   wisata_2   pinus pengger daerah istimewa yogyakarta    <br>   Latitude   -7.871204    <br>   Longitude   110.459514,-1,0,-7.871204,110.459514,pinus pengger
-171,Point ZM,0,museum tembi,Geocode_DTW_2_GMaps,0,-1,0, ,museum tembi    <br>       <br>   FID   177    <br>   keyword_1   museum tembi    <br>   wisata   museum tembi    <br>   wisata_2   museum tembi daerah istimewa yogyakarta    <br>   Latitude   -7.870093    <br>   Longitude   110.356206,-1,0,-7.870093,110.356206,museum tembi
-172,Point ZM,0,museum purbakala pleret,Geocode_DTW_2_GMaps,0,-1,0, ,museum purbakala pleret    <br>       <br>   FID   178    <br>   keyword_1   museum purbakala pleret    <br>   wisata   museum purbakala pleret    <br>   wisata_2   museum purbakala pleret daerah istimewa yogyakarta    <br>   Latitude   -7.868518    <br>,-1,0,-7.86853,110.405218,museum purbakala pleret
-173,Point ZM,0,Kampung Emas,Geocode_DTW_2_GMaps,0,-1,0, ,Kampung Emas    <br>       <br>   FID   179    <br>   keyword_1   Kampung Emas    <br>   wisata   Kampung Emas    <br>   wisata_2   Kampung Emas daerah istimewa yogyakarta    <br>   Latitude   -7.867901    <br>   Longitude   110.542536,-1,0,-7.867836,110.54253,kampung emas
-174,Point ZM,0,curug banyunibo,Geocode_DTW_2_GMaps,0,-1,0, ,curug banyunibo    <br>       <br>   FID   180    <br>   keyword_1   curug banyunibo    <br>   wisata   curug banyunibo    <br>   wisata_2   curug banyunibo daerah istimewa yogyakarta    <br>   Latitude   -7.867542    <br>   Longitude   110.286757,-1,0,-7.867542,110.286757,curug banyunibo
-175,Point ZM,0,desa wisata bobung,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata bobung    <br>       <br>   FID   181    <br>   keyword_1   desa wisata bobung    <br>   wisata   desa wisata bobung    <br>   wisata_2   desa wisata bobung daerah istimewa yogyakarta    <br>   Latitude   -7.864523    <br>   Longitude   110.5,-1,0,-7.864523,110.547613,desa wisata bobung
-176,Point ZM,0,Omah Jamu,Geocode_DTW_2_GMaps,0,-1,0, ,Omah Jamu    <br>       <br>   FID   182    <br>   keyword_1   Omah Jamu    <br>   wisata   Omah Jamu    <br>   wisata_2   Omah Jamu daerah istimewa yogyakarta    <br>   Latitude   -7.863396    <br>   Longitude   110.162617,-1,0,-7.863396,110.162617,omah jamu
-177,Point ZM,0,Purba Selo Nawing Geo Park,Geocode_DTW_2_GMaps,0,-1,0, ,Purba Selo Nawing Geo Park    <br>       <br>   FID   183    <br>   keyword_1   Purba Selo Nawing Geo Park    <br>   wisata   Purba Selo Nawing Geo Park    <br>   wisata_2   Purba Selo Nawing Geo Park daerah istimewa yogyakarta    <br>   Latitude   -7.86,-1,0,-7.862239,110.499979,purba selo nawing geo park
-178,Point ZM,0,goa selarong,Geocode_DTW_2_GMaps,0,-1,0, ,goa selarong    <br>       <br>   FID   184    <br>   keyword_1   goa selarong    <br>   wisata   goa selarong    <br>   wisata_2   goa selarong daerah istimewa yogyakarta    <br>   Latitude   -7.861964    <br>   Longitude   110.314867,-1,0,-7.861964,110.314867,goa selarong
-179,Point ZM,0,puncak bucu,Geocode_DTW_2_GMaps,0,-1,0, ,puncak bucu    <br>       <br>   FID   185    <br>   keyword_1   puncak bucu    <br>   wisata   puncak bucu    <br>   wisata_2   puncak bucu daerah istimewa yogyakarta    <br>   Latitude   -7.861855    <br>   Longitude   110.443083,-1,0,-7.861855,110.443083,puncak bucu
-180,Point ZM,0,jurang pulosari,Geocode_DTW_2_GMaps,0,-1,0, ,jurang pulosari    <br>       <br>   FID   187    <br>   keyword_1   jurang pulosari    <br>   wisata   jurang pulosari    <br>   wisata_2   jurang pulosari daerah istimewa yogyakarta    <br>   Latitude   -7.860962    <br>   Longitude   110.28709,-1,0,-7.860962,110.28709,jurang pulosari
-181,Point ZM,0,Desa Wisata Sukoreno,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Sukoreno    <br>       <br>   FID   188    <br>   keyword_1   Desa Wisata Sukoreno    <br>   wisata   Desa Wisata Sukoreno    <br>   wisata_2   Desa Wisata Sukoreno daerah istimewa yogyakarta    <br>   Latitude   -7.860094    <br>   Longitude,-1,0,-7.860094,110.217694,desa wisata sukoreno
-182,Point ZM,0,Padepokan Sumber Karahayon,Geocode_DTW_2_GMaps,0,-1,0, ,Padepokan Sumber Karahayon    <br>       <br>   FID   189    <br>   keyword_1   Padepokan Sumber Karahayon    <br>   wisata   Padepokan Sumber Karahayon    <br>   wisata_2   Padepokan Sumber Karahayon daerah istimewa yogyakarta    <br>   Latitude   -7.85,-1,0,-7.859559,110.409273,padepokan sumber karahayon
-183,Point ZM,0,desa wisata krebet,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata krebet    <br>       <br>   FID   190    <br>   keyword_1   desa wisata krebet    <br>   wisata   desa wisata krebet    <br>   wisata_2   desa wisata krebet daerah istimewa yogyakarta    <br>   Latitude   -7.858874    <br>   Longitude   110.2,-1,0,-7.858821,110.299767,desa wisata krebet
-184,Point ZM,0,batu amben,Geocode_DTW_2_GMaps,0,-1,0, ,batu amben    <br>       <br>   FID   191    <br>   keyword_1   batu amben    <br>   wisata   batu amben    <br>   wisata_2   batu amben daerah istimewa yogyakarta    <br>   Latitude   -7.858668    <br>   Longitude   110.472676,-1,0,-7.858668,110.472676,batu amben
-185,Point ZM,0,air terjun banyunibo,Geocode_DTW_2_GMaps,0,-1,0, ,air terjun banyunibo    <br>       <br>   FID   192    <br>   keyword_1   air terjun banyunibo    <br>   wisata   air terjun banyunibo    <br>   wisata_2   air terjun banyunibo daerah istimewa yogyakarta    <br>   Latitude   -7.855836    <br>   Longitude,-1,0,-7.855836,110.547952,air terjun banyunibo
-186,Point ZM,0,Desa Wisata Hargorejo,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Hargorejo    <br>       <br>   FID   193    <br>   keyword_1   Desa Wisata Hargorejo    <br>   wisata   Desa Wisata Hargorejo    <br>   wisata_2   Desa Wisata Hargorejo daerah istimewa yogyakarta    <br>   Latitude   -7.855114    <br>   Longi,-1,0,-7.855114,110.110479,desa wisata hargorejo
-187,Point ZM,0,desa wisata jipangan,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata jipangan    <br>       <br>   FID   194    <br>   keyword_1   desa wisata jipangan    <br>   wisata   desa wisata jipangan    <br>   wisata_2   desa wisata jipangan daerah istimewa yogyakarta    <br>   Latitude   -7.854557    <br>   Longitude,-1,0,-7.854497,110.327021,desa wisata jipangan
-188,Point ZM,0,air terjun kedung kandang,Geocode_DTW_2_GMaps,0,-1,0, ,air terjun kedung kandang    <br>       <br>   FID   195    <br>   keyword_1   air terjun kedung kandang    <br>   wisata   air terjun kedung kandang    <br>   wisata_2   air terjun kedung kandang daerah istimewa yogyakarta    <br>   Latitude   -7.853389,-1,0,-7.853389,110.535244,air terjun kedung kandang
-189,Point ZM,0,Sambe Rembe,Geocode_DTW_2_GMaps,0,-1,0, ,Sambe Rembe    <br>       <br>   FID   196    <br>   keyword_1   Sambe Rembe    <br>   wisata   Sambe Rembe    <br>   wisata_2   Sambe Rembe daerah istimewa yogyakarta    <br>   Latitude   -7.852796    <br>   Longitude   110.359783,-1,0,-7.852796,110.359783,sambe rembe
-190,Point ZM,0,heha sky view,Geocode_DTW_2_GMaps,0,-1,0, ,heha sky view    <br>       <br>   FID   197    <br>   keyword_1   heha sky view    <br>   wisata   heha sky view    <br>   wisata_2   heha sky view daerah istimewa yogyakarta    <br>   Latitude   -7.849614    <br>   Longitude   110.478324,-1,0,-7.849614,110.478324,heha sky view
-191,Point ZM,0,embung nglanggeran,Geocode_DTW_2_GMaps,0,-1,0, ,embung nglanggeran    <br>       <br>   FID   198    <br>   keyword_1   embung nglanggeran    <br>   wisata   embung nglanggeran    <br>   wisata_2   embung nglanggeran daerah istimewa yogyakarta    <br>   Latitude   -7.84714    <br>   Longitude   110.54,-1,0,-7.84714,110.546859,embung nglanggeran
-192,Point ZM,0,bukit bintang,Geocode_DTW_2_GMaps,0,-1,0, ,bukit bintang    <br>       <br>   FID   199    <br>   keyword_1   bukit bintang    <br>   wisata   bukit bintang    <br>   wisata_2   bukit bintang daerah istimewa yogyakarta    <br>   Latitude   -7.845841    <br>   Longitude   110.479846,-1,0,-7.845841,110.479846,bukit bintang
-193,Point ZM,0,desa wisata kasongan,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kasongan    <br>       <br>   FID   200    <br>   keyword_1   desa wisata kasongan    <br>   wisata   desa wisata kasongan    <br>   wisata_2   desa wisata kasongan daerah istimewa yogyakarta    <br>   Latitude   -7.845536    <br>   Longitude,-1,0,-7.845359,110.338011,desa wisata kasongan
-194,Point ZM,0,balong waterpark,Geocode_DTW_2_GMaps,0,-1,0, ,balong waterpark    <br>       <br>   FID   202    <br>   keyword_1   balong waterpark    <br>   wisata   balong waterpark    <br>   wisata_2   balong waterpark daerah istimewa yogyakarta    <br>   Latitude   -7.843492    <br>   Longitude   110.41039,-1,0,-7.843492,110.41039,balong waterpark
-195,Point ZM,0,Gunung Api Purba Nglanggeran,Geocode_DTW_2_GMaps,0,-1,0, ,Gunung Api Purba Nglanggeran    <br>       <br>   FID   203    <br>   keyword_1   Gunung Api Purba Nglanggeran    <br>   wisata   Gunung Api Purba Nglanggeran    <br>   wisata_2   Gunung Api Purba Nglanggeran daerah istimewa yogyakarta    <br>   Latitude,-1,0,-7.84276,110.537973,gunung api purba nglanggeran
-196,Point ZM,0,desa wisata kajigelem,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kajigelem    <br>       <br>   FID   205    <br>   keyword_1   desa wisata kajigelem    <br>   wisata   desa wisata kajigelem    <br>   wisata_2   desa wisata kajigelem daerah istimewa yogyakarta    <br>   Latitude   -7.842119    <br>   Longi,-1,0,-7.842119,110.324644,desa wisata kajigelem
-197,Point ZM,0,setren opak,Geocode_DTW_2_GMaps,0,-1,0, ,setren opak    <br>       <br>   FID   207    <br>   keyword_1   setren opak    <br>   wisata   setren opak    <br>   wisata_2   setren opak daerah istimewa yogyakarta    <br>   Latitude   -7.841101    <br>   Longitude   110.446883,-1,0,-7.841101,110.446883,setren opak
-198,Point ZM,0,Wisata Watu Gendong,Geocode_DTW_2_GMaps,0,-1,0, ,Wisata Watu Gendong    <br>       <br>   FID   208    <br>   keyword_1   Wisata Watu Gendong    <br>   wisata   Wisata Watu Gendong    <br>   wisata_2   Wisata Watu Gendong daerah istimewa yogyakarta    <br>   Latitude   -7.840964    <br>   Longitude   1,-1,0,-7.840964,110.67028,wisata watu gendong
-199,Point ZM,0,Museum Coklat Monggo,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Coklat Monggo    <br>       <br>   FID   209    <br>   keyword_1   Museum Coklat Monggo    <br>   wisata   Museum Coklat Monggo    <br>   wisata_2   Museum Coklat Monggo daerah istimewa yogyakarta    <br>   Latitude   -7.840689    <br>   Longitude,-1,0,-7.840584,110.297911,museum coklat monggo
-200,Point ZM,0,kampung pitu,Geocode_DTW_2_GMaps,0,-1,0, ,kampung pitu    <br>       <br>   FID   210    <br>   keyword_1   kampung pitu    <br>   wisata   kampung pitu    <br>   wisata_2   kampung pitu daerah istimewa yogyakarta    <br>   Latitude   -7.839695    <br>   Longitude   110.551566,-1,0,-7.839695,110.551566,kampung pitu
-201,Point ZM,0,gunung kukusan,Geocode_DTW_2_GMaps,0,-1,0, ,gunung kukusan    <br>       <br>   FID   211    <br>   keyword_1   gunung kukusan    <br>   wisata   gunung kukusan    <br>   wisata_2   gunung kukusan daerah istimewa yogyakarta    <br>   Latitude   -7.839312    <br>   Longitude   110.091122,-1,0,-7.839312,110.091122,gunung kukusan
-202,Point ZM,0,de mangol,Geocode_DTW_2_GMaps,0,-1,0, ,de mangol    <br>       <br>   FID   212    <br>   keyword_1   de mangol    <br>   wisata   de mangol    <br>   wisata_2   de mangol daerah istimewa yogyakarta    <br>   Latitude   -7.837857    <br>   Longitude   110.489053,-1,0,-7.837857,110.489053,de mangol
-203,Point ZM,0,Museum Muhammadiyah,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Muhammadiyah    <br>       <br>   FID   213    <br>   keyword_1   Museum Muhammadiyah    <br>   wisata   Museum Muhammadiyah    <br>   wisata_2   Museum Muhammadiyah daerah istimewa yogyakarta    <br>   Latitude   -7.83398    <br>   Longitude   11,-1,0,-7.83398,110.383777,museum muhammadiyah
-204,Point ZM,0,Hutan Wonosadi,Geocode_DTW_2_GMaps,0,-1,0, ,Hutan Wonosadi    <br>       <br>   FID   214    <br>   keyword_1   Hutan Wonosadi    <br>   wisata   Hutan Wonosadi    <br>   wisata_2   Hutan Wonosadi daerah istimewa yogyakarta    <br>   Latitude   -7.83331    <br>   Longitude   110.672216,-1,0,-7.83331,110.672216,hutan wonosadi
-205,Point ZM,0,gerbang banyu langit,Geocode_DTW_2_GMaps,0,-1,0, ,gerbang banyu langit    <br>       <br>   FID   215    <br>   keyword_1   gerbang banyu langit    <br>   wisata   gerbang banyu langit    <br>   wisata_2   gerbang banyu langit daerah istimewa yogyakarta    <br>   Latitude   -7.832703    <br>   Longitude,-1,0,-7.832703,110.451967,gerbang banyu langit
-206,Point ZM,0,pabrik gula madukismo,Geocode_DTW_2_GMaps,0,-1,0, ,pabrik gula madukismo    <br>       <br>   FID   216    <br>   keyword_1   pabrik gula madukismo    <br>   wisata   pabrik gula madukismo    <br>   wisata_2   pabrik gula madukismo daerah istimewa yogyakarta    <br>   Latitude   -7.832252    <br>   Longi,-1,0,-7.832252,110.345327,pabrik gula madukismo
-207,Point ZM,0,kampung wisata purbayan,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata purbayan    <br>       <br>   FID   217    <br>   keyword_1   kampung wisata purbayan    <br>   wisata   kampung wisata purbayan    <br>   wisata_2   kampung wisata purbayan daerah istimewa yogyakarta    <br>   Latitude   -7.830535    <br>,-1,0,-7.830536,110.399127,kampung wisata purbayan
-208,Point ZM,0,Desa Wisata Klegung,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Klegung    <br>       <br>   FID   218    <br>   keyword_1   Desa Wisata Klegung    <br>   wisata   Desa Wisata Klegung    <br>   wisata_2   Desa Wisata Klegung daerah istimewa yogyakarta    <br>   Latitude   -7.830302    <br>   Longitude   1,-1,0,-7.830302,110.528994,desa wisata klegung
-209,Point ZM,0,Kawasan Cagar Budaya Jagalan,Geocode_DTW_2_GMaps,0,-1,0, ,Kawasan Cagar Budaya Jagalan    <br>       <br>   FID   219    <br>   keyword_1   Kawasan Cagar Budaya Jagalan    <br>   wisata   Kawasan Cagar Budaya Jagalan    <br>   wisata_2   Kawasan Cagar Budaya Jagalan daerah istimewa yogyakarta    <br>   Latitude,-1,0,-7.82994,110.395673,kawasan cagar budaya jagalan
-210,Point ZM,0,Kamwis Giwangan,Geocode_DTW_2_GMaps,0,-1,0, ,Kamwis Giwangan    <br>       <br>   FID   220    <br>   keyword_1   Kamwis Giwangan    <br>   wisata   Kamwis Giwangan    <br>   wisata_2   Kamwis Giwangan daerah istimewa yogyakarta    <br>   Latitude   -7.829633    <br>   Longitude   110.38897,-1,0,-7.829633,110.38897,kamwis giwangan
-211,Point ZM,0,bukit cendana,Geocode_DTW_2_GMaps,0,-1,0, ,bukit cendana    <br>       <br>   FID   221    <br>   keyword_1   bukit cendana    <br>   wisata   bukit cendana    <br>   wisata_2   bukit cendana daerah istimewa yogyakarta    <br>   Latitude   -7.82731    <br>   Longitude   110.099884,-1,0,-7.82731,110.099884,bukit cendana
-212,Point ZM,0,Museum Intro Living Kotagede,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Intro Living Kotagede    <br>       <br>   FID   222    <br>   keyword_1   Museum Intro Living Kotagede    <br>   wisata   Museum Intro Living Kotagede    <br>   wisata_2   Museum Intro Living Kotagede daerah istimewa yogyakarta    <br>   Latitude,-1,0,-7.826379,110.392175,museum intro living kotagede
-213,Point ZM,0,Panorama Setro,Geocode_DTW_2_GMaps,0,-1,0, ,Panorama Setro    <br>       <br>   FID   225    <br>   keyword_1   Panorama Setro    <br>   wisata   Panorama Setro    <br>   wisata_2   Panorama Setro daerah istimewa yogyakarta    <br>   Latitude   -7.823277    <br>   Longitude   110.106395,-1,0,-7.823277,110.106395,panorama setro
-214,Point ZM,0,Towilfiets,Geocode_DTW_2_GMaps,0,-1,0, ,Towilfiets    <br>       <br>   FID   227    <br>   keyword_1   Towilfiets    <br>   wisata   Towilfiets    <br>   wisata_2   Towilfiets daerah istimewa yogyakarta    <br>   Latitude   -7.822069    <br>   Longitude   110.231913,-1,0,-7.822069,110.231913,towilfiets
-215,Point ZM,0,bukit jangkang,Geocode_DTW_2_GMaps,0,-1,0, ,bukit jangkang    <br>       <br>   FID   229    <br>   keyword_1   bukit jangkang    <br>   wisata   bukit jangkang    <br>   wisata_2   bukit jangkang daerah istimewa yogyakarta    <br>   Latitude   -7.821535    <br>   Longitude   110.124696,-1,0,-7.821535,110.124696,bukit jangkang
-216,Point ZM,0,Kamwis Prenggan,Geocode_DTW_2_GMaps,0,-1,0, ,Kamwis Prenggan    <br>       <br>   FID   230    <br>   keyword_1   Kamwis Prenggan    <br>   wisata   Kamwis Prenggan    <br>   wisata_2   Kamwis Prenggan daerah istimewa yogyakarta    <br>   Latitude   -7.821464    <br>   Longitude   110.397907,-1,0,-7.821464,110.397907,kamwis prenggan
-217,Point ZM,0,taman bambu air sermo,Geocode_DTW_2_GMaps,0,-1,0, ,taman bambu air sermo    <br>       <br>   FID   231    <br>   keyword_1   taman bambu air sermo    <br>   wisata   taman bambu air sermo    <br>   wisata_2   taman bambu air sermo daerah istimewa yogyakarta    <br>   Latitude   -7.821229    <br>   Longi,-1,0,-7.821229,110.115085,taman bambu air sermo
-218,Point ZM,0,gunung gambar,Geocode_DTW_2_GMaps,0,-1,0, ,gunung gambar    <br>       <br>   FID   232    <br>   keyword_1   gunung gambar    <br>   wisata   gunung gambar    <br>   wisata_2   gunung gambar daerah istimewa yogyakarta    <br>   Latitude   -7.821208    <br>   Longitude   110.67158,-1,0,-7.821208,110.67158,gunung gambar
-219,Point ZM,0,batu kapal,Geocode_DTW_2_GMaps,0,-1,0, ,batu kapal    <br>       <br>   FID   233    <br>   keyword_1   batu kapal    <br>   wisata   wisata batu kapal    <br>   wisata_2   wisata batu kapal daerah istimewa yogyakarta    <br>   Latitude   -7.820917    <br>   Longitude   110.453687,-1,0,-7.820917,110.453687,batu kapal
-220,Point ZM,0,waduk sermo,Geocode_DTW_2_GMaps,0,-1,0, ,waduk sermo    <br>       <br>   FID   234    <br>   keyword_1   waduk sermo    <br>   wisata   waduk sermo    <br>   wisata_2   waduk sermo daerah istimewa yogyakarta    <br>   Latitude   -7.820711    <br>   Longitude   110.121762,-1,0,-7.820711,110.121762,waduk sermo
-221,Point ZM,0,La Li Sa Farmer Village,Geocode_DTW_2_GMaps,0,-1,0, ,La Li Sa Farmer Village    <br>       <br>   FID   235    <br>   keyword_1   La Li Sa Farmer Village    <br>   wisata   La Li Sa Farmer Village    <br>   wisata_2   La Li Sa Farmer Village daerah istimewa yogyakarta    <br>   Latitude   -7.820285    <br>,-1,0,-7.820286,110.241105,la li sa farmer village
-222,Point ZM,0,desa wisata nawung,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata nawung    <br>       <br>   FID   236    <br>   keyword_1   desa wisata nawung    <br>   wisata   desa wisata nawung    <br>   wisata_2   desa wisata nawung daerah istimewa yogyakarta    <br>   Latitude   -7.820282    <br>   Longitude   110.5,-1,0,-7.820282,110.542533,desa wisata nawung
-223,Point ZM,0,desa wisata sermo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata sermo    <br>       <br>   FID   237    <br>   keyword_1   desa wisata sermo    <br>   wisata   desa wisata sermo    <br>   wisata_2   desa wisata sermo daerah istimewa yogyakarta    <br>   Latitude   -7.820135    <br>   Longitude   110.12258,-1,0,-7.820135,110.122585,desa wisata sermo
-224,Point ZM,0,museum anak kolong tangga,Geocode_DTW_2_GMaps,0,-1,0, ,museum anak kolong tangga    <br>       <br>   FID   238    <br>   keyword_1   museum anak kolong tangga    <br>   wisata   museum anak kolong tangga    <br>   wisata_2   museum anak kolong tangga daerah istimewa yogyakarta    <br>   Latitude   -7.818723,-1,0,-7.818724,110.36472,museum anak kolong tangga
-225,Point ZM,0,Curug Nogososro,Geocode_DTW_2_GMaps,0,-1,0, ,Curug Nogososro    <br>       <br>   FID   239    <br>   keyword_1   Curug Nogososro    <br>   wisata   Curug Nogososro    <br>   wisata_2   Curug Nogososro daerah istimewa yogyakarta    <br>   Latitude   -7.81845    <br>   Longitude   110.745,-1,0,-7.81845,110.745,curug nogososro
-226,Point ZM,0,bukit teletubbies,Geocode_DTW_2_GMaps,0,-1,0, ,bukit teletubbies    <br>       <br>   FID   240    <br>   keyword_1   bukit teletubbies    <br>   wisata   bukit teletubbies jogja    <br>   wisata_2   bukit teletubbies jogja daerah istimewa yogyakarta    <br>   Latitude   -7.817992    <br>   Longitude,-1,0,-7.817996,110.511842,bukit teletubbies
-227,Point ZM,0,museum perjuangan,Geocode_DTW_2_GMaps,0,-1,0, ,museum perjuangan    <br>       <br>   FID   243    <br>   keyword_1   museum perjuangan    <br>   wisata   museum perjuangan    <br>   wisata_2   museum perjuangan daerah istimewa yogyakarta    <br>   Latitude   -7.816425    <br>   Longitude   110.37181,-1,0,-7.816425,110.371819,museum perjuangan
-228,Point ZM,0,de mata trick eye,Geocode_DTW_2_GMaps,0,-1,0, ,de mata trick eye    <br>       <br>   FID   244    <br>   keyword_1   de mata trick eye    <br>   wisata   de mata trick eye    <br>   wisata_2   de mata trick eye daerah istimewa yogyakarta    <br>   Latitude   -7.816316    <br>   Longitude   110.38714,-1,0,-7.816316,110.387144,de mata trick eye
-229,Point ZM,0,Galaxi Water Park,Geocode_DTW_2_GMaps,0,-1,0, ,Galaxi Water Park    <br>       <br>   FID   245    <br>   keyword_1   Galaxi Water Park    <br>   wisata   Galaxi Water Park    <br>   wisata_2   Galaxi Water Park daerah istimewa yogyakarta    <br>   Latitude   -7.815948    <br>   Longitude   110.41373,-1,0,-7.815948,110.413734,galaxi water park
-230,Point ZM,0,kampung wisata rejowinangun,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata rejowinangun    <br>       <br>   FID   246    <br>   keyword_1   kampung wisata rejowinangun    <br>   wisata   kampung wisata rejowinangun    <br>   wisata_2   kampung wisata rejowinangun daerah istimewa yogyakarta    <br>   Latitude   -,-1,0,-7.815278,110.398836,kampung wisata rejowinangun
-231,Point ZM,0,museum wayang kekayon,Geocode_DTW_2_GMaps,0,-1,0, ,museum wayang kekayon    <br>       <br>   FID   247    <br>   keyword_1   museum wayang kekayon    <br>   wisata   museum wayang kekayon    <br>   wisata_2   museum wayang kekayon daerah istimewa yogyakarta    <br>   Latitude   -7.814594    <br>   Longi,-1,0,-7.814594,110.41306,museum wayang kekayon
-232,Point ZM,0,Citra Grand Mutiara Waterpark,Geocode_DTW_2_GMaps,0,-1,0, ,Citra Grand Mutiara Waterpark    <br>       <br>   FID   249    <br>   keyword_1   Citra Grand Mutiara Waterpark    <br>   wisata   Citra Grand Mutiara Waterpark    <br>   wisata_2   Citra Grand Mutiara Waterpark daerah istimewa yogyakarta    <br>   Lati,-1,0,-7.813734,110.283184,citra grand mutiara waterpark
-233,Point ZM,0,plengkung gading,Geocode_DTW_2_GMaps,0,-1,0, ,plengkung gading    <br>       <br>   FID   250    <br>   keyword_1   plengkung gading    <br>   wisata   plengkung gading    <br>   wisata_2   plengkung gading daerah istimewa yogyakarta    <br>   Latitude   -7.813728    <br>   Longitude   110.362907,-1,0,-7.813728,110.362907,plengkung gading
-234,Point ZM,0,rumah dome desa teletubbies,Geocode_DTW_2_GMaps,0,-1,0, ,rumah dome desa teletubbies    <br>       <br>   FID   252    <br>   keyword_1   rumah dome desa teletubbies    <br>   wisata   rumah dome desa teletubbies    <br>   wisata_2   rumah dome desa teletubbies daerah istimewa yogyakarta    <br>   Latitude   -,-1,0,-7.813608,110.503344,rumah dome desa teletubbies
-235,Point ZM,0,taman sari,Geocode_DTW_2_GMaps,0,-1,0, ,taman sari    <br>       <br>   FID   254    <br>   keyword_1   taman sari    <br>   wisata   taman sari    <br>   wisata_2   taman sari daerah istimewa yogyakarta    <br>   Latitude   -7.809979    <br>   Longitude   110.358991,-1,0,-7.809979,110.358991,taman sari
-236,Point ZM,0,desa wisata gamplong,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata gamplong    <br>       <br>   FID   255    <br>   keyword_1   desa wisata gamplong    <br>   wisata   desa wisata gamplong    <br>   wisata_2   desa wisata gamplong daerah istimewa yogyakarta    <br>   Latitude   -7.809838    <br>   Longitude,-1,0,-7.809838,110.234748,desa wisata gamplong
-237,Point ZM,0,Warungboto,Geocode_DTW_2_GMaps,0,-1,0, ,Warungboto    <br>       <br>   FID   256    <br>   keyword_1   Warungboto    <br>   wisata   Warungboto    <br>   wisata_2   Warungboto daerah istimewa yogyakarta    <br>   Latitude   -7.813375    <br>   Longitude   110.393021,-1,0,-7.813375,110.393021,warungboto
-238,Point ZM,0,keraton,Geocode_DTW_2_GMaps,0,-1,0, ,keraton    <br>       <br>   FID   257    <br>   keyword_1   keraton    <br>   wisata   keraton    <br>   wisata_2   keraton daerah istimewa yogyakarta    <br>   Latitude   -7.809026    <br>   Longitude   110.363649,-1,0,-7.805306,110.364207,keraton
-239,Point ZM,0,lava bantal,Geocode_DTW_2_GMaps,0,-1,0, ,lava bantal    <br>       <br>   FID   258    <br>   keyword_1   lava bantal    <br>   wisata   lava bantal    <br>   wisata_2   lava bantal daerah istimewa yogyakarta    <br>   Latitude   -7.808152    <br>   Longitude   110.459518,-1,0,-7.808152,110.459518,lava bantal
-240,Point ZM,0,desa wisata kalibiru,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kalibiru    <br>       <br>   FID   259    <br>   keyword_1   desa wisata kalibiru    <br>   wisata   desa wisata kalibiru    <br>   wisata_2   desa wisata kalibiru daerah istimewa yogyakarta    <br>   Latitude   -7.807422    <br>   Longitude,-1,0,-7.807422,110.129268,desa wisata kalibiru
-241,Point ZM,0,Obelix Hills,Geocode_DTW_2_GMaps,0,-1,0, ,Obelix Hills    <br>       <br>   FID   260    <br>   keyword_1   Obelix Hills    <br>   wisata   Obelix Hills    <br>   wisata_2   Obelix Hills daerah istimewa yogyakarta    <br>   Latitude   -7.807099    <br>   Longitude   110.521618,-1,0,-7.807099,110.521618,obelix hills
-242,Point ZM,0,Batu Berdikari,Geocode_DTW_2_GMaps,0,-1,0, ,Batu Berdikari    <br>       <br>   FID   262    <br>   keyword_1   Batu Berdikari    <br>   wisata   Batu Berdikari    <br>   wisata_2   Batu Berdikari daerah istimewa yogyakarta    <br>   Latitude   -7.806604    <br>   Longitude   110.369072,-1,0,-7.806604,110.369072,batu berdikari
-243,Point ZM,0,kampung wisata tahunan,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata tahunan    <br>       <br>   FID   263    <br>   keyword_1   kampung wisata tahunan    <br>   wisata   kampung wisata tahunan    <br>   wisata_2   kampung wisata tahunan daerah istimewa yogyakarta    <br>   Latitude   -7.80657    <br>   Lo,-1,0,-7.80657,110.38263,kampung wisata tahunan
-244,Point ZM,0,keben keraton,Geocode_DTW_2_GMaps,0,-1,0, ,keben keraton    <br>       <br>   FID   264    <br>   keyword_1   keben keraton    <br>   wisata   keben keraton    <br>   wisata_2   keben keraton daerah istimewa yogyakarta    <br>   Latitude   -7.806567    <br>   Longitude   110.363084,-1,0,-7.806567,110.363084,keben keraton
-245,Point ZM,0,Kamwis Kadipaten,Geocode_DTW_2_GMaps,0,-1,0, ,Kamwis Kadipaten    <br>       <br>   FID   265    <br>   keyword_1   Kamwis Kadipaten    <br>   wisata   Kamwis Kadipaten    <br>   wisata_2   Kamwis Kadipaten daerah istimewa yogyakarta    <br>   Latitude   -7.806069    <br>   Longitude   110.358436,-1,0,-7.806069,110.358436,kamwis kadipaten
-246,Point ZM,0,Museum Laboratorium Sejarah UPY,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Laboratorium Sejarah UPY    <br>       <br>   FID   266    <br>   keyword_1   Museum Laboratorium Sejarah UPY    <br>   wisata   Museum Laboratorium Sejarah UPY    <br>   wisata_2   Museum Laboratorium Sejarah UPY daerah istimewa yogyakarta    <br,-1,0,-7.805944,110.341073,museum laboratorium sejarah upy
-247,Point ZM,0,studio alam gamplong,Geocode_DTW_2_GMaps,0,-1,0, ,studio alam gamplong    <br>       <br>   FID   267    <br>   keyword_1   studio alam gamplong    <br>   wisata   studio alam gamplong    <br>   wisata_2   studio alam gamplong daerah istimewa yogyakarta    <br>   Latitude   -7.805794    <br>   Longitude,-1,0,-7.805726,110.236831,studio alam gamplong
-248,Point ZM,0,Kamwis Kauman,Geocode_DTW_2_GMaps,0,-1,0, ,Kamwis Kauman    <br>       <br>   FID   268    <br>   keyword_1   Kamwis Kauman    <br>   wisata   Kamwis Kauman    <br>   wisata_2   Kamwis Kauman daerah istimewa yogyakarta    <br>   Latitude   -7.805768    <br>   Longitude   110.361702,-1,0,-7.805768,110.361702,kamwis kauman
-249,Point ZM,0,museum kereta,Geocode_DTW_2_GMaps,0,-1,0, ,museum kereta    <br>       <br>   FID   269    <br>   keyword_1   museum kereta    <br>   wisata   museum kereta    <br>   wisata_2   museum kereta daerah istimewa yogyakarta    <br>   Latitude   -7.805467    <br>   Longitude   110.363062,-1,0,-7.805467,110.363062,museum kereta
-250,Point ZM,0,museum dewantara,Geocode_DTW_2_GMaps,0,-1,0, ,museum dewantara    <br>       <br>   FID   270    <br>   keyword_1   museum dewantara    <br>   wisata   museum dewantara    <br>   wisata_2   museum dewantara daerah istimewa yogyakarta    <br>   Latitude   -7.80542    <br>   Longitude   110.378477,-1,0,-7.80542,110.378477,museum dewantara
-251,Point ZM,0,Wisata Bukit Mintorogo,Geocode_DTW_2_GMaps,0,-1,0, ,Wisata Bukit Mintorogo    <br>       <br>   FID   271    <br>   keyword_1   Wisata Bukit Mintorogo    <br>   wisata   Wisata Bukit Mintorogo    <br>   wisata_2   Wisata Bukit Mintorogo daerah istimewa yogyakarta    <br>   Latitude   -7.805115    <br>   L,-1,0,-7.805115,110.533825,wisata bukit mintorogo
-252,Point ZM,0,gunung ijo,Geocode_DTW_2_GMaps,0,-1,0, ,gunung ijo    <br>       <br>   FID   272    <br>   keyword_1   gunung ijo    <br>   wisata   gunung ijo    <br>   wisata_2   gunung ijo daerah istimewa yogyakarta    <br>   Latitude   -7.805    <br>   Longitude   110.081944,-1,0,-7.805,110.081944,gunung ijo
-253,Point ZM,0,gembira loka,Geocode_DTW_2_GMaps,0,-1,0, ,gembira loka    <br>       <br>   FID   273    <br>   keyword_1   gembira loka    <br>   wisata   gembira loka    <br>   wisata_2   gembira loka daerah istimewa yogyakarta    <br>   Latitude   -7.804134    <br>   Longitude   110.397988,-1,0,-7.804134,110.397988,gembira loka
-254,Point ZM,0,alun alun lor,Geocode_DTW_2_GMaps,0,-1,0, ,alun alun lor    <br>       <br>   FID   274    <br>   keyword_1   alun alun lor    <br>   wisata   alun alun lor jogja    <br>   wisata_2   alun alun lor jogja daerah istimewa yogyakarta    <br>   Latitude   -7.804063    <br>   Longitude   110.363358,-1,0,-7.803973,110.364388,alun alun lor
-255,Point ZM,0,Gamol,Geocode_DTW_2_GMaps,0,-1,0, ,Gamol    <br>       <br>   FID   275    <br>   keyword_1   Gamol    <br>   wisata   Gamol    <br>   wisata_2   Gamol daerah istimewa yogyakarta    <br>   Latitude   -7.802827    <br>   Longitude   110.294392,-1,0,-7.802827,110.294392,gamol
-256,Point ZM,0,kampung wisata sayidan,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata sayidan    <br>       <br>   FID   276    <br>   keyword_1   kampung wisata sayidan    <br>   wisata   kampung wisata sayidan    <br>   wisata_2   kampung wisata sayidan daerah istimewa yogyakarta    <br>   Latitude   -7.802506    <br>   L,-1,0,-7.802506,110.370308,kampung wisata sayidan
-257,Point ZM,0,museum sudirman,Geocode_DTW_2_GMaps,0,-1,0, ,museum sudirman    <br>       <br>   FID   278    <br>   keyword_1   museum sudirman    <br>   wisata   museum sudirman    <br>   wisata_2   museum sudirman daerah istimewa yogyakarta    <br>   Latitude   -7.802346    <br>   Longitude   110.375473,-1,0,-7.802418,110.375516,museum sudirman
-258,Point ZM,0,museum sonobudoyo,Geocode_DTW_2_GMaps,0,-1,0, ,museum sonobudoyo    <br>       <br>   FID   279    <br>   keyword_1   museum sonobudoyo    <br>   wisata   museum sonobudoyo    <br>   wisata_2   museum sonobudoyo daerah istimewa yogyakarta    <br>   Latitude   -7.802333    <br>   Longitude   110.36394,-1,0,-7.802395,110.363947,museum sonobudoyo
-259,Point ZM,0,air terjun setawing,Geocode_DTW_2_GMaps,0,-1,0, ,air terjun setawing    <br>       <br>   FID   280    <br>   keyword_1   air terjun setawing    <br>   wisata   curug setawing    <br>   wisata_2   curug setawing daerah istimewa yogyakarta    <br>   Latitude   -7.741993    <br>   Longitude   110.142643,-1,0,-7.740281,110.145583,air terjun setawing
-260,Point ZM,0,bendungan ancol,Geocode_DTW_2_GMaps,0,-1,0, ,bendungan ancol    <br>       <br>   FID   281    <br>   keyword_1   bendungan ancol    <br>   wisata   ancol bridge    <br>   wisata_2   ancol bridge daerah istimewa yogyakarta    <br>   Latitude   -7.665817    <br>   Longitude   110.267415,-1,0,-7.665817,110.267415,bendungan ancol
-261,Point ZM,0,curug jurang gedhe,Geocode_DTW_2_GMaps,0,-1,0, ,curug jurang gedhe    <br>       <br>   FID   282    <br>   keyword_1   curug jurang gedhe    <br>   wisata   curug gedhe    <br>   wisata_2   curug gedhe daerah istimewa yogyakarta    <br>   Latitude   -7.824265    <br>   Longitude   110.536264,-1,0,-7.824265,110.536264,curug jurang gedhe
-262,Point ZM,0,Desa Wisata Jatirejo,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Jatirejo    <br>       <br>   FID   283    <br>   keyword_1   Desa Wisata Jatirejo    <br>   wisata   Desa Wisata Jatirejo    <br>   wisata_2   Desa Wisata Jatirejo daerah istimewa yogyakarta    <br>   Latitude   -7.930105    <br>   Longitude,-1,0,-7.930105,110.230967,desa wisata jatirejo
-263,Point ZM,0,Goa Cokro,Geocode_DTW_2_GMaps,0,-1,0, ,Goa Cokro    <br>       <br>   FID   284    <br>   keyword_1   Goa Cokro    <br>   wisata   gua cokro    <br>   wisata_2   gua cokro daerah istimewa yogyakarta    <br>   Latitude   -7.941843    <br>   Longitude   110.720632,-1,0,-7.941843,110.720632,goa cokro
-264,Point ZM,0,goa jepang,Geocode_DTW_2_GMaps,0,-1,0, ,goa jepang    <br>       <br>   FID   285    <br>   keyword_1   goa jepang    <br>   wisata   gua jepang    <br>   wisata_2   gua jepang daerah istimewa yogyakarta    <br>   Latitude   -8.001828    <br>   Longitude   110.329731,-1,0,-8.001828,110.329731,goa jepang
-265,Point ZM,0,Gua Grengseng,Geocode_DTW_2_GMaps,0,-1,0, ,Gua Grengseng    <br>       <br>   FID   286    <br>   keyword_1   Gua Grengseng    <br>   wisata   Gua Grengseng    <br>   wisata_2   Gua Grengseng daerah istimewa yogyakarta    <br>   Latitude   -8.08754    <br>   Longitude   110.579805,-1,0,-8.08754,110.579805,gua grengseng
-266,Point ZM,0,gua ngingrong,Geocode_DTW_2_GMaps,0,-1,0, ,gua ngingrong    <br>       <br>   FID   287    <br>   keyword_1   gua ngingrong    <br>   wisata   gua ngingrong    <br>   wisata_2   gua ngingrong daerah istimewa yogyakarta    <br>   Latitude   -8.026773    <br>   Longitude   110.5904,-1,0,-8.026773,110.5904,gua ngingrong
-267,Point ZM,0,Gua Tapan,Geocode_DTW_2_GMaps,0,-1,0, ,Gua Tapan    <br>       <br>   FID   288    <br>   keyword_1   Gua Tapan    <br>   wisata   Gua Tapan    <br>   wisata_2   Gua Tapan daerah istimewa yogyakarta    <br>   Latitude   -8.119125    <br>   Longitude   110.505064,-1,0,-8.119125,110.505064,gua tapan
-268,Point ZM,0,gunung merapi,Geocode_DTW_2_GMaps,0,-1,0, ,gunung merapi    <br>       <br>   FID   289    <br>   keyword_1   gunung merapi    <br>   wisata   gunung merapi    <br>   wisata_2   gunung merapi daerah istimewa yogyakarta    <br>   Latitude   -7.540716    <br>   Longitude   110.445723,-1,0,-7.540716,110.445723,gunung merapi
-269,Point ZM,0,history of java,Geocode_DTW_2_GMaps,0,-1,0, ,history of java    <br>       <br>   FID   290    <br>   keyword_1   history of java    <br>   wisata   History Of Java Museum    <br>   wisata_2   History Of Java Museum daerah istimewa yogyakarta    <br>   Latitude   -7.843893    <br>   Longitude   110,-1,0,-7.843893,110.362325,history of java
-270,Point ZM,0,jogja agro techno park,Geocode_DTW_2_GMaps,0,-1,0, ,jogja agro techno park    <br>       <br>   FID   291    <br>   keyword_1   jogja agro techno park    <br>   wisata   Jogja Agro Park    <br>   wisata_2   Jogja Agro Park daerah istimewa yogyakarta    <br>   Latitude   -7.786715    <br>   Longitude   110,-1,0,-7.786715,110.221433,jogja agro techno park
-271,Point ZM,0,kampung wisata dipowinatan,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata dipowinatan    <br>       <br>   FID   292    <br>   keyword_1   kampung wisata dipowinatan    <br>   wisata   RTHP Dipowinatan    <br>   wisata_2   RTHP Dipowinatan daerah istimewa yogyakarta    <br>   Latitude   -7.810548    <br>   Longi,-1,0,-7.810548,110.370498,kampung wisata dipowinatan
-272,Point ZM,0,Kamwis Dewobronto,Geocode_DTW_2_GMaps,0,-1,0, ,Kamwis Dewobronto    <br>       <br>   FID   293    <br>   keyword_1   Kamwis Dewobronto    <br>   wisata   Kamwis Dewobronto    <br>   wisata_2   Kamwis Dewobronto daerah istimewa yogyakarta    <br>   Latitude   -7.817437    <br>   Longitude   110.37332,-1,0,-7.817437,110.373324,kamwis dewobronto
-273,Point ZM,0,Kamwis Surokarsan,Geocode_DTW_2_GMaps,0,-1,0, ,Kamwis Surokarsan    <br>       <br>   FID   294    <br>   keyword_1   Kamwis Surokarsan    <br>   wisata   Kamwis Surokarsan    <br>   wisata_2   Kamwis Surokarsan daerah istimewa yogyakarta    <br>   Latitude   -7.806813    <br>   Longitude   110.37484,-1,0,-7.806813,110.374841,kamwis surokarsan
-274,Point ZM,0,moyeng,Geocode_DTW_2_GMaps,0,-1,0, ,moyeng    <br>       <br>   FID   295    <br>   keyword_1   moyeng    <br>   wisata   puncak moyeng    <br>   wisata_2   puncak moyeng daerah istimewa yogyakarta    <br>   Latitude   -7.750514    <br>   Longitude   110.178577,-1,0,-7.750514,110.178577,moyeng
-275,Point ZM,0,Museum Karbol,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Karbol    <br>       <br>   FID   296    <br>   keyword_1   Museum Karbol    <br>   wisata   Museum Karbol    <br>   wisata_2   Museum Karbol daerah istimewa yogyakarta    <br>   Latitude   -7.796004    <br>   Longitude   110.435571,-1,0,-7.796004,110.435571,museum karbol
-276,Point ZM,0,Museum Paleoantropologi,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Paleoantropologi    <br>       <br>   FID   297    <br>   keyword_1   Museum Paleoantropologi    <br>   wisata   Museum Paleoantropologi    <br>   wisata_2   Museum Paleoantropologi daerah istimewa yogyakarta    <br>   Latitude   -7.770424    <br>,-1,0,-7.770424,110.375392,museum paleoantropologi
-277,Point ZM,0,Museum Pancasila,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Pancasila    <br>       <br>   FID   298    <br>   keyword_1   Museum Pancasila    <br>   wisata   Museum Pancasila    <br>   wisata_2   Museum Pancasila daerah istimewa yogyakarta    <br>   Latitude   -7.754812    <br>   Longitude   110.388014,-1,0,-7.754812,110.388014,museum pancasila
-278,Point ZM,0,Museum Serat Holistik,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Serat Holistik    <br>       <br>   FID   299    <br>   keyword_1   Museum Serat Holistik    <br>   wisata   Museum Serat Holistik    <br>   wisata_2   Museum Serat Holistik daerah istimewa yogyakarta    <br>   Latitude   -7.7022    <br>   Longitu,-1,0,-7.7022,110.386416,museum serat holistik
-279,Point ZM,0,Pendidikan dan Ketahanan Pangan Dukuh,Geocode_DTW_2_GMaps,0,-1,0, ,Pendidikan dan Ketahanan Pangan Dukuh    <br>       <br>   FID   300    <br>   keyword_1   Pendidikan dan Ketahanan Pangan Dukuh    <br>   wisata   Pendidikan dan Ketahanan Pangan Dukuh    <br>   wisata_2   Pendidikan dan Ketahanan Pangan Dukuh daerah is,-1,0,-7.700424,110.360574,pendidikan dan ketahanan pangan dukuh
-280,Point ZM,0,randusari,Geocode_DTW_2_GMaps,0,-1,0, ,randusari    <br>       <br>   FID   301    <br>   keyword_1   randusari    <br>   wisata   air terjun randusari    <br>   wisata_2   air terjun randusari daerah istimewa yogyakarta    <br>   Latitude   -7.917667    <br>   Longitude   110.489316,-1,0,-7.917667,110.489316,randusari
-281,Point ZM,0,Volcano Tour,Geocode_DTW_2_GMaps,0,-1,0, ,Volcano Tour    <br>       <br>   FID   302    <br>   keyword_1   Volcano Tour    <br>   wisata   Volcano Tour    <br>   wisata_2   Volcano Tour daerah istimewa yogyakarta    <br>   Latitude   -7.59051    <br>   Longitude   110.442487,-1,0,-7.59051,110.442487,volcano tour
-282,Point ZM,0,puncak dipowono,Geocode_DTW_2_GMaps,0,-1,0, ,puncak dipowono    <br>       <br>   FID   303    <br>   keyword_1   puncak dipowono    <br>   wisata   puncak dipowono    <br>   wisata_2   puncak dipowono daerah istimewa yogyakarta    <br>   Latitude   -7.801269    <br>   Longitude   110.132241,-1,0,-7.801269,110.132241,puncak dipowono
-283,Point ZM,0,museum bahari,Geocode_DTW_2_GMaps,0,-1,0, ,museum bahari    <br>       <br>   FID   304    <br>   keyword_1   museum bahari    <br>   wisata   museum bahari    <br>   wisata_2   museum bahari daerah istimewa yogyakarta    <br>   Latitude   -7.801141    <br>   Longitude   110.349301,-1,0,-7.801141,110.349301,museum bahari
-284,Point ZM,0,puro pakualaman,Geocode_DTW_2_GMaps,0,-1,0, ,puro pakualaman    <br>       <br>   FID   305    <br>   keyword_1   puro pakualaman    <br>   wisata   puro pakualaman    <br>   wisata_2   puro pakualaman daerah istimewa yogyakarta    <br>   Latitude   -7.800999    <br>   Longitude   110.376159,-1,0,-7.800999,110.376159,puro pakualaman
-285,Point ZM,0,Buah Manis,Geocode_DTW_2_GMaps,0,-1,0, ,Buah Manis    <br>       <br>   FID   306    <br>   keyword_1   Buah Manis    <br>   wisata   Buah Manis    <br>   wisata_2   Buah Manis daerah istimewa yogyakarta    <br>   Latitude   -7.800819    <br>   Longitude   110.323559,-1,0,-7.800818,110.323558,buah manis
-286,Point ZM,0,taman pintar,Geocode_DTW_2_GMaps,0,-1,0, ,taman pintar    <br>       <br>   FID   307    <br>   keyword_1   taman pintar    <br>   wisata   taman pintar    <br>   wisata_2   taman pintar daerah istimewa yogyakarta    <br>   Latitude   -7.800671    <br>   Longitude   110.367655,-1,0,-7.800672,110.367655,taman pintar
-287,Point ZM,0,bukit canthing,Geocode_DTW_2_GMaps,0,-1,0, ,bukit canthing    <br>       <br>   FID   308    <br>   keyword_1   bukit canthing    <br>   wisata   Canting Mas Puncak Dipowono    <br>   wisata_2   Canting Mas Puncak Dipowono daerah istimewa yogyakarta    <br>   Latitude   -7.80032    <br>   Longitud,-1,0,-7.80032,110.128122,bukit canthing
-288,Point ZM,0,benteng vredeburg,Geocode_DTW_2_GMaps,0,-1,0, ,benteng vredeburg    <br>       <br>   FID   309    <br>   keyword_1   benteng vredeburg    <br>   wisata   benteng vredeburg    <br>   wisata_2   benteng vredeburg daerah istimewa yogyakarta    <br>   Latitude   -7.800293    <br>   Longitude   110.36616,-1,0,-7.800293,110.366164,benteng vredeburg
-289,Point ZM,0,museum taman tino sidin,Geocode_DTW_2_GMaps,0,-1,0, ,museum taman tino sidin    <br>       <br>   FID   311    <br>   keyword_1   museum taman tino sidin    <br>   wisata   museum taman tino sidin    <br>   wisata_2   museum taman tino sidin daerah istimewa yogyakarta    <br>   Latitude   -7.799512    <br>,-1,0,-7.799512,110.344967,museum taman tino sidin
-290,Point ZM,0,kampung wisata pakualaman,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata pakualaman    <br>       <br>   FID   312    <br>   keyword_1   kampung wisata pakualaman    <br>   wisata   kampung wisata pakualaman    <br>   wisata_2   kampung wisata pakualaman daerah istimewa yogyakarta    <br>   Latitude   -7.798334,-1,0,-7.798334,110.377683,kampung wisata pakualaman
-291,Point ZM,0,Pelangi Progo,Geocode_DTW_2_GMaps,0,-1,0, ,Pelangi Progo    <br>       <br>   FID   313    <br>   keyword_1   Pelangi Progo    <br>   wisata   Pelangi Progo    <br>   wisata_2   Pelangi Progo daerah istimewa yogyakarta    <br>   Latitude   -7.798291    <br>   Longitude   110.368797,-1,0,-7.798291,110.368797,pelangi progo
-292,Point ZM,0,Kamwis Suryatmajan,Geocode_DTW_2_GMaps,0,-1,0, ,Kamwis Suryatmajan    <br>       <br>   FID   315    <br>   keyword_1   Kamwis Suryatmajan    <br>   wisata   Kamwis Suryatmajan    <br>   wisata_2   Kamwis Suryatmajan daerah istimewa yogyakarta    <br>   Latitude   -7.794045    <br>   Longitude   110.3,-1,0,-7.794045,110.367373,kamwis suryatmajan
-293,Point ZM,0,Desa Wisata Hargotirto,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Hargotirto    <br>       <br>   FID   316    <br>   keyword_1   Desa Wisata Hargotirto    <br>   wisata   Desa Wisata Hargotirto    <br>   wisata_2   Desa Wisata Hargotirto daerah istimewa yogyakarta    <br>   Latitude   -7.79384    <br>   Lo,-1,0,-7.79384,110.098567,desa wisata hargotirto
-294,Point ZM,0,watu payung,Geocode_DTW_2_GMaps,0,-1,0, ,watu payung    <br>       <br>   FID   318    <br>   keyword_1   watu payung    <br>   wisata   watu payung    <br>   wisata_2   watu payung daerah istimewa yogyakarta    <br>   Latitude   -7.793477    <br>   Longitude   110.520934,-1,0,-7.793477,110.520934,watu payung
-295,Point ZM,0,malioboro,Geocode_DTW_2_GMaps,0,-1,0, ,malioboro    <br>       <br>   FID   319    <br>   keyword_1   malioboro    <br>   wisata   malioboro    <br>   wisata_2   malioboro daerah istimewa yogyakarta    <br>   Latitude   -7.792657    <br>   Longitude   110.365845,-1,0,-7.793117,110.366006,malioboro
-296,Point ZM,0,kampung wisata sosromenduran,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata sosromenduran    <br>       <br>   FID   320    <br>   keyword_1   kampung wisata sosromenduran    <br>   wisata   kampung wisata sosromenduran    <br>   wisata_2   kampung wisata sosromenduran daerah istimewa yogyakarta    <br>   Latitude,-1,0,-7.79219,110.362151,kampung wisata sosromenduran
-297,Point ZM,0,museum soeharto,Geocode_DTW_2_GMaps,0,-1,0, ,museum soeharto    <br>       <br>   FID   322    <br>   keyword_1   museum soeharto    <br>   wisata   museum soeharto    <br>   wisata_2   museum soeharto daerah istimewa yogyakarta    <br>   Latitude   -7.791318    <br>   Longitude   110.280528,-1,0,-7.791318,110.280528,museum soeharto
-298,Point ZM,0,gua maria,Geocode_DTW_2_GMaps,0,-1,0, ,gua maria    <br>       <br>   FID   323    <br>   keyword_1   gua maria    <br>   wisata   gua maria    <br>   wisata_2   gua maria daerah istimewa yogyakarta    <br>   Latitude   -7.791234    <br>   Longitude   110.389421,-1,0,-7.791234,110.389421,gua maria
-299,Point ZM,0,museum dirgantara,Geocode_DTW_2_GMaps,0,-1,0, ,museum dirgantara    <br>       <br>   FID   324    <br>   keyword_1   museum dirgantara    <br>   wisata   museum dirgantara    <br>   wisata_2   museum dirgantara daerah istimewa yogyakarta    <br>   Latitude   -7.790303    <br>   Longitude   110.41576,-1,0,-7.790303,110.415762,museum dirgantara
-300,Point ZM,0,embung langensari,Geocode_DTW_2_GMaps,0,-1,0, ,embung langensari    <br>       <br>   FID   327    <br>   keyword_1   embung langensari    <br>   wisata   embung langensari    <br>   wisata_2   embung langensari daerah istimewa yogyakarta    <br>   Latitude   -7.786615    <br>   Longitude   110.38193,-1,0,-7.786615,110.381931,embung langensari
-301,Point ZM,0,desa wisata sukunan,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata sukunan    <br>       <br>   FID   328    <br>   keyword_1   desa wisata sukunan    <br>   wisata   desa wisata sukunan    <br>   wisata_2   desa wisata sukunan daerah istimewa yogyakarta    <br>   Latitude   -7.78569    <br>   Longitude   11,-1,0,-7.78569,110.336158,desa wisata sukunan
-302,Point ZM,0,museum sandi negara,Geocode_DTW_2_GMaps,0,-1,0, ,museum sandi negara    <br>       <br>   FID   329    <br>   keyword_1   museum sandi negara    <br>   wisata   museum sandi negara    <br>   wisata_2   museum sandi negara daerah istimewa yogyakarta    <br>   Latitude   -7.784555    <br>   Longitude   1,-1,0,-7.784555,110.371155,museum sandi negara
-303,Point ZM,0,museum pergerakan wanita,Geocode_DTW_2_GMaps,0,-1,0, ,museum pergerakan wanita    <br>       <br>   FID   330    <br>   keyword_1   museum pergerakan wanita    <br>   wisata   museum pergerakan wanita    <br>   wisata_2   museum pergerakan wanita daerah istimewa yogyakarta    <br>   Latitude   -7.783915,-1,0,-7.783915,110.393278,museum pergerakan wanita
-304,Point ZM,0,candi ijo,Geocode_DTW_2_GMaps,0,-1,0, ,candi ijo    <br>       <br>   FID   331    <br>   keyword_1   candi ijo    <br>   wisata   candi ijo    <br>   wisata_2   candi ijo daerah istimewa yogyakarta    <br>   Latitude   -7.783827    <br>   Longitude   110.511883,-1,0,-7.783827,110.511884,candi ijo
-305,Point ZM,0,Kampung Satwa,Geocode_DTW_2_GMaps,0,-1,0, ,Kampung Satwa    <br>       <br>   FID   332    <br>   keyword_1   Kampung Satwa    <br>   wisata   Kampung Satwa    <br>   wisata_2   Kampung Satwa daerah istimewa yogyakarta    <br>   Latitude   -7.783397    <br>   Longitude   110.257882,-1,0,-7.783397,110.257882,kampung satwa
-306,Point ZM,0,museum dharma wiratama,Geocode_DTW_2_GMaps,0,-1,0, ,museum dharma wiratama    <br>       <br>   FID   333    <br>   keyword_1   museum dharma wiratama    <br>   wisata   museum dharma wiratama    <br>   wisata_2   museum dharma wiratama daerah istimewa yogyakarta    <br>   Latitude   -7.782924    <br>   L,-1,0,-7.782924,110.375582,museum dharma wiratama
-307,Point ZM,0,tugu jogja,Geocode_DTW_2_GMaps,0,-1,0, ,tugu jogja    <br>       <br>   FID   334    <br>   keyword_1   tugu jogja    <br>   wisata   tugu jogja    <br>   wisata_2   tugu jogja daerah istimewa yogyakarta    <br>   Latitude   -7.782922    <br>   Longitude   110.367076,-1,0,-7.782922,110.367076,tugu jogja
-308,Point ZM,0,museum affandi,Geocode_DTW_2_GMaps,0,-1,0, ,museum affandi    <br>       <br>   FID   335    <br>   keyword_1   museum affandi    <br>   wisata   museum affandi    <br>   wisata_2   museum affandi daerah istimewa yogyakarta    <br>   Latitude   -7.782713    <br>   Longitude   110.396397,-1,0,-7.782713,110.396397,museum affandi
-309,Point ZM,0,kids fun,Geocode_DTW_2_GMaps,0,-1,0, ,kids fun    <br>       <br>   FID   336    <br>   keyword_1   kids fun    <br>   wisata   kids fun    <br>   wisata_2   kids fun daerah istimewa yogyakarta    <br>   Latitude   -7.78238    <br>   Longitude   110.37916,-1,0,-7.78238,110.37916,kids fun
-310,Point ZM,0,museum geoteknologi,Geocode_DTW_2_GMaps,0,-1,0, ,museum geoteknologi    <br>       <br>   FID   337    <br>   keyword_1   museum geoteknologi    <br>   wisata   museum geoteknologi    <br>   wisata_2   museum geoteknologi daerah istimewa yogyakarta    <br>   Latitude   -7.7817    <br>   Longitude   110,-1,0,-7.7817,110.41461,museum geoteknologi
-311,Point ZM,0,museum dr yap,Geocode_DTW_2_GMaps,0,-1,0, ,museum dr yap    <br>       <br>   FID   339    <br>   keyword_1   museum dr yap    <br>   wisata   museum dr yap    <br>   wisata_2   museum dr yap daerah istimewa yogyakarta    <br>   Latitude   -7.780131    <br>   Longitude   110.373935,-1,0,-7.780131,110.373935,museum dr yap
-312,Point ZM,0,watu tapak camp hill,Geocode_DTW_2_GMaps,0,-1,0, ,watu tapak camp hill    <br>       <br>   FID   340    <br>   keyword_1   watu tapak camp hill    <br>   wisata   watu tapak camp hill    <br>   wisata_2   watu tapak camp hill daerah istimewa yogyakarta    <br>   Latitude   -7.780118    <br>   Longitude,-1,0,-7.780118,110.504217,watu tapak camp hill
-313,Point ZM,0,kampung wisata cokrodiningratan,Geocode_DTW_2_GMaps,0,-1,0, ,kampung wisata cokrodiningratan    <br>       <br>   FID   341    <br>   keyword_1   kampung wisata cokrodiningratan    <br>   wisata   kampung wisata cokrodiningratan    <br>   wisata_2   kampung wisata cokrodiningratan daerah istimewa yogyakarta    <br,-1,0,-7.779644,110.370136,kampung wisata cokrodiningratan
-314,Point ZM,0,candi banyunibo,Geocode_DTW_2_GMaps,0,-1,0, ,candi banyunibo    <br>       <br>   FID   342    <br>   keyword_1   candi banyunibo    <br>   wisata   candi banyunibo    <br>   wisata_2   candi banyunibo daerah istimewa yogyakarta    <br>   Latitude   -7.777901    <br>   Longitude   110.494073,-1,0,-7.777901,110.494073,candi banyunibo
-315,Point ZM,0,tebing gunung gajah,Geocode_DTW_2_GMaps,0,-1,0, ,tebing gunung gajah    <br>       <br>   FID   343    <br>   keyword_1   tebing gunung gajah    <br>   wisata   tebing gunung gajah    <br>   wisata_2   tebing gunung gajah daerah istimewa yogyakarta    <br>   Latitude   -7.777219    <br>   Longitude   1,-1,0,-7.777219,110.107398,tebing gunung gajah
-316,Point ZM,0,candi barong,Geocode_DTW_2_GMaps,0,-1,0, ,candi barong    <br>       <br>   FID   345    <br>   keyword_1   candi barong    <br>   wisata   candi barong    <br>   wisata_2   candi barong daerah istimewa yogyakarta    <br>   Latitude   -7.775654    <br>   Longitude   110.497301,-1,0,-7.775654,110.497301,candi barong
-317,Point ZM,0,museum pendidikan,Geocode_DTW_2_GMaps,0,-1,0, ,museum pendidikan    <br>       <br>   FID   348    <br>   keyword_1   museum pendidikan    <br>   wisata   museum pendidikan    <br>   wisata_2   museum pendidikan daerah istimewa yogyakarta    <br>   Latitude   -7.77481    <br>   Longitude   110.387202,-1,0,-7.77481,110.387202,museum pendidikan
-318,Point ZM,0,museum ugm,Geocode_DTW_2_GMaps,0,-1,0, ,museum ugm    <br>       <br>   FID   349    <br>   keyword_1   museum ugm    <br>   wisata   museum ugm    <br>   wisata_2   museum ugm daerah istimewa yogyakarta    <br>   Latitude   -7.774053    <br>   Longitude   110.377903,-1,0,-7.774053,110.377902,museum ugm
-319,Point ZM,0,Kampung Nglarang,Geocode_DTW_2_GMaps,0,-1,0, ,Kampung Nglarang    <br>       <br>   FID   350    <br>   keyword_1   Kampung Nglarang    <br>   wisata   Kampung Nglarang    <br>   wisata_2   Kampung Nglarang daerah istimewa yogyakarta    <br>   Latitude   -7.773872    <br>   Longitude   110.329462,-1,0,-7.773872,110.329462,kampung nglarang
-320,Point ZM,0,desa wisata pampang,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata pampang    <br>       <br>   FID   352    <br>   keyword_1   desa wisata pampang    <br>   wisata   desa wisata pampang    <br>   wisata_2   desa wisata pampang daerah istimewa yogyakarta    <br>   Latitude   -7.991381    <br>   Longitude   1,-1,0,-7.991381,110.552363,desa wisata pampang
-321,Point ZM,0,Desa Wisata Rawe,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Rawe    <br>       <br>   FID   353    <br>   keyword_1   Desa Wisata Rawe    <br>   wisata   Desa Wisata Rawe    <br>   wisata_2   Desa Wisata Rawe daerah istimewa yogyakarta    <br>   Latitude   -7.751471    <br>   Longitude   110.335306,-1,0,-7.751447,110.335316,desa wisata rawe
-322,Point ZM,0,candi ratu boko,Geocode_DTW_2_GMaps,0,-1,0, ,candi ratu boko    <br>       <br>   FID   354    <br>   keyword_1   candi ratu boko    <br>   wisata   candi ratu boko    <br>   wisata_2   candi ratu boko daerah istimewa yogyakarta    <br>   Latitude   -7.770542    <br>   Longitude   110.489416,-1,0,-7.770542,110.489416,candi ratu boko
-323,Point ZM,0,kedung pedut,Geocode_DTW_2_GMaps,0,-1,0, ,kedung pedut    <br>       <br>   FID   355    <br>   keyword_1   kedung pedut    <br>   wisata   kedung pedut    <br>   wisata_2   kedung pedut daerah istimewa yogyakarta    <br>   Latitude   -7.769988    <br>   Longitude   110.121071,-1,0,-7.769988,110.121071,kedung pedut
-324,Point ZM,0,sindu kusuma edu park,Geocode_DTW_2_GMaps,0,-1,0, ,sindu kusuma edu park    <br>       <br>   FID   357    <br>   keyword_1   sindu kusuma edu park    <br>   wisata   sindu kusuma edu park    <br>   wisata_2   sindu kusuma edu park daerah istimewa yogyakarta    <br>   Latitude   -7.767878    <br>   Longi,-1,0,-7.767878,110.354567,sindu kusuma edu park
-325,Point ZM,0,candi kalasan,Geocode_DTW_2_GMaps,0,-1,0, ,candi kalasan    <br>       <br>   FID   360    <br>   keyword_1   candi kalasan    <br>   wisata   candi kalasan    <br>   wisata_2   candi kalasan daerah istimewa yogyakarta    <br>   Latitude   -7.76725    <br>   Longitude   110.472336,-1,0,-7.76725,110.472336,candi kalasan
-326,Point ZM,0,kembangsoka,Geocode_DTW_2_GMaps,0,-1,0, ,kembangsoka    <br>       <br>   FID   363    <br>   keyword_1   kembangsoka    <br>   wisata   kembangsoka    <br>   wisata_2   kembangsoka daerah istimewa yogyakarta    <br>   Latitude   -7.766425    <br>   Longitude   110.117561,-1,0,-7.766425,110.117562,kembangsoka
-327,Point ZM,0,sungai mudal,Geocode_DTW_2_GMaps,0,-1,0, ,sungai mudal    <br>       <br>   FID   365    <br>   keyword_1   sungai mudal    <br>   wisata   sungai mudal    <br>   wisata_2   sungai mudal daerah istimewa yogyakarta    <br>   Latitude   -7.762814    <br>   Longitude   110.116163,-1,0,-7.762814,110.116163,sungai mudal
-328,Point ZM,0,candi sambisari,Geocode_DTW_2_GMaps,0,-1,0, ,candi sambisari    <br>       <br>   FID   366    <br>   keyword_1   candi sambisari    <br>   wisata   candi sambisari    <br>   wisata_2   candi sambisari daerah istimewa yogyakarta    <br>   Latitude   -7.762455    <br>   Longitude   110.447045,-1,0,-7.762455,110.447045,candi sambisari
-329,Point ZM,0,candi sojiwan,Geocode_DTW_2_GMaps,0,-1,0, ,candi sojiwan    <br>       <br>   FID   367    <br>   keyword_1   candi sojiwan    <br>   wisata   candi sojiwan    <br>   wisata_2   candi sojiwan daerah istimewa yogyakarta    <br>   Latitude   -7.761057    <br>   Longitude   110.496027,-1,0,-7.761057,110.496027,candi sojiwan
-330,Point ZM,0,embung tambakboyo,Geocode_DTW_2_GMaps,0,-1,0, ,embung tambakboyo    <br>       <br>   FID   369    <br>   keyword_1   embung tambakboyo    <br>   wisata   embung tambakboyo    <br>   wisata_2   embung tambakboyo daerah istimewa yogyakarta    <br>   Latitude   -7.756227    <br>   Longitude   110.41501,-1,0,-7.756227,110.415013,embung tambakboyo
-331,Point ZM,0,Museum Purbakala Taman Wisata Prambanan,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Purbakala Taman Wisata Prambanan    <br>       <br>   FID   370    <br>   keyword_1   Museum Purbakala Taman Wisata Prambanan    <br>   wisata   Museum Purbakala Taman Wisata Prambanan    <br>   wisata_2   Museum Purbakala Taman Wisata Prambanan d,-1,0,-7.754633,110.489123,museum purbakala taman wisata prambanan
-332,Point ZM,0,desa wisata jatimulyo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata jatimulyo    <br>       <br>   FID   371    <br>   keyword_1   desa wisata jatimulyo    <br>   wisata   desa wisata jatimulyo    <br>   wisata_2   desa wisata jatimulyo daerah istimewa yogyakarta    <br>   Latitude   -7.752621    <br>   Longi,-1,0,-7.752621,110.130764,desa wisata jatimulyo
-333,Point ZM,0,candi prambanan,Geocode_DTW_2_GMaps,0,-1,0, ,candi prambanan    <br>       <br>   FID   372    <br>   keyword_1   candi prambanan    <br>   wisata   candi prambanan    <br>   wisata_2   candi prambanan daerah istimewa yogyakarta    <br>   Latitude   -7.752021    <br>   Longitude   110.491467,-1,0,-7.752021,110.491467,candi prambanan
-334,Point ZM,0,grojogan sewu,Geocode_DTW_2_GMaps,0,-1,0, ,grojogan sewu    <br>       <br>   FID   373    <br>   keyword_1   grojogan sewu    <br>   wisata   grojogan sewu    <br>   wisata_2   grojogan sewu daerah istimewa yogyakarta    <br>   Latitude   -7.751962    <br>   Longitude   110.135824,-1,0,-7.751962,110.135824,grojogan sewu
-335,Point ZM,0,candi gebang,Geocode_DTW_2_GMaps,0,-1,0, ,candi gebang    <br>       <br>   FID   374    <br>   keyword_1   candi gebang    <br>   wisata   candi gebang    <br>   wisata_2   candi gebang daerah istimewa yogyakarta    <br>   Latitude   -7.751465    <br>   Longitude   110.416289,-1,0,-7.751465,110.416289,candi gebang
-336,Point ZM,0,taman pelangi,Geocode_DTW_2_GMaps,0,-1,0, ,taman pelangi    <br>       <br>   FID   376    <br>   keyword_1   taman pelangi    <br>   wisata   taman pelangi    <br>   wisata_2   taman pelangi daerah istimewa yogyakarta    <br>   Latitude   -7.750303    <br>   Longitude   110.369499,-1,0,-7.750303,110.369499,taman pelangi
-337,Point ZM,0,monumen jogja kembali,Geocode_DTW_2_GMaps,0,-1,0, ,monumen jogja kembali    <br>       <br>   FID   377    <br>   keyword_1   monumen jogja kembali    <br>   wisata   monumen jogja kembali    <br>   wisata_2   monumen jogja kembali daerah istimewa yogyakarta    <br>   Latitude   -7.74959    <br>   Longit,-1,0,-7.74959,110.369607,monumen jogja kembali
-338,Point ZM,0,Kawasan Menoreh/Menoreh View,Geocode_DTW_2_GMaps/Kawasan Menoreh,0,-1,0, ,Kawasan Menoreh/Menoreh View    <br>       <br>   FID   378    <br>   keyword_1   Kawasan Menoreh/Menoreh View    <br>   wisata   Kawasan Menoreh/Menoreh View    <br>   wisata_2   Kawasan Menoreh/Menoreh View daerah istimewa yogyakarta    <br>   Latitude,-1,0,-7.749541,110.206065,kawasan menoreh/menoreh view
-339,Point ZM,0,jogjabay,Geocode_DTW_2_GMaps,0,-1,0, ,jogjabay    <br>       <br>   FID   379    <br>   keyword_1   jogjabay    <br>   wisata   jogjabay    <br>   wisata_2   jogjabay daerah istimewa yogyakarta    <br>   Latitude   -7.748805    <br>   Longitude   110.418878,-1,0,-7.748805,110.418878,jogjabay
-340,Point ZM,0,goa kiskendo,Geocode_DTW_2_GMaps,0,-1,0, ,goa kiskendo    <br>       <br>   FID   380    <br>   keyword_1   goa kiskendo    <br>   wisata   goa kiskendo    <br>   wisata_2   goa kiskendo daerah istimewa yogyakarta    <br>   Latitude   -7.747168    <br>   Longitude   110.13145,-1,0,-7.747168,110.13145,goa kiskendo
-341,Point ZM,0,Mahaloka Paradise,Geocode_DTW_2_GMaps,0,-1,0, ,Mahaloka Paradise    <br>       <br>   FID   381    <br>   keyword_1   Mahaloka Paradise    <br>   wisata   Mahaloka Paradise    <br>   wisata_2   Mahaloka Paradise daerah istimewa yogyakarta    <br>   Latitude   -7.74716    <br>   Longitude   110.205549,-1,0,-7.74716,110.205549,mahaloka paradise
-342,Point ZM,0,Desa Wisata Bromonilan,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Bromonilan    <br>       <br>   FID   382    <br>   keyword_1   Desa Wisata Bromonilan    <br>   wisata   Desa Wisata Bromonilan    <br>   wisata_2   Desa Wisata Bromonilan daerah istimewa yogyakarta    <br>   Latitude   -7.744629    <br>   L,-1,0,-7.744629,110.446967,desa wisata bromonilan
-343,Point ZM,0,candi sewu,Geocode_DTW_2_GMaps,0,-1,0, ,candi sewu    <br>       <br>   FID   383    <br>   keyword_1   candi sewu    <br>   wisata   candi sewu    <br>   wisata_2   candi sewu daerah istimewa yogyakarta    <br>   Latitude   -7.743919    <br>   Longitude   110.492934,-1,0,-7.743918,110.492934,candi sewu
-344,Point ZM,0,desa wisata ketingan,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata ketingan    <br>       <br>   FID   384    <br>   keyword_1   desa wisata ketingan    <br>   wisata   desa wisata ketingan    <br>   wisata_2   desa wisata ketingan daerah istimewa yogyakarta    <br>   Latitude   -7.743062    <br>   Longitude,-1,0,-7.743062,110.329212,desa wisata ketingan
-345,Point ZM,0,Candi Kedulan,Geocode_DTW_2_GMaps,0,-1,0, ,Candi Kedulan    <br>       <br>   FID   385    <br>   keyword_1   Candi Kedulan    <br>   wisata   Candi Kedulan    <br>   wisata_2   Candi Kedulan daerah istimewa yogyakarta    <br>   Latitude   -7.742562    <br>   Longitude   110.469698,-1,0,-7.742562,110.469698,candi kedulan
-346,Point ZM,0,Eksotika Krasak Jolontoro (Sempu),Geocode_DTW_2_GMaps,0,-1,0, ,Eksotika Krasak Jolontoro (Sempu)    <br>       <br>   FID   386    <br>   keyword_1   Eksotika Krasak Jolontoro (Sempu)    <br>   wisata   Eksotika Krasak Jolontoro (Sempu)    <br>   wisata_2   Eksotika Krasak Jolontoro (Sempu) daerah istimewa yogyakart,-1,0,-7.613989,110.374015,eksotika krasak jolontoro (sempu)
-347,Point ZM,0,Kalkun Sempu,Geocode_DTW_2_GMaps,0,-1,0, ,Kalkun Sempu    <br>       <br>   FID   387    <br>   keyword_1   Kalkun Sempu    <br>   wisata   Kalkun Sempu    <br>   wisata_2   Kalkun Sempu daerah istimewa yogyakarta    <br>   Latitude   -7.738742    <br>   Longitude   110.443498,-1,0,-7.738742,110.443498,kalkun sempu
-348,Point ZM,0,Merapi Garden,Geocode_DTW_2_GMaps,0,-1,0, ,Merapi Garden    <br>       <br>   FID   388    <br>   keyword_1   Merapi Garden    <br>   wisata   Merapi Garden    <br>   wisata_2   Merapi Garden daerah istimewa yogyakarta    <br>   Latitude   -7.740693    <br>   Longitude   110.373506,-1,0,-7.740693,110.373506,merapi garden
-349,Point ZM,0,Hyatt Golf,Geocode_DTW_2_GMaps,0,-1,0, ,Hyatt Golf    <br>       <br>   FID   389    <br>   keyword_1   Hyatt Golf    <br>   wisata   Hyatt Golf    <br>   wisata_2   Hyatt Golf daerah istimewa yogyakarta    <br>   Latitude   -7.740331    <br>   Longitude   110.374168,-1,0,-7.740331,110.374168,hyatt golf
-350,Point ZM,0,desa wisata grogol,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata grogol    <br>       <br>   FID   390    <br>   keyword_1   desa wisata grogol    <br>   wisata   desa wisata grogol    <br>   wisata_2   desa wisata grogol daerah istimewa yogyakarta    <br>   Latitude   -7.739957    <br>   Longitude   110.3,-1,0,-7.739957,110.302408,desa wisata grogol
-351,Point ZM,0,Ledok Blotan,Geocode_DTW_2_GMaps,0,-1,0, ,Ledok Blotan    <br>       <br>   FID   391    <br>   keyword_1   Ledok Blotan    <br>   wisata   Ledok Blotan    <br>   wisata_2   Ledok Blotan daerah istimewa yogyakarta    <br>   Latitude   -7.737554    <br>   Longitude   110.415601,-1,0,-7.737554,110.415601,ledok blotan
-352,Point ZM,0,Green Kayen,Geocode_DTW_2_GMaps,0,-1,0, ,Green Kayen    <br>       <br>   FID   393    <br>   keyword_1   Green Kayen    <br>   wisata   Green Kayen    <br>   wisata_2   Green Kayen daerah istimewa yogyakarta    <br>   Latitude   -7.737412    <br>   Longitude   110.384955,-1,0,-7.737412,110.384955,green kayen
-353,Point ZM,0,Desa Wisata Diro,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Diro    <br>       <br>   FID   394    <br>   keyword_1   Desa Wisata Diro    <br>   wisata   Desa Wisata Diro    <br>   wisata_2   Desa Wisata Diro daerah istimewa yogyakarta    <br>   Latitude   -7.735924    <br>   Longitude   110.232516,-1,0,-7.735924,110.232516,desa wisata diro
-354,Point ZM,0,ayunan langit,Geocode_DTW_2_GMaps,0,-1,0, ,ayunan langit    <br>       <br>   FID   395    <br>   keyword_1   ayunan langit    <br>   wisata   ayunan langit    <br>   wisata_2   ayunan langit daerah istimewa yogyakarta    <br>   Latitude   -7.73564    <br>   Longitude   110.130278,-1,0,-7.73564,110.130278,ayunan langit
-355,Point ZM,0,Ploso Kuning,Geocode_DTW_2_GMaps,0,-1,0, ,Ploso Kuning    <br>       <br>   FID   396    <br>   keyword_1   Ploso Kuning    <br>   wisata   Ploso Kuning    <br>   wisata_2   Ploso Kuning daerah istimewa yogyakarta    <br>   Latitude   -7.73533    <br>   Longitude   110.405141,-1,0,-7.73533,110.405141,ploso kuning
-356,Point ZM,0,desa wisata purwosari,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata purwosari    <br>       <br>   FID   397    <br>   keyword_1   desa wisata purwosari    <br>   wisata   desa wisata purwosari    <br>   wisata_2   desa wisata purwosari daerah istimewa yogyakarta    <br>   Latitude   -7.734925    <br>   Longi,-1,0,-7.734925,110.133385,desa wisata purwosari
-357,Point ZM,0,desa wisata brajan,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata brajan    <br>       <br>   FID   398    <br>   keyword_1   desa wisata brajan    <br>   wisata   desa wisata brajan    <br>   wisata_2   desa wisata brajan daerah istimewa yogyakarta    <br>   Latitude   -7.731632    <br>   Longitude   110.2,-1,0,-7.731632,110.234725,desa wisata brajan
-358,Point ZM,0,jogja exotarium,Geocode_DTW_2_GMaps,0,-1,0, ,jogja exotarium    <br>       <br>   FID   400    <br>   keyword_1   jogja exotarium    <br>   wisata   jogja exotarium    <br>   wisata_2   jogja exotarium daerah istimewa yogyakarta    <br>   Latitude   -7.728873    <br>   Longitude   110.358453,-1,0,-7.728873,110.358453,jogja exotarium
-359,Point ZM,0,desa wisata banjararum,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata banjararum    <br>       <br>   FID   401    <br>   keyword_1   desa wisata banjararum    <br>   wisata   desa wisata banjararum    <br>   wisata_2   desa wisata banjararum daerah istimewa yogyakarta    <br>   Latitude   -7.726789    <br>   L,-1,0,-7.726789,110.20578,desa wisata banjararum
-360,Point ZM,0,Kali Opak 7 Bulan,Geocode_DTW_2_GMaps,0,-1,0, ,Kali Opak 7 Bulan    <br>       <br>   FID   402    <br>   keyword_1   Kali Opak 7 Bulan    <br>   wisata   Kali Opak 7 Bulan    <br>   wisata_2   Kali Opak 7 Bulan daerah istimewa yogyakarta    <br>   Latitude   -7.725699    <br>   Longitude   110.48381,-1,0,-7.725699,110.483815,kali opak 7 bulan
-361,Point ZM,0,Desa Wisata Flory Plaosan,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Flory Plaosan    <br>       <br>   FID   403    <br>   keyword_1   Desa Wisata Flory Plaosan    <br>   wisata   Desa Wisata Flory Plaosan    <br>   wisata_2   Desa Wisata Flory Plaosan daerah istimewa yogyakarta    <br>   Latitude   -7.721837,-1,0,-7.721837,110.348815,desa wisata flory plaosan
-362,Point ZM,0,Arus Progo Rafting,Geocode_DTW_2_GMaps,0,-1,0, ,Arus Progo Rafting    <br>       <br>   FID   404    <br>   keyword_1   Arus Progo Rafting    <br>   wisata   Arus Progo Rafting    <br>   wisata_2   Arus Progo Rafting daerah istimewa yogyakarta    <br>   Latitude   -7.720213    <br>   Longitude   110.2,-1,0,-7.720214,110.2306,arus progo rafting
-363,Point ZM,0,puri mataram,Geocode_DTW_2_GMaps,0,-1,0, ,puri mataram    <br>       <br>   FID   405    <br>   keyword_1   puri mataram    <br>   wisata   puri mataram    <br>   wisata_2   puri mataram daerah istimewa yogyakarta    <br>   Latitude   -7.719455    <br>   Longitude   110.34939,-1,0,-7.719455,110.34939,puri mataram
-364,Point ZM,0,Kebon Ndeso Wonorejo,Geocode_DTW_2_GMaps,0,-1,0, ,Kebon Ndeso Wonorejo    <br>       <br>   FID   406    <br>   keyword_1   Kebon Ndeso Wonorejo    <br>   wisata   Kebon Ndeso Wonorejo    <br>   wisata_2   Kebon Ndeso Wonorejo daerah istimewa yogyakarta    <br>   Latitude   -7.717524    <br>   Longitude,-1,0,-7.717524,110.386542,kebon ndeso wonorejo
-365,Point ZM,0,Watu Ledhek,Geocode_DTW_2_GMaps,0,-1,0, ,Watu Ledhek    <br>       <br>   FID   407    <br>   keyword_1   Watu Ledhek    <br>   wisata   Watu Ledhek    <br>   wisata_2   Watu Ledhek daerah istimewa yogyakarta    <br>   Latitude   -7.716271    <br>   Longitude   110.389819,-1,0,-7.716271,110.389819,watu ledhek
-366,Point ZM,0,Museum Plataran,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Plataran    <br>       <br>   FID   408    <br>   keyword_1   Museum Plataran    <br>   wisata   Museum Plataran    <br>   wisata_2   Museum Plataran daerah istimewa yogyakarta    <br>   Latitude   -7.714687    <br>   Longitude   110.463462,-1,0,-7.714687,110.463462,museum plataran
-367,Point ZM,0,Desa Wisata Sawahan Lor,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Sawahan Lor    <br>       <br>   FID   409    <br>   keyword_1   Desa Wisata Sawahan Lor    <br>   wisata   Desa Wisata Sawahan Lor    <br>   wisata_2   Desa Wisata Sawahan Lor daerah istimewa yogyakarta    <br>   Latitude   -7.711554    <br>,-1,0,-7.711554,110.436636,desa wisata sawahan lor
-368,Point ZM,0,Sendang Penjalin,Geocode_DTW_2_GMaps,0,-1,0, ,Sendang Penjalin    <br>       <br>   FID   410    <br>   keyword_1   Sendang Penjalin    <br>   wisata   Sendang Penjalin    <br>   wisata_2   Sendang Penjalin daerah istimewa yogyakarta    <br>   Latitude   -7.709625    <br>   Longitude   110.26926,-1,0,-7.709625,110.26926,sendang penjalin
-369,Point ZM,0,Watu Jagal,Geocode_DTW_2_GMaps,0,-1,0, ,Watu Jagal    <br>       <br>   FID   411    <br>   keyword_1   Watu Jagal    <br>   wisata   Watu Jagal    <br>   wisata_2   Watu Jagal daerah istimewa yogyakarta    <br>   Latitude   -7.707314    <br>   Longitude   110.270232,-1,0,-7.707314,110.270232,watu jagal
-370,Point ZM,0,Mina Wisata Bokesan,Geocode_DTW_2_GMaps,0,-1,0, ,Mina Wisata Bokesan    <br>       <br>   FID   412    <br>   keyword_1   Mina Wisata Bokesan    <br>   wisata   Mina Wisata Bokesan    <br>   wisata_2   Mina Wisata Bokesan daerah istimewa yogyakarta    <br>   Latitude   -7.706782    <br>   Longitude   1,-1,0,-7.706782,110.474243,mina wisata bokesan
-371,Point ZM,0,Karang Tanjung,Geocode_DTW_2_GMaps,0,-1,0, ,Karang Tanjung    <br>       <br>   FID   413    <br>   keyword_1   Karang Tanjung    <br>   wisata   Karang Tanjung    <br>   wisata_2   Karang Tanjung daerah istimewa yogyakarta    <br>   Latitude   -7.706556    <br>   Longitude   110.368862,-1,0,-7.706556,110.368862,karang tanjung
-372,Point ZM,0,desa wisata tanjung,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata tanjung    <br>       <br>   FID   414    <br>   keyword_1   desa wisata tanjung    <br>   wisata   desa wisata tanjung    <br>   wisata_2   desa wisata tanjung daerah istimewa yogyakarta    <br>   Latitude   -7.704665    <br>   Longitude   1,-1,0,-7.704665,110.379933,desa wisata tanjung
-373,Point ZM,0,blue lagoon,Geocode_DTW_2_GMaps,0,-1,0, ,blue lagoon    <br>       <br>   FID   415    <br>   keyword_1   blue lagoon    <br>   wisata   blue lagoon    <br>   wisata_2   blue lagoon daerah istimewa yogyakarta    <br>   Latitude   -7.702833    <br>   Longitude   110.44911,-1,0,-7.702833,110.44911,blue lagoon
-374,Point ZM,0,Desa Wisata Banjarasri,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Banjarasri    <br>       <br>   FID   417    <br>   keyword_1   Desa Wisata Banjarasri    <br>   wisata   Desa Wisata Banjarasri    <br>   wisata_2   Desa Wisata Banjarasri daerah istimewa yogyakarta    <br>   Latitude   -7.698513    <br>   L,-1,0,-7.698513,110.225449,desa wisata banjarasri
-375,Point ZM,0,Dolan Deso Mboro,Geocode_DTW_2_GMaps,0,-1,0, ,Dolan Deso Mboro    <br>       <br>   FID   418    <br>   keyword_1   Dolan Deso Mboro    <br>   wisata   Dolan Deso    <br>   wisata_2   Dolan Deso daerah istimewa yogyakarta    <br>   Latitude   -7.698432    <br>   Longitude   110.222093,-1,0,-7.698432,110.222093,dolan deso mboro
-376,Point ZM,0,Desa Wisata Tinalah,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Tinalah    <br>       <br>   FID   419    <br>   keyword_1   Desa Wisata Tinalah    <br>   wisata   Desa Wisata Tinalah    <br>   wisata_2   Desa Wisata Tinalah daerah istimewa yogyakarta    <br>   Latitude   -7.69558    <br>   Longitude   11,-1,0,-7.69558,110.195884,desa wisata tinalah
-377,Point ZM,0,Obelix Village,Geocode_DTW_2_GMaps,0,-1,0, ,Obelix Village    <br>       <br>   FID   420    <br>   keyword_1   Obelix Village    <br>   wisata   Obelix Village    <br>   wisata_2   Obelix Village daerah istimewa yogyakarta    <br>   Latitude   -7.68783    <br>   Longitude   110.373608,-1,0,-7.68783,110.373608,obelix village
-378,Point ZM,0,candi morangan,Geocode_DTW_2_GMaps,0,-1,0, ,candi morangan    <br>       <br>   FID   421    <br>   keyword_1   candi morangan    <br>   wisata   candi morangan    <br>   wisata_2   candi morangan daerah istimewa yogyakarta    <br>   Latitude   -7.684678    <br>   Longitude   110.46956,-1,0,-7.684678,110.46956,candi morangan
-379,Point ZM,0,Desa Wisata Dekso,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Dekso    <br>       <br>   FID   422    <br>   keyword_1   Desa Wisata Dekso    <br>   wisata   Desa Wisata Dekso    <br>   wisata_2   Desa Wisata Dekso daerah istimewa yogyakarta    <br>   Latitude   -7.683737    <br>   Longitude   110.25863,-1,0,-7.683737,110.258636,desa wisata dekso
-380,Point ZM,0,Taman Djoyo Dikraman,Geocode_DTW_2_GMaps,0,-1,0, ,Taman Djoyo Dikraman    <br>       <br>   FID   423    <br>   keyword_1   Taman Djoyo Dikraman    <br>   wisata   Taman Djoyo Dikraman    <br>   wisata_2   Taman Djoyo Dikraman daerah istimewa yogyakarta    <br>   Latitude   -7.673454    <br>   Longitude,-1,0,-7.673454,110.3256,taman djoyo dikraman
-381,Point ZM,0,air terjun sidoharjo,Geocode_DTW_2_GMaps,0,-1,0, ,air terjun sidoharjo    <br>       <br>   FID   424    <br>   keyword_1   air terjun sidoharjo    <br>   wisata   air terjun sidoharjo    <br>   wisata_2   air terjun sidoharjo daerah istimewa yogyakarta    <br>   Latitude   -7.669858    <br>   Longitude,-1,0,-7.669858,110.201908,air terjun sidoharjo
-382,Point ZM,0,curug siluwok,Geocode_DTW_2_GMaps,0,-1,0, ,curug siluwok    <br>       <br>   FID   426    <br>   keyword_1   curug siluwok    <br>   wisata   curug siluwok    <br>   wisata_2   curug siluwok daerah istimewa yogyakarta    <br>   Latitude   -7.669421    <br>   Longitude   110.187408,-1,0,-7.669421,110.187408,curug siluwok
-383,Point ZM,0,Lembah Sempor,Geocode_DTW_2_GMaps,0,-1,0, ,Lembah Sempor    <br>       <br>   FID   427    <br>   keyword_1   Lembah Sempor    <br>   wisata   Lembah Sempor    <br>   wisata_2   Lembah Sempor daerah istimewa yogyakarta    <br>   Latitude   -7.667081    <br>   Longitude   110.374068,-1,0,-7.667081,110.374068,lembah sempor
-384,Point ZM,0,banyu sumilir,Geocode_DTW_2_GMaps,0,-1,0, ,banyu sumilir    <br>       <br>   FID   428    <br>   keyword_1   banyu sumilir    <br>   wisata   banyu sumilir    <br>   wisata_2   banyu sumilir daerah istimewa yogyakarta    <br>   Latitude   -7.666154    <br>   Longitude   110.385373,-1,0,-7.666154,110.385373,banyu sumilir
-385,Point ZM,0,Pesona Lembah Krasak Jlapan,Geocode_DTW_2_GMaps,0,-1,0, ,Pesona Lembah Krasak Jlapan    <br>       <br>   FID   430    <br>   keyword_1   Pesona Lembah Krasak Jlapan    <br>   wisata   Pesona Lembah Krasak Jlapan    <br>   wisata_2   Pesona Lembah Krasak Jlapan daerah istimewa yogyakarta    <br>   Latitude   -,-1,0,-7.66324,110.300325,pesona lembah krasak jlapan
-386,Point ZM,0,desa wisata gabugan,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata gabugan    <br>       <br>   FID   431    <br>   keyword_1   desa wisata gabugan    <br>   wisata   desa wisata gabugan    <br>   wisata_2   desa wisata gabugan daerah istimewa yogyakarta    <br>   Latitude   -7.660878    <br>   Longitude   1,-1,0,-7.660878,110.379715,desa wisata gabugan
-387,Point ZM,0,embung banjaroya,Geocode_DTW_2_GMaps,0,-1,0, ,embung banjaroya    <br>       <br>   FID   432    <br>   keyword_1   embung banjaroya    <br>   wisata   embung banjaroya    <br>   wisata_2   embung banjaroya daerah istimewa yogyakarta    <br>   Latitude   -7.658805    <br>   Longitude   110.234857,-1,0,-7.658805,110.234857,embung banjaroya
-388,Point ZM,0,puncak widosari,Geocode_DTW_2_GMaps,0,-1,0, ,puncak widosari    <br>       <br>   FID   433    <br>   keyword_1   puncak widosari    <br>   wisata   puncak widosari    <br>   wisata_2   puncak widosari daerah istimewa yogyakarta    <br>   Latitude   -7.658312    <br>   Longitude   110.148813,-1,0,-7.658312,110.148812,puncak widosari
-389,Point ZM,0,Glamping Menoreh,Geocode_DTW_2_GMaps,0,-1,0, ,Glamping Menoreh    <br>       <br>   FID   434    <br>   keyword_1   Glamping Menoreh    <br>   wisata   Glamping Menoreh    <br>   wisata_2   Glamping Menoreh daerah istimewa yogyakarta    <br>   Latitude   -7.656493    <br>   Longitude   110.14013,-1,0,-7.656493,110.14013,glamping menoreh
-390,Point ZM,0,Desa Wisata Kembangarum,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Kembangarum    <br>       <br>   FID   435    <br>   keyword_1   Desa Wisata Kembangarum    <br>   wisata   Desa Wisata Kembangarum    <br>   wisata_2   Desa Wisata Kembangarum daerah istimewa yogyakarta    <br>   Latitude   -7.65609    <br>,-1,0,-7.65609,110.377182,desa wisata kembangarum
-391,Point ZM,0,Desa Wisata Sangurejo,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Sangurejo    <br>       <br>   FID   437    <br>   keyword_1   Desa Wisata Sangurejo    <br>   wisata   Desa Wisata Sangurejo    <br>   wisata_2   Desa Wisata Sangurejo daerah istimewa yogyakarta    <br>   Latitude   -7.647807    <br>   Longi,-1,0,-7.647807,110.376161,desa wisata sangurejo
-392,Point ZM,0,desa wisata nglinggo,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata nglinggo    <br>       <br>   FID   438    <br>   keyword_1   desa wisata nglinggo    <br>   wisata   desa wisata nglinggo    <br>   wisata_2   desa wisata nglinggo daerah istimewa yogyakarta    <br>   Latitude   -7.647668    <br>   Longitude,-1,0,-7.647668,110.141878,desa wisata nglinggo
-393,Point ZM,0,ledok sambi,Geocode_DTW_2_GMaps,0,-1,0, ,ledok sambi    <br>       <br>   FID   439    <br>   keyword_1   ledok sambi    <br>   wisata   ledok sambi    <br>   wisata_2   ledok sambi daerah istimewa yogyakarta    <br>   Latitude   -7.64745    <br>   Longitude   110.428174,-1,0,-7.64745,110.428174,ledok sambi
-394,Point ZM,0,gunung kendil,Geocode_DTW_2_GMaps,0,-1,0, ,gunung kendil    <br>       <br>   FID   440    <br>   keyword_1   gunung kendil    <br>   wisata   gunung kendil    <br>   wisata_2   gunung kendil daerah istimewa yogyakarta    <br>   Latitude   -7.646581    <br>   Longitude   110.185575,-1,0,-7.646581,110.185575,gunung kendil
-395,Point ZM,0,Ledoknongko,Geocode_DTW_2_GMaps,0,-1,0, ,Ledoknongko    <br>       <br>   FID   441    <br>   keyword_1   Ledoknongko    <br>   wisata   Ledoknongko    <br>   wisata_2   Ledoknongko daerah istimewa yogyakarta    <br>   Latitude   -7.646339    <br>   Longitude   110.356563,-1,0,-7.646339,110.356563,ledoknongko
-396,Point ZM,0,puncak suroloyo,Geocode_DTW_2_GMaps,0,-1,0, ,puncak suroloyo    <br>       <br>   FID   442    <br>   keyword_1   puncak suroloyo    <br>   wisata   puncak suroloyo    <br>   wisata_2   puncak suroloyo daerah istimewa yogyakarta    <br>   Latitude   -7.646325    <br>   Longitude   110.181062,-1,0,-7.646325,110.181062,puncak suroloyo
-397,Point ZM,0,teh nglinggo,Geocode_DTW_2_GMaps,0,-1,0, ,teh nglinggo    <br>       <br>   FID   443    <br>   keyword_1   teh nglinggo    <br>   wisata   teh nglinggo    <br>   wisata_2   teh nglinggo daerah istimewa yogyakarta    <br>   Latitude   -7.646298    <br>   Longitude   110.143784,-1,0,-7.646298,110.143784,teh nglinggo
-398,Point ZM,0,gunung jaran,Geocode_DTW_2_GMaps,0,-1,0, ,gunung jaran    <br>       <br>   FID   444    <br>   keyword_1   gunung jaran    <br>   wisata   gunung jaran    <br>   wisata_2   gunung jaran daerah istimewa yogyakarta    <br>   Latitude   -7.64524    <br>   Longitude   110.1422,-1,0,-7.64524,110.1422,gunung jaran
-399,Point ZM,0,Omah Salak Turi,Geocode_DTW_2_GMaps,0,-1,0, ,Omah Salak Turi    <br>       <br>   FID   445    <br>   keyword_1   Omah Salak Turi    <br>   wisata   Omah Salak Turi    <br>   wisata_2   Omah Salak Turi daerah istimewa yogyakarta    <br>   Latitude   -7.644797    <br>   Longitude   110.371093,-1,0,-7.644797,110.371093,omah salak turi
-400,Point ZM,0,desa wisata pentingsari,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata pentingsari    <br>       <br>   FID   446    <br>   keyword_1   desa wisata pentingsari    <br>   wisata   desa wisata pentingsari    <br>   wisata_2   desa wisata pentingsari daerah istimewa yogyakarta    <br>   Latitude   -7.64286    <br>,-1,0,-7.64286,110.429575,desa wisata pentingsari
-401,Point ZM,0,desa wisata kelor,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata kelor    <br>       <br>   FID   447    <br>   keyword_1   desa wisata kelor    <br>   wisata   desa wisata kelor    <br>   wisata_2   desa wisata kelor daerah istimewa yogyakarta    <br>   Latitude   -7.641026    <br>   Longitude   110.36227,-1,0,-7.641026,110.362279,desa wisata kelor
-402,Point ZM,0,bhumi merapi,Geocode_DTW_2_GMaps,0,-1,0, ,bhumi merapi    <br>       <br>   FID   448    <br>   keyword_1   bhumi merapi    <br>   wisata   bhumi merapi    <br>   wisata_2   bhumi merapi daerah istimewa yogyakarta    <br>   Latitude   -7.640076    <br>   Longitude   110.42641,-1,0,-7.640076,110.42641,bhumi merapi
-403,Point ZM,0,Bulak Salak,Geocode_DTW_2_GMaps,0,-1,0, ,Bulak Salak    <br>       <br>   FID   449    <br>   keyword_1   Bulak Salak    <br>   wisata   Bulak Salak    <br>   wisata_2   Bulak Salak daerah istimewa yogyakarta    <br>   Latitude   -7.636981    <br>   Longitude   110.452277,-1,0,-7.636981,110.452277,bulak salak
-404,Point ZM,0,Pancoh,Geocode_DTW_2_GMaps,0,-1,0, ,Pancoh    <br>       <br>   FID   450    <br>   keyword_1   Pancoh    <br>   wisata   Pancoh    <br>   wisata_2   Pancoh daerah istimewa yogyakarta    <br>   Latitude   -7.636587    <br>   Longitude   110.394928,-1,0,-7.636587,110.394928,pancoh
-405,Point ZM,0,Agrowisata Turi,Geocode_DTW_2_GMaps,0,-1,0, ,Agrowisata Turi    <br>       <br>   FID   451    <br>   keyword_1   Agrowisata Turi    <br>   wisata   Agrowisata Turi    <br>   wisata_2   Agrowisata Turi daerah istimewa yogyakarta    <br>   Latitude   -7.634608    <br>   Longitude   110.356649,-1,0,-7.634608,110.356648,agrowisata turi
-406,Point ZM,0,watu purbo,Geocode_DTW_2_GMaps,0,-1,0, ,watu purbo    <br>       <br>   FID   452    <br>   keyword_1   watu purbo    <br>   wisata   watu purbo    <br>   wisata_2   watu purbo daerah istimewa yogyakarta    <br>   Latitude   -7.63072    <br>   Longitude   110.340769,-1,0,-7.63072,110.34077,watu purbo
-407,Point ZM,0,desa wisata pancoh,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata pancoh    <br>       <br>   FID   453    <br>   keyword_1   desa wisata pancoh    <br>   wisata   desa wisata pancoh    <br>   wisata_2   desa wisata pancoh daerah istimewa yogyakarta    <br>   Latitude   -7.630377    <br>   Longitude   110.3,-1,0,-7.630377,110.397419,desa wisata pancoh
-408,Point ZM,0,heha forest,Geocode_DTW_2_GMaps,0,-1,0, ,heha forest    <br>       <br>   FID   454    <br>   keyword_1   heha forest    <br>   wisata   heha forest    <br>   wisata_2   heha forest daerah istimewa yogyakarta    <br>   Latitude   -7.626253    <br>   Longitude   110.424458,-1,0,-7.626253,110.424458,heha forest
-409,Point ZM,0,desa wisata pulesari,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata pulesari    <br>       <br>   FID   455    <br>   keyword_1   desa wisata pulesari    <br>   wisata   desa wisata pulesari    <br>   wisata_2   desa wisata pulesari daerah istimewa yogyakarta    <br>   Latitude   -7.625881    <br>   Longitude,-1,0,-7.625881,110.371698,desa wisata pulesari
-410,Point ZM,0,Pulewulung,Geocode_DTW_2_GMaps,0,-1,0, ,Pulewulung    <br>       <br>   FID   456    <br>   keyword_1   Pulewulung    <br>   wisata   Pulewulung    <br>   wisata_2   Pulewulung daerah istimewa yogyakarta    <br>   Latitude   -7.625533    <br>   Longitude   110.369312,-1,0,-7.625533,110.369312,pulewulung
-411,Point ZM,0,Satoloka,Geocode_DTW_2_GMaps,0,-1,0, ,Satoloka    <br>       <br>   FID   457    <br>   keyword_1   Satoloka    <br>   wisata   Satoloka    <br>   wisata_2   Satoloka daerah istimewa yogyakarta    <br>   Latitude   -7.623403    <br>   Longitude   110.425107,-1,0,-7.623403,110.425107,satoloka
-412,Point ZM,0,Museum Anak Bajang/Omah Petruk,Geocode_DTW_2_GMaps/Museum Anak Bajang,0,-1,0, ,Museum Anak Bajang/Omah Petruk    <br>       <br>   FID   458    <br>   keyword_1   Museum Anak Bajang/Omah Petruk    <br>   wisata   Museum Anak Bajang/Omah Petruk    <br>   wisata_2   Museum Anak Bajang/Omah Petruk daerah istimewa yogyakarta    <br>,-1,0,-7.621845,110.415341,museum anak bajang/omah petruk
-413,Point ZM,0,merapi golf,Geocode_DTW_2_GMaps,0,-1,0, ,merapi golf    <br>       <br>   FID   459    <br>   keyword_1   merapi golf    <br>   wisata   merapi golf    <br>   wisata_2   merapi golf daerah istimewa yogyakarta    <br>   Latitude   -7.621556    <br>   Longitude   110.447036,-1,0,-7.621556,110.447036,merapi golf
-414,Point ZM,0,world landmarks merapi park,Geocode_DTW_2_GMaps,0,-1,0, ,world landmarks merapi park    <br>       <br>   FID   460    <br>   keyword_1   world landmarks merapi park    <br>   wisata   world landmarks merapi park    <br>   wisata_2   world landmarks merapi park daerah istimewa yogyakarta    <br>   Latitude   -,-1,0,-7.620905,110.421628,world landmarks merapi park
-415,Point ZM,0,desa wisata trumpon,Geocode_DTW_2_GMaps,0,-1,0, ,desa wisata trumpon    <br>       <br>   FID   462    <br>   keyword_1   desa wisata trumpon    <br>   wisata   desa wisata trumpon    <br>   wisata_2   desa wisata trumpon daerah istimewa yogyakarta    <br>   Latitude   -7.619082    <br>   Longitude   1,-1,0,-7.619082,110.361541,desa wisata trumpon
-416,Point ZM,0,museum merapi,Geocode_DTW_2_GMaps,0,-1,0, ,museum merapi    <br>       <br>   FID   463    <br>   keyword_1   museum merapi    <br>   wisata   museum merapi    <br>   wisata_2   museum merapi daerah istimewa yogyakarta    <br>   Latitude   -7.615927    <br>   Longitude   110.424333,-1,0,-7.615927,110.424333,museum merapi
-417,Point ZM,0,Tegal Loegood,Geocode_DTW_2_GMaps,0,-1,0, ,Tegal Loegood    <br>       <br>   FID   464    <br>   keyword_1   Tegal Loegood    <br>   wisata   Tegal Loegood    <br>   wisata_2   Tegal Loegood daerah istimewa yogyakarta    <br>   Latitude   -7.615436    <br>   Longitude   110.403038,-1,0,-7.615436,110.403038,tegal loegood
-418,Point ZM,0,Suraloka Zoo,Geocode_DTW_2_GMaps,0,-1,0, ,Suraloka Zoo    <br>       <br>   FID   466    <br>   keyword_1   Suraloka Zoo    <br>   wisata   Suraloka Zoo    <br>   wisata_2   Suraloka Zoo daerah istimewa yogyakarta    <br>   Latitude   -7.607579    <br>   Longitude   110.421542,-1,0,-7.607579,110.421542,suraloka zoo
-419,Point ZM,0,Desa Wisata Nganggring,Geocode_DTW_2_GMaps,0,-1,0, ,Desa Wisata Nganggring    <br>       <br>   FID   467    <br>   keyword_1   Desa Wisata Nganggring    <br>   wisata   Desa Wisata Nganggring    <br>   wisata_2   Desa Wisata Nganggring daerah istimewa yogyakarta    <br>   Latitude   -7.606905    <br>   L,-1,0,-7.606905,110.396656,desa wisata nganggring
-420,Point ZM,0,batu alien,Geocode_DTW_2_GMaps,0,-1,0, ,batu alien    <br>       <br>   FID   468    <br>   keyword_1   batu alien    <br>   wisata   batu alien    <br>   wisata_2   batu alien daerah istimewa yogyakarta    <br>   Latitude   -7.602337    <br>   Longitude   110.455258,-1,0,-7.602337,110.455258,batu alien
-421,Point ZM,0,Museum Mini Sisa Hartaku,Geocode_DTW_2_GMaps,0,-1,0, ,Museum Mini Sisa Hartaku    <br>       <br>   FID   469    <br>   keyword_1   Museum Mini Sisa Hartaku    <br>   wisata   Museum Mini Sisa Hartaku    <br>   wisata_2   Museum Mini Sisa Hartaku daerah istimewa yogyakarta    <br>   Latitude   -7.600536,-1,0,-7.600536,110.449078,museum mini sisa hartaku
-422,Point ZM,0,museum gempa,Geocode_DTW_2_GMaps,0,-1,0, ,museum gempa    <br>       <br>   FID   471    <br>   keyword_1   museum gempa    <br>   wisata   museum gempa    <br>   wisata_2   museum gempa daerah istimewa yogyakarta    <br>   Latitude   -7.598574    <br>   Longitude   110.430467,-1,0,-7.598574,110.430467,museum gempa
-423,Point ZM,0,museum ullen sentalu,Geocode_DTW_2_GMaps,0,-1,0, ,museum ullen sentalu    <br>       <br>   FID   472    <br>   keyword_1   museum ullen sentalu    <br>   wisata   museum ullen sentalu    <br>   wisata_2   museum ullen sentalu daerah istimewa yogyakarta    <br>   Latitude   -7.598228    <br>   Longitude,-1,0,-7.598228,110.422825,museum ullen sentalu
-424,Point ZM,0,tlogo muncar,Geocode_DTW_2_GMaps,0,-1,0, ,tlogo muncar    <br>       <br>   FID   474    <br>   keyword_1   tlogo muncar    <br>   wisata   tlogo muncar    <br>   wisata_2   tlogo muncar daerah istimewa yogyakarta    <br>   Latitude   -7.591687    <br>   Longitude   110.433976,-1,0,-7.591687,110.433976,tlogo muncar
-425,Point ZM,0,Teras Merapi,Geocode_DTW_2_GMaps,0,-1,0, ,Teras Merapi    <br>       <br>   FID   475    <br>   keyword_1   Teras Merapi    <br>   wisata   Teras Merapi    <br>   wisata_2   Teras Merapi daerah istimewa yogyakarta    <br>   Latitude   -7.58769    <br>   Longitude   110.455877,-1,0,-7.58769,110.455877,teras merapi
-426,Point ZM,0,bukit klangon,Geocode_DTW_2_GMaps,0,-1,0, ,bukit klangon    <br>       <br>   FID   477    <br>   keyword_1   bukit klangon    <br>   wisata   bukit klangon    <br>   wisata_2   bukit klangon daerah istimewa yogyakarta    <br>   Latitude   -7.576897    <br>   Longitude   110.454827,-1,0,-7.576897,110.454827,bukit klangon
-427,Point ZM,0,Bejiharjo Edupark,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-7.937151,110.635852,bejiharjo edupark
-428,Point ZM,0,Desa Wisata Garongan Kembang,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-7.639448,110.381379,desa wisata garongan kembang
-429,Point ZM,0,Lempeng Kedung Kemin,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-7.823208,110.166791,lempeng kedung kemin
-430,Point ZM,0,Alun-Alun Kidul,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-7.811877,110.363204,alun-alun kidul
-431,Point ZM,0,Green Village Gedangsari,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-7.813083,110.615564,green village gedangsari
-432,Point ZM,0,Kalikuning Park,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-7.592358,110.441734,kalikuning park
-433,Point ZM,0,Bukit Pengilon,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-8.185862,110.691577,bukit pengilon
-434,Point ZM,0,Tlogo Putri,Geocode_DTW_2_GMaps,1,-1,0, , ,-1,0,-7.593578,110.432327,tlogo putri
+﻿No,Latitude,Longitude,DTW
+1,-8.198854,110.719674,pantai sinden
+2,-8.197894,110.720854,pantai sedahan
+3,-8.197864,110.718622,pantai greweng
+4,-8.197822,110.71234,pantai jungwok
+5,-8.196232,110.768497,pantai ngungap
+6,-8.190427,110.798856,pantai sadeng
+7,-8.186246,110.709901,pantai wedi ombo
+8,-8.186021,110.700279,pantai watu lumbung
+9,-8.182703,110.67924,pantai nglambor
+10,-8.181823,110.683239,pantai siung
+11,-8.180287,110.675974,pantai ngondo
+12,-8.180135,110.676372,pantai jogan
+13,-8.175927,110.66242,pantai timang
+14,-8.170364,110.652645,pantai ngetun
+15,-8.159907,110.631575,pantai seruni
+16,-8.155447,110.621758,pantai pok tunggal
+17,-8.150736,110.612346,pantai indrayanti
+18,-8.149095,110.610116,pantai somadeng
+19,-8.147566,110.59625,pantai sarangan
+20,-8.147072,110.607904,pantai sundak
+21,-8.146423,110.606141,pantai ngandong
+22,-8.145668,110.604391,pantai sadranan
+23,-8.145102,110.598801,pantai krakal
+24,-8.144966,110.602877,pantai slili
+25,-8.141116,110.584068,puncak kosakora
+26,-8.139479,110.581013,pantai watu bolong
+27,-8.138451,110.577522,pantai drini
+28,-8.136983,110.574152,pantai watu kodok
+29,-8.136666,110.565996,pantai sepanjang
+30,-8.133712,110.554743,pantai kukup
+31,-8.133432,110.552138,pantai mbuluk
+32,-8.133339,110.55374,pantai ngrawe
+33,-8.132765,110.553513,pantai mesra
+34,-8.132434,110.543692,baron technopark
+35,-8.128825,110.548776,pantai baron
+36,-8.125599,110.521558,pantai midodaren
+37,-8.125082,110.520203,pantai ngrawah
+38,-8.122563,110.516296,pantai torohudan
+39,-8.121147,110.514234,pantai ngrenehan
+40,-8.120484,110.507448,pantai dadap ayam
+41,-8.118484,110.502878,pantai ngobaran
+42,-8.118471,110.50307,pantai nguyahan
+43,-8.116342,110.496336,pantai ngedan
+44,-8.112917,110.488306,pantai mbirit
+45,-8.110714,110.563259,desa kemadang
+46,-8.109705,110.468732,pantai buron
+47,-8.108456,110.468763,pantai gesing
+48,-8.108201,110.630743,desa wisata sidoharjo
+49,-8.106066,110.46151,heha ocean
+50,-8.105788,110.607953,desa ngestirejo
+51,-8.101746,110.455602,puncak segoro
+52,-8.098882,110.440563,pantai wohkudu
+53,-8.096154,110.435048,pantai kesirat
+54,-8.092101,110.433973,pantai grigak
+55,-8.070566,110.637434,goa bentar the swargoloka adventure
+56,-8.069657,110.748696,goa braholo
+57,-8.047503,110.612423,candi sari
+58,-8.04034,110.348655,goa langse
+59,-8.033375,110.55894,gunung bagus
+60,-8.029949,110.344312,pantai parang endog
+61,-8.028156,110.638331,goa jomblang
+62,-8.026855,110.345912,watu gupit
+63,-8.024608,110.329804,pantai parangtritis
+64,-8.022769,110.324995,pantai parangkusumo
+65,-8.020816,110.604973,desa wisata pacarejo
+66,-8.019114,110.314562,pantai cemoro sewu
+67,-8.01845,110.319551,gumuk pasir parangkusumo
+68,-8.017274,110.317036,gumuk barchan
+69,-8.01697,110.320583,gumuk pasir parangtritis
+70,-8.014296,110.564479,kali gowang
+71,-8.013709,110.291478,pantai depok
+72,-8.010933,110.637405,goa kalisuci
+73,-8.010833,110.625556,telaga jonge
+74,-8.005965,110.674372,desa wisata mojo
+75,-8.005454,110.26516,pantai samas
+76,-8.004554,110.270376,pengklik
+77,-8.00069,110.253336,pantai pandansari
+78,-7.999423,110.248963,goa cemara
+79,-7.997056,110.628646,watu giring
+80,-7.993023,110.444084,desa girisuko
+81,-7.99026,110.342052,grojokan pucung
+82,-7.989887,110.551856,agro milenial
+83,-7.985756,110.542141,taman bendowo
+84,-7.983708,110.463635,kebun pisang mbah lasio
+85,-7.981975,110.714613,water byur ponjong
+86,-7.979441,110.380311,goa cerme
+87,-7.967335,110.182607,pantai trisik
+88,-7.965121,110.33386,desa wisata panjangrejo
+89,-7.96509,110.753797,goa song gilap
+90,-7.959645,110.597368,pasar empring
+91,-7.959028,110.50367,desa wisata bleberan
+92,-7.958624,110.428943,lembah kedung jati
+93,-7.95837,110.440762,bukit panguk
+94,-7.957364,110.433435,bukit mojo
+95,-7.951309,110.152789,pantai bugel
+96,-7.950982,110.726363,waduk beton pojong
+97,-7.94946,110.492726,goa rancang kencono
+98,-7.94913,110.471994,air terjun lepo
+99,-7.948887,110.350332,desa wisata kalibuntung
+100,-7.946248,110.426586,selopamioro adventure park
+101,-7.945747,110.365786,lembah sorory
+102,-7.945711,110.142259,mlarangan asri
+103,-7.947138,110.44101,tebing watu mabur
+104,-7.944538,110.440323,goa gajah
+105,-7.944142,110.293456,bukit pangul
+106,-7.943178,110.48924,air terjun sri gethuk
+107,-7.941372,110.424734,buah mangunan
+108,-7.939994,110.429838,jurang tembelan
+109,-7.937856,110.418198,watu lawang mangunan
+110,-7.937673,110.381942,desa wisata karang tengah
+111,-7.933659,110.149166,desa wisata sawah surjan
+112,-7.933426,110.365925,bendung tegal
+113,-7.932494,110.368461,desa wisata kebonagung
+114,-7.931898,110.421945,desa wisata kaki langit
+115,-7.603919,110.451593,rumah hobbit
+116,-7.930867,110.430856,seribu batu songgo langit
+117,-7.929386,110.648988,goa pindul
+118,-7.928401,110.436405,puncak songgo langit
+119,-7.927409,110.412059,watu goyang
+120,-7.926935,110.648075,gua gelatik
+121,-7.926598,110.318892,gereja ganjuran
+122,-7.926107,110.430465,pinus mangunan
+123,-7.925673,110.431089,pinus sari
+124,-7.924742,110.308232,museum wayang beber sekartaji
+125,-7.924586,110.372492,desa wisata candran
+126,-7.923528,110.646971,air terjun pengantin
+127,-7.923141,110.725656,goa plalar
+128,-7.920921,110.435565,pinus asri
+129,-7.920781,110.241522,desa wisata sidorejo
+130,-7.920497,110.3958,makam raja imogiri
+131,-7.919056,110.617716,tegal arum
+132,-7.918922,110.319588,museum bantul masa belanda
+133,-7.916808,110.407467,makam sunan cirebon
+134,-7.915893,110.398302,desa wisata batik tulis giriloyo
+135,-7.9158,110.436644,lintang sewu
+136,-7.913612,110.437789,pintu langit dahromo
+137,-7.912767,110.523126,wanagama
+138,-7.911943,110.064734,pantai glagah
+139,-7.909064,110.341792,museum rumah garuda
+140,-7.907542,110.053566,pantai congot
+141,-7.906897,110.414292,desa wisata wukirsari
+142,-7.906781,110.439667,alas literasi banjarharjo
+143,-7.90396,110.380413,desa wisata puton
+144,-7.903177,110.072831,desa wisata glagah
+145,-7.902036,110.437463,puncak becici
+146,-7.89528,110.350733,desa wisata manding
+147,-7.894571,110.028769,mangrove kadilangu
+148,-7.893727,110.02594,mangrove jembatan api-api
+149,-7.893576,110.657391,desa wisata klayar
+150,-7.893346,110.019826,mangrove wanatirta
+151,-7.892199,110.258648,"pereng ""abyudaya dahayu"""
+152,-7.89192,110.547944,rest area bunder
+153,-7.887292,110.301794,desa wisata kalakijo
+154,-7.887083,110.18667,goa kebon
+155,-7.885592,110.57464,geosite kali ngalang
+156,-7.903274,110.555318,hutan bunder
+157,-7.884072,110.509084,desa wisata jelok
+158,-7.881468,110.339615,taman rekreasi tirto tamansari
+159,-7.88143,110.047944,gunung lanang
+160,-7.881011,110.488578,gunung ireng
+161,-7.877788,110.352737,grand puri waterpark
+162,-7.808998,110.572736,curug luweng
+163,-8.027825,110.590542,desa wisata mulo
+164,-7.648972,110.384249,desa wisata pinang
+165,-7.629176,110.446677,huntap pagerjurang
+166,-7.924505,110.371466,museum tani jawa
+167,-7.708033,110.203474,rumah sandi negara
+168,-7.777802,110.163457,embung kleco
+169,-7.872525,110.353219,desa wisata tembi
+170,-7.871692,110.42619,puncak sosok
+171,-7.871204,110.459514,pinus pengger
+172,-7.870093,110.356206,museum tembi
+173,-7.86853,110.405218,museum purbakala pleret
+174,-7.867836,110.54253,kampung emas
+175,-7.867542,110.286757,curug banyunibo
+176,-7.864523,110.547613,desa wisata bobung
+177,-7.863396,110.162617,omah jamu
+178,-7.862239,110.499979,purba selo nawing geo park
+179,-7.861964,110.314867,goa selarong
+180,-7.861855,110.443083,puncak bucu
+181,-7.860962,110.28709,jurang pulosari
+182,-7.860094,110.217694,desa wisata sukoreno
+183,-7.859559,110.409273,padepokan sumber karahayon
+184,-7.858821,110.299767,desa wisata krebet
+185,-7.858668,110.472676,batu amben
+186,-7.855836,110.547952,air terjun banyunibo
+187,-7.855114,110.110479,desa wisata hargorejo
+188,-7.854497,110.327021,desa wisata jipangan
+189,-7.853389,110.535244,air terjun kedung kandang
+190,-7.852796,110.359783,sambe rembe
+191,-7.849614,110.478324,heha sky view
+192,-7.84714,110.546859,embung nglanggeran
+193,-7.845841,110.479846,bukit bintang
+194,-7.845359,110.338011,desa wisata kasongan
+195,-7.843492,110.41039,balong waterpark
+196,-7.84276,110.537973,gunung api purba nglanggeran
+197,-7.842119,110.324644,desa wisata kajigelem
+198,-7.841101,110.446883,setren opak
+199,-7.840964,110.67028,wisata watu gendong
+200,-7.840584,110.297911,museum coklat monggo
+201,-7.839695,110.551566,kampung pitu
+202,-7.839312,110.091122,gunung kukusan
+203,-7.837857,110.489053,de mangol
+204,-7.83398,110.383777,museum muhammadiyah
+205,-7.83331,110.672216,hutan wonosadi
+206,-7.832703,110.451967,gerbang banyu langit
+207,-7.832252,110.345327,pabrik gula madukismo
+208,-7.830536,110.399127,kampung wisata purbayan
+209,-7.830302,110.528994,desa wisata klegung
+210,-7.82994,110.395673,kawasan cagar budaya jagalan
+211,-7.829633,110.38897,kamwis giwangan
+212,-7.82731,110.099884,bukit cendana
+213,-7.826379,110.392175,museum intro living kotagede
+214,-7.823277,110.106395,panorama setro
+215,-7.822069,110.231913,towilfiets
+216,-7.821535,110.124696,bukit jangkang
+217,-7.821464,110.397907,kamwis prenggan
+218,-7.821229,110.115085,taman bambu air sermo
+219,-7.821208,110.67158,gunung gambar
+220,-7.820917,110.453687,batu kapal
+221,-7.820711,110.121762,waduk sermo
+222,-7.820286,110.241105,la li sa farmer village
+223,-7.820282,110.542533,desa wisata nawung
+224,-7.820135,110.122585,desa wisata sermo
+225,-7.818724,110.36472,museum anak kolong tangga
+226,-7.81845,110.745,curug nogososro
+227,-7.817996,110.511842,bukit teletubbies
+228,-7.816425,110.371819,museum perjuangan
+229,-7.816316,110.387144,de mata trick eye
+230,-7.815948,110.413734,galaxi water park
+231,-7.815278,110.398836,kampung wisata rejowinangun
+232,-7.814594,110.41306,museum wayang kekayon
+233,-7.813734,110.283184,citra grand mutiara waterpark
+234,-7.813728,110.362907,plengkung gading
+235,-7.813608,110.503344,rumah dome desa teletubbies
+236,-7.809979,110.358991,taman sari
+237,-7.809838,110.234748,desa wisata gamplong
+238,-7.813375,110.393021,warungboto
+239,-7.805306,110.364207,keraton
+240,-7.808152,110.459518,lava bantal
+241,-7.807422,110.129268,desa wisata kalibiru
+242,-7.807099,110.521618,obelix hills
+243,-7.806604,110.369072,batu berdikari
+244,-7.80657,110.38263,kampung wisata tahunan
+245,-7.806567,110.363084,keben keraton
+246,-7.806069,110.358436,kamwis kadipaten
+247,-7.805944,110.341073,museum laboratorium sejarah upy
+248,-7.805726,110.236831,studio alam gamplong
+249,-7.805768,110.361702,kamwis kauman
+250,-7.805467,110.363062,museum kereta
+251,-7.80542,110.378477,museum dewantara
+252,-7.805115,110.533825,wisata bukit mintorogo
+253,-7.805,110.081944,gunung ijo
+254,-7.804134,110.397988,gembira loka
+255,-7.803973,110.364388,alun alun lor
+256,-7.802827,110.294392,gamol
+257,-7.802506,110.370308,kampung wisata sayidan
+258,-7.802418,110.375516,museum sudirman
+259,-7.802395,110.363947,museum sonobudoyo
+260,-7.740281,110.145583,air terjun setawing
+261,-7.665817,110.267415,bendungan ancol
+262,-7.824265,110.536264,curug jurang gedhe
+263,-7.930105,110.230967,desa wisata jatirejo
+264,-7.941843,110.720632,goa cokro
+265,-8.001828,110.329731,goa jepang
+266,-8.08754,110.579805,gua grengseng
+267,-8.026773,110.5904,gua ngingrong
+268,-8.119125,110.505064,gua tapan
+269,-7.540716,110.445723,gunung merapi
+270,-7.843893,110.362325,history of java
+271,-7.786715,110.221433,jogja agro techno park
+272,-7.810548,110.370498,kampung wisata dipowinatan
+273,-7.817437,110.373324,kamwis dewobronto
+274,-7.806813,110.374841,kamwis surokarsan
+275,-7.750514,110.178577,moyeng
+276,-7.796004,110.435571,museum karbol
+277,-7.770424,110.375392,museum paleoantropologi
+278,-7.754812,110.388014,museum pancasila
+279,-7.7022,110.386416,museum serat holistik
+280,-7.700424,110.360574,pendidikan dan ketahanan pangan dukuh
+281,-7.917667,110.489316,randusari
+282,-7.59051,110.442487,volcano tour
+283,-7.801269,110.132241,puncak dipowono
+284,-7.801141,110.349301,museum bahari
+285,-7.800999,110.376159,puro pakualaman
+286,-7.800818,110.323558,buah manis
+287,-7.800672,110.367655,taman pintar
+288,-7.80032,110.128122,bukit canthing
+289,-7.800293,110.366164,benteng vredeburg
+290,-7.799512,110.344967,museum taman tino sidin
+291,-7.798334,110.377683,kampung wisata pakualaman
+292,-7.798291,110.368797,pelangi progo
+293,-7.794045,110.367373,kamwis suryatmajan
+294,-7.79384,110.098567,desa wisata hargotirto
+295,-7.793477,110.520934,watu payung
+296,-7.793117,110.366006,malioboro
+297,-7.79219,110.362151,kampung wisata sosromenduran
+298,-7.791318,110.280528,museum soeharto
+299,-7.791234,110.389421,gua maria
+300,-7.790303,110.415762,museum dirgantara
+301,-7.786615,110.381931,embung langensari
+302,-7.78569,110.336158,desa wisata sukunan
+303,-7.784555,110.371155,museum sandi negara
+304,-7.783915,110.393278,museum pergerakan wanita
+305,-7.783827,110.511884,candi ijo
+306,-7.783397,110.257882,kampung satwa
+307,-7.782924,110.375582,museum dharma wiratama
+308,-7.782922,110.367076,tugu jogja
+309,-7.782713,110.396397,museum affandi
+310,-7.78238,110.37916,kids fun
+311,-7.7817,110.41461,museum geoteknologi
+312,-7.780131,110.373935,museum dr yap
+313,-7.780118,110.504217,watu tapak camp hill
+314,-7.779644,110.370136,kampung wisata cokrodiningratan
+315,-7.777901,110.494073,candi banyunibo
+316,-7.777219,110.107398,tebing gunung gajah
+317,-7.775654,110.497301,candi barong
+318,-7.77481,110.387202,museum pendidikan
+319,-7.774053,110.377902,museum ugm
+320,-7.773872,110.329462,kampung nglarang
+321,-7.991381,110.552363,desa wisata pampang
+322,-7.751447,110.335316,desa wisata rawe
+323,-7.770542,110.489416,candi ratu boko
+324,-7.769988,110.121071,kedung pedut
+325,-7.767878,110.354567,sindu kusuma edu park
+326,-7.76725,110.472336,candi kalasan
+327,-7.766425,110.117562,kembangsoka
+328,-7.762814,110.116163,sungai mudal
+329,-7.762455,110.447045,candi sambisari
+330,-7.761057,110.496027,candi sojiwan
+331,-7.756227,110.415013,embung tambakboyo
+332,-7.754633,110.489123,museum purbakala taman wisata prambanan
+333,-7.752621,110.130764,desa wisata jatimulyo
+334,-7.752021,110.491467,candi prambanan
+335,-7.751962,110.135824,grojogan sewu
+336,-7.751465,110.416289,candi gebang
+337,-7.750303,110.369499,taman pelangi
+338,-7.74959,110.369607,monumen jogja kembali
+339,-7.749541,110.206065,kawasan menoreh/menoreh view
+340,-7.748805,110.418878,jogjabay
+341,-7.747168,110.13145,goa kiskendo
+342,-7.74716,110.205549,mahaloka paradise
+343,-7.744629,110.446967,desa wisata bromonilan
+344,-7.743918,110.492934,candi sewu
+345,-7.743062,110.329212,desa wisata ketingan
+346,-7.742562,110.469698,candi kedulan
+347,-7.613989,110.374015,eksotika krasak jolontoro (sempu)
+348,-7.738742,110.443498,kalkun sempu
+349,-7.740693,110.373506,merapi garden
+350,-7.740331,110.374168,hyatt golf
+351,-7.739957,110.302408,desa wisata grogol
+352,-7.737554,110.415601,ledok blotan
+353,-7.737412,110.384955,green kayen
+354,-7.735924,110.232516,desa wisata diro
+355,-7.73564,110.130278,ayunan langit
+356,-7.73533,110.405141,ploso kuning
+357,-7.734925,110.133385,desa wisata purwosari
+358,-7.731632,110.234725,desa wisata brajan
+359,-7.728873,110.358453,jogja exotarium
+360,-7.726789,110.20578,desa wisata banjararum
+361,-7.725699,110.483815,kali opak 7 bulan
+362,-7.721837,110.348815,desa wisata flory plaosan
+363,-7.720214,110.2306,arus progo rafting
+364,-7.719455,110.34939,puri mataram
+365,-7.717524,110.386542,kebon ndeso wonorejo
+366,-7.716271,110.389819,watu ledhek
+367,-7.714687,110.463462,museum plataran
+368,-7.711554,110.436636,desa wisata sawahan lor
+369,-7.709625,110.26926,sendang penjalin
+370,-7.707314,110.270232,watu jagal
+371,-7.706782,110.474243,mina wisata bokesan
+372,-7.706556,110.368862,karang tanjung
+373,-7.704665,110.379933,desa wisata tanjung
+374,-7.702833,110.44911,blue lagoon
+375,-7.698513,110.225449,desa wisata banjarasri
+376,-7.698432,110.222093,dolan deso mboro
+377,-7.69558,110.195884,desa wisata tinalah
+378,-7.68783,110.373608,obelix village
+379,-7.684678,110.46956,candi morangan
+380,-7.683737,110.258636,desa wisata dekso
+381,-7.673454,110.3256,taman djoyo dikraman
+382,-7.669858,110.201908,air terjun sidoharjo
+383,-7.669421,110.187408,curug siluwok
+384,-7.667081,110.374068,lembah sempor
+385,-7.666154,110.385373,banyu sumilir
+386,-7.66324,110.300325,pesona lembah krasak jlapan
+387,-7.660878,110.379715,desa wisata gabugan
+388,-7.658805,110.234857,embung banjaroya
+389,-7.658312,110.148812,puncak widosari
+390,-7.656493,110.14013,glamping menoreh
+391,-7.65609,110.377182,desa wisata kembangarum
+392,-7.647807,110.376161,desa wisata sangurejo
+393,-7.647668,110.141878,desa wisata nglinggo
+394,-7.64745,110.428174,ledok sambi
+395,-7.646581,110.185575,gunung kendil
+396,-7.646339,110.356563,ledoknongko
+397,-7.646325,110.181062,puncak suroloyo
+398,-7.646298,110.143784,teh nglinggo
+399,-7.64524,110.1422,gunung jaran
+400,-7.644797,110.371093,omah salak turi
+401,-7.64286,110.429575,desa wisata pentingsari
+402,-7.641026,110.362279,desa wisata kelor
+403,-7.640076,110.42641,bhumi merapi
+404,-7.636981,110.452277,bulak salak
+405,-7.636587,110.394928,pancoh
+406,-7.634608,110.356648,agrowisata turi
+407,-7.63072,110.34077,watu purbo
+408,-7.630377,110.397419,desa wisata pancoh
+409,-7.626253,110.424458,heha forest
+410,-7.625881,110.371698,desa wisata pulesari
+411,-7.625533,110.369312,pulewulung
+412,-7.623403,110.425107,satoloka
+413,-7.621845,110.415341,museum anak bajang/omah petruk
+414,-7.621556,110.447036,merapi golf
+415,-7.620905,110.421628,world landmarks merapi park
+416,-7.619082,110.361541,desa wisata trumpon
+417,-7.615927,110.424333,museum merapi
+418,-7.615436,110.403038,tegal loegood
+419,-7.607579,110.421542,suraloka zoo
+420,-7.606905,110.396656,desa wisata nganggring
+421,-7.602337,110.455258,batu alien
+422,-7.600536,110.449078,museum mini sisa hartaku
+423,-7.598574,110.430467,museum gempa
+424,-7.598228,110.422825,museum ullen sentalu
+425,-7.591687,110.433976,tlogo muncar
+426,-7.58769,110.455877,teras merapi
+427,-7.576897,110.454827,bukit klangon
+428,-7.937151,110.635852,bejiharjo edupark
+429,-7.639448,110.381379,desa wisata garongan kembang
+430,-7.823208,110.166791,lempeng kedung kemin
+431,-7.811877,110.363204,alun-alun kidul
+432,-7.813083,110.615564,green village gedangsari
+433,-7.592358,110.441734,kalikuning park
+434,-8.185862,110.691577,bukit pengilon
+435,-7.593578,110.432327,tlogo putri
