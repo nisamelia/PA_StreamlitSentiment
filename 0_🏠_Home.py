@@ -33,20 +33,20 @@ data_wisata = pd.DataFrame({
 
 data_wisata_prov = pd.read_excel(r'./data/wisatawan_prov_2023.xlsx', engine='openpyxl')
 
-# Basemap
-basemaps = {
-        "Dark":"mapbox://styles/mapbox/dark-v11",
-    "Streets":"mapbox://styles/mapbox/streets-v12",
-    "Outdoors":"mapbox://styles/mapbox/outdoors-v12",
-    "Light":"mapbox://styles/mapbox/light-v11",
-    "Sattelite":"mapbox://styles/mapbox/satellite-v9",
-    "Sattelite Streets":"mapbox://styles/mapbox/satellite-streets-v12",
-    "Naigation Day":"mapbox://styles/mapbox/navigation-day-v1",
-    "Navigation Night":"mapbox://styles/mapbox/navigation-night-v1"
-}
+# # Basemap
+# basemaps = {
+#         "Dark":"mapbox://styles/mapbox/dark-v11",
+#     "Streets":"mapbox://styles/mapbox/streets-v12",
+#     "Outdoors":"mapbox://styles/mapbox/outdoors-v12",
+#     "Light":"mapbox://styles/mapbox/light-v11",
+#     "Sattelite":"mapbox://styles/mapbox/satellite-v9",
+#     "Sattelite Streets":"mapbox://styles/mapbox/satellite-streets-v12",
+#     "Naigation Day":"mapbox://styles/mapbox/navigation-day-v1",
+#     "Navigation Night":"mapbox://styles/mapbox/navigation-night-v1"
+# }
 
-# Pilih Basemap
-selected_basemap = st.sidebar.selectbox("Pilih Basemap:", list(basemaps.keys()), index=0)
+# # Pilih Basemap
+# selected_basemap = st.sidebar.selectbox("Pilih Basemap:", list(basemaps.keys()), index=0)
 
 
 # graph1, graph2 = st.columns([1,1])
@@ -54,21 +54,35 @@ selected_basemap = st.sidebar.selectbox("Pilih Basemap:", list(basemaps.keys()),
 col = st.columns((4.5, 3.5), gap='medium')
 
 # Add Map PyDeck
-def add_map(data, center_lat, center_lon, zoom, basemap):
+def add_map(data, center_lat, center_lon, zoom):
     st.write("## Peta Persebaran Wisata Daerah Istimewa Yogyakarta Tahun 2023 :")
     # st.markdown("Sumber : Dinas Pariwisata DIY Tahun 2023")
     tooltip = {
-        "html": "{Name}",
+        "html": "{DTW}",
         "style": {
             "backgroundColor": "steelblue",
             "color": "white"
             }
     }
+
+    icon_data = {
+    "url": "https://cdn-icons-png.flaticon.com/512/252/252025.png",  # contoh icon
+    "width": 128,
+    "height": 128,
+    "anchorY": 128
+    }
+
+    data["icon_data"] = None
+    data["icon_data"] = data["icon_data"].apply(lambda x: icon_data)
+    
     layer = pdk.Layer(
-        "ScatterplotLayer",
-        data,
+        type="IconLayer",
+        data=data,
+        get_icon="icon_data",
+        get_size=0.5,
+        size_scale=15,
         get_position=["Longitude", "Latitude"],
-        get_color=[255, 0, 0,160],
+        # get_color=[255, 0, 0,160],
         get_radius=400,
         pickable=True
     )
@@ -83,7 +97,7 @@ def add_map(data, center_lat, center_lon, zoom, basemap):
 
     # Menampilkan peta di Streamlit
     st.pydeck_chart(pdk.Deck(
-        map_style=basemap,
+        map_style=None,
         initial_view_state=view_state,
         layers=[layer],
         tooltip=tooltip
@@ -118,7 +132,7 @@ def show_graph_year(data_wisata_prov):
     st.plotly_chart(fig)
 
 with col[0]:
-    add_map(data, center_lat=-7.7956, center_lon=110.3695, zoom=9, basemap=basemaps[selected_basemap])
+    add_map(data, center_lat=-7.7956, center_lon=110.3695, zoom=9)
 
 with col[1]:
     show_charts(data_wisata)
